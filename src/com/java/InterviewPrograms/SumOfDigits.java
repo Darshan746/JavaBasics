@@ -1,8 +1,6 @@
 package com.java.InterviewPrograms;
 
-import java.io.File;
 import java.io.IOException;
-import java.util.Scanner;
 
 public class SumOfDigits {
 	
@@ -14,6 +12,7 @@ public class SumOfDigits {
 			digits=digits/10;
 			sum=sum+a;
 		}
+		System.out.println(sum);
 		
 	}
 	public static void main(String args[]) throws IOException{
