@@ -2,6 +2,12 @@ package com.java.InterviewPrograms;
 
 import java.util.Arrays;
 
+
+
+/*Two strings are called anagrams if 
+they contain same set of characters but in different order.
+For example, “Dormitory – Dirty Room”, “keep – peek”,  “School Master – The Classroom” 
+are some anagrams.*/
 public class Anagram
 {
 
