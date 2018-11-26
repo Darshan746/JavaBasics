@@ -1,4 +1,4 @@
-package com.java.java8.functionalInterface;
+package com.java.java8.predicate;
 
 import java.util.function.Predicate;
 

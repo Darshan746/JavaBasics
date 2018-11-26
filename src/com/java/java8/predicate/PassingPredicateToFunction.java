@@ -1,4 +1,4 @@
-package com.java.java8.functionalInterface;
+package com.java.java8.predicate;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +24,7 @@ public class PassingPredicateToFunction
         List<PassingPredicateToFunction> users = new ArrayList<PassingPredicateToFunction>();
         users.add(new PassingPredicateToFunction("John", "admin"));
         users.add(new PassingPredicateToFunction("Peter", "member"));
-        List admins = process(users,(PassingPredicateToFunction u) -> u.getRole().equals("admin"));
+        List admins = process(users,(PassingPredicateToFunction p)->p.getRole().equals("member"));
         System.out.println(admins);
     }
 
