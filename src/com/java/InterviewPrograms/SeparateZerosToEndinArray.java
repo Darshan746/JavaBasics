@@ -17,12 +17,12 @@ public class SeparateZerosToEndinArray
             }
         }
         while (count < array.length)
-        {
-            array[count] = 0;
-            count++;
+    {
+        array[count] = 0;
+        count++;
 
-        }
-
+    }
+        System.out.println(array[array.length-1]);
         for (int i = 0; i < array.length; i++)
         {
             System.out.println(array[i]);

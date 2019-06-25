@@ -16,6 +16,7 @@ public class AddAllDemo {
 		
 		List<String> secondList = new ArrayList<>();
 		secondList.add("PHP");
+		secondList.add("PHP1");
 		secondList.addAll(list);
 		//After adding list to the Second list
 		System.out.println(secondList);

@@ -1,12 +1,9 @@
 package com.java.ComparableDemo;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 public class Country implements Comparable<Country> {
-	
+
 	protected int id;
 	protected String name;
 
@@ -15,24 +12,33 @@ public class Country implements Comparable<Country> {
 		this.id = id;
 		this.name = name;
 	}
-	
+
 	@Override
 	public int compareTo(Country o) {
-	
-		/*if(this.name.compareTo(o.name) < o.name.compareTo(this.name)){
+
+		/*if (this.name.compareTo(o.name) < o.name.compareTo(this.name)) {
 			return -1;
 		}
-		if(this.name.compareTo(o.name) > o.name.compareTo(this.name)){
+		if (this.name.compareTo(o.name) > o.name.compareTo(this.name)) {
 			return 1;
-		}else 
-		return 0;*/
+		} else
+			return 0;*/
+
+		// return o.name.compareTo(this.name);
+
+	//	return  o.id - this.id;
+
+		return o.name.compareTo(this.name);
+
+
+	}
 		
-		if(this.id <o.id){
+	/*	if(this.id <o.id){
 			return -1;
 		}
 		else
 			return 1;
-	}
+	}*/
 	
 	public static void main(String args[]) {
 		Country a = new Country(1, "India");
@@ -57,6 +63,11 @@ public class Country implements Comparable<Country> {
 		for(Country country :set) {
 			System.out.println(country.id+" "+country.name);
 		}
+
+		HashMap<String,String> n = new HashMap<>();
+		n.put("3","hello");
+		n.put("1","3");
+
 		
 		
 	}

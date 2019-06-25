@@ -10,7 +10,7 @@ public class TwoArrayUnCommonNumberPrinting {
 	
 	public static void main(String args[]) {
 		
-	    Integer a[] = {1,2,3,4,5};
+		Integer a[] = {1,2,3,4,5};
 		Integer b[] = {3,2,1,0,6};
 		Map<Integer, Integer> mapA = new HashMap<>();
 		Map<Integer, Integer> mapB = new HashMap<>();
@@ -36,7 +36,7 @@ public class TwoArrayUnCommonNumberPrinting {
 		
 		
 		
-		for(Entry e : mapUnique.entrySet()) {
+		for(Map.Entry e : mapUnique.entrySet()) {
 			System.out.println(e.getKey());
 		}
 	}

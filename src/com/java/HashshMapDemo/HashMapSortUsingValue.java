@@ -1,15 +1,7 @@
 package com.java.HashshMapDemo;
 
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap; 
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.Map.Entry;
-import java.util.Set;
-import java.util.TreeMap;
 
 public class HashMapSortUsingValue {
 
@@ -57,21 +49,17 @@ public class HashMapSortUsingValue {
 	
 	public static Map<String, Integer> comparatorMethod(Map<String, Integer> unsortedmap) {
 		
-		List<Map.Entry<String, Integer>> list = new LinkedList<>(unsortedmap.entrySet());
+		List<Map.Entry<String, Integer>> list = new ArrayList<>(unsortedmap.entrySet());
 		
 		Collections.sort(list,new Comparator<Map.Entry<String, Integer>>() {
 
 			@Override
 			public int compare(Entry<String, Integer> o1, Entry<String, Integer> o2) {
-				if(o1.getValue()<o2.getValue()) {
-					return -1;
-				}
-				return 1;
+				return  o1.getValue()-o2.getValue() ;
+
 			}
 		});
-		
-		
-		Map<String, Integer> sortedMap = new LinkedHashMap<>();
+
 		
 		for(Entry<String, Integer> entry :list){
 			
@@ -84,10 +72,10 @@ public class HashMapSortUsingValue {
 	
 	
 	public static void main(String args[]) {
-		Map<String, Integer> unsortedMap = new TreeMap<>();
+		Map<String, Integer> unsortedMap = new HashMap<>();
 		unsortedMap.put("Darshan", 1);
 		unsortedMap.put("Ramesh", 2);
-		unsortedMap.put("Hemanth", 3);
+		unsortedMap.put("Hemanth", 0);
 		
 		HashMapSortUsingValue.comparatorMethod(unsortedMap);
 	}

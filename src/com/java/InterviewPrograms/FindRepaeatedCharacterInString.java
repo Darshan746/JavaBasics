@@ -25,9 +25,9 @@ public class FindRepaeatedCharacterInString
             }
         }
 
-        Set<Entry<Character, Integer>> set = map.entrySet();
+        Set<Map.Entry<Character, Integer>> set = map.entrySet();
         System.out.println("Repeated characters");
-        for (Entry<Character, Integer> entrySet : set)
+        for (Map.Entry<Character, Integer> entrySet : set)
         {
             if (entrySet.getValue() > 1)
             {

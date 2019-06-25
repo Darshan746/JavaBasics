@@ -1,5 +1,6 @@
 package ArrayListImpl;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class MyList<E>
@@ -61,8 +62,9 @@ public class MyList<E>
         a.add(48);
 
         System.out.println(a.get(2));
-        a.remove(2);
-        System.out.println(a.get(2));
+        a.remove(1);
+       // System.out.println(a.get(2));
         // System.out.println(a);
     }
+
 }

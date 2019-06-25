@@ -5,7 +5,7 @@ public class PalindromeNum
 
     public static void main(String[] args)
     {
-        int num = 231;
+        int num = 232;
         int temp = num;
         StringBuilder b = new StringBuilder();
         while (temp != 0)

@@ -4,7 +4,7 @@ public class PalindromeString {
 
 	public void palindromeCheck(String palindrome) {
 
-		String Original = palindrome;
+		/*String Original = palindrome;
 		String reverseString = "";
 		char[] charArray = Original.toCharArray();
 		
@@ -19,10 +19,29 @@ public class PalindromeString {
 		else{
 			System.out.println("Given String"+""+palindrome+" "+"is not a palindrome");
 		}
+	}*/
+
+	}
+
+
+	public boolean isStringPalindrome(String one){
+
+		String two = "";
+
+		for(int i =one.length()-1; i>=0; i--){
+			two+=one.charAt(i);
+		}
+
+		if(one.toLowerCase().equals(two.toLowerCase())){
+			return true;
+		}
+		else
+			return false;
 	}
 
 	public static void main(String args[]) {
 		PalindromeString p =  new PalindromeString();
-		p.palindromeCheck("PUPp");
+
+		System.out.print(p.isStringPalindrome("PUwP"));
 	}
 }

@@ -4,7 +4,7 @@ public class ReversingSentence {
 	
 	
 	
-	public static void reverse (String str){
+	/*public static void reverse (String str){
 		String[] words = str.split(" ");
 		
 		String reverseString ="";
@@ -23,5 +23,24 @@ public class ReversingSentence {
 	
 	public static void main(String args[]) {
 		reverse("darshan hello how are you");
+	}
+}
+*/
+
+	public static String reverseWord(String sentence) {
+		String word[] = sentence.split(" ");
+		String reverseSentence = " ";
+
+		for(int i=0;i<=word.length-1; i++){
+			String wordN = word[i];
+			for(int j=wordN.length()-1;j>=0;j--){
+				reverseSentence +=wordN.charAt(j);
+			}
+		}
+		return reverseSentence;
+	}
+
+	public static void main(String[] args) {
+		System.out.print(reverseWord("hello"));
 	}
 }

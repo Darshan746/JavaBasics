@@ -7,20 +7,19 @@ public class ReverseFromGivenIndex
     {
         if (array != null && array.length > index)
         {
-            Integer tmp1[] = new Integer[index + 1], tmp2[] = new Integer[array.length - index - 1];
+            Integer tmp1[] = new Integer[index + 1],
+                tmp2[] = new Integer[array.length - index - 1];
 
             for (int i = index, k = 0; i >= 0; i--, k++)
             {
-
                 tmp1[i] = array[k];
-
             }
 
             for (int j = index + 1, k = 0; j < array.length; j++, k++)
             {
                 tmp2[k] = array[j];
             }
-            int[] merge = new int[tmp1.length + tmp2.length - 1];
+            int[] merge = new int[tmp1.length + tmp2.length];
 
             for (int i = 0; i < tmp1.length; i++)
             {
@@ -45,7 +44,7 @@ public class ReverseFromGivenIndex
 
         int[] reverseArray =
         { 2, 3, 5, 1, 7, 8 };
-        ReverseFromGivenIndex.reverseArrayFromIndex(2, reverseArray);
+        ReverseFromGivenIndex.reverseArrayFromIndex(1, reverseArray);
     }
 
 }

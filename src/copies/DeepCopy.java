@@ -14,9 +14,5 @@ public class DeepCopy {
 		b.j=a.j;
 		b.j=13;
 		System.out.println(b.j+" "+a.j);
-		
-		
-		
 	}
-
 }

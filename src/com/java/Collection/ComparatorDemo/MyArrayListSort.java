@@ -8,8 +8,8 @@ public class MyArrayListSort {
 	
 	public static void main(String args[]) {
 		List<Employee> list = new ArrayList<Employee>();
-		list.add(new Employee("darshan", 100000));
-		list.add(new Employee("Raman", 200000));
+		list.add(new Employee("darshan", 200000));
+		list.add(new Employee("Raman", 100000));
 		System.out.println("Before sorting");
 
 		for(Employee e : list) {

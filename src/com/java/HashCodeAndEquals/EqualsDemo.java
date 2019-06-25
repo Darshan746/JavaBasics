@@ -17,14 +17,22 @@ public class EqualsDemo {
 		}
 		return false;
 	}
+
+	@Override
+	public int hashCode(){
+
+
+		return this.name.length()*1098;
+	}
+
 	
 	public static void main(String args[]) {
 		EqualsDemo d = new EqualsDemo("darshan");
 		EqualsDemo e = new EqualsDemo("darshan");;
 		System.out.println("both are equal"+" "+d.equals(e));
 		
-		System.out.println(d.name.hashCode());
-		System.out.println(e.name.hashCode());
+		System.out.println(d.hashCode());
+		System.out.println(e.hashCode());
 		
 		
 	}
