@@ -1,10 +1,7 @@
 package com.java.InterviewPrograms;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
 import java.util.Map.Entry;
-import java.util.Set;
 
 @SuppressWarnings ("rawtypes")
 public class DupeStringFindAndOccurance
@@ -41,5 +38,8 @@ public class DupeStringFindAndOccurance
     public static void main(String[] args)
     {
         DupeStringFindAndOccurance.findRepeatedWords("Hi darhan How are you How are things");
+
+        Optional<String> opt = Optional.ofNullable("");
+        opt.isPresent();
     }
 }

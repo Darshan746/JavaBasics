@@ -1,5 +1,10 @@
 package com.java.InterviewPrograms;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class SeparateZerosToEndinArray
 {
     private static int count = 0;
@@ -34,5 +39,8 @@ public class SeparateZerosToEndinArray
         int[] arr = { 2, 0, 6, 4, 0, 5, 7 };
         
         SeparateZerosToEndinArray.separateZerosFromArray(arr);
+        Map<String,String> m = new HashMap();
     }
+
+
 }

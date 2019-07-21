@@ -2,31 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ceb4842-15d3-41ba-b60a-41ae0bb03b47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/String/RemoveCharactersFromFirstString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/String/RemoveWhiteSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/String/ReverseWithoutAffectTheSpecial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayListImpl/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayListImpl/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/Collection/ComparatorDemo/EmployeeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/Collection/ComparatorDemo/EmployeeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/InterviewPrograms/NonRepeatingNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/arrays/MissingNumberInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/arrays/ReverseArrayWithoutTempArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/arrays/SumOfGivenNoPairing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/CollectionExamples/ArrayListCopyDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/CollectionExamples/ArrayListCopyDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/CollectionExamples/DuplicateEliminationInList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/CollectionExamples/DuplicateEliminationInList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/CollectionExamples/HashMapDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/CollectionExamples/HashMapDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/CollectionExamples/TreeMapSortingDescendingOrder$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/CollectionExamples/TreeMapSortingDescendingOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/CollectionExamples/TreeMapSortingDescendingOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/Comparator/ComparatorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/Comparator/ComparatorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/HashshMapDemo/HashMapSortUsingValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/HashshMapDemo/HashMapSortUsingValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/HashshMapDemo/IterateUsingIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/HashshMapDemo/IterateUsingIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/InterviewPrograms/BubbleSortDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/InterviewPrograms/BubbleSortDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/InterviewPrograms/DupeStringFindAndOccurance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/InterviewPrograms/DupeStringFindAndOccurance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/InterviewPrograms/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/InterviewPrograms/Fibonacci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/InterviewPrograms/FindRepaeatedCharacterInString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/InterviewPrograms/FindRepaeatedCharacterInString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/InterviewPrograms/LongestSubString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/InterviewPrograms/LongestSubString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/InterviewPrograms/ReverseFromGivenIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/InterviewPrograms/ReverseFromGivenIndex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/InterviewPrograms/SeparateZerosToEndinArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/InterviewPrograms/SeparateZerosToEndinArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/Threads/PrintNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/Threads/PrintNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/thread/executor/AtomicIntegerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/thread/executor/AtomicIntegerDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/thread/executor/FixedThreadPoolDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/thread/executor/FixedThreadPoolDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/thread/executor/TaskOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/thread/executor/TaskOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/upperBound/LargestOfThreeObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/upperBound/LargestOfThreeObject.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/java/Collection/ComparatorDemo/MyArrayListSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/Collection/ComparatorDemo/MyArrayListSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/CollectionExamples/AddAllDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/CollectionExamples/AddAllDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/java/CollectionExamples/ArrayListCopyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/CollectionExamples/ArrayListCopyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/ComparableDemo/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/ComparableDemo/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/CollectionExamples/ArrayListToArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/CollectionExamples/ArrayListToArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/CollectionExamples/DuplicateEliminationInList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/CollectionExamples/DuplicateEliminationInList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/CollectionExamples/HashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/CollectionExamples/HashMapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/CollectionExamples/TreeMapSortingDescendingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/CollectionExamples/TreeMapSortingDescendingOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/java/Comparator/ComparatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/Comparator/ComparatorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/HashCodeAndEquals/EqualsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/HashCodeAndEquals/EqualsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/java/HashshMapDemo/HashMapSortUsingValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/HashshMapDemo/HashMapSortUsingValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/InterviewPrograms/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/InterviewPrograms/Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/HashshMapDemo/IterateUsingIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/HashshMapDemo/IterateUsingIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/InterviewPrograms/BubbleSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/InterviewPrograms/BubbleSortDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/InterviewPrograms/DupeStringFindAndOccurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/InterviewPrograms/DupeStringFindAndOccurance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/InterviewPrograms/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/InterviewPrograms/Fibonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/java/InterviewPrograms/FindRepaeatedCharacterInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/InterviewPrograms/FindRepaeatedCharacterInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/InterviewPrograms/PalindromeNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/InterviewPrograms/PalindromeNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/InterviewPrograms/ReverseEachWordinString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/InterviewPrograms/ReverseEachWordinString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/InterviewPrograms/LongestSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/InterviewPrograms/LongestSubString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/java/InterviewPrograms/ReverseFromGivenIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/InterviewPrograms/ReverseFromGivenIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/java/InterviewPrograms/SeparateZerosToEndinArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/InterviewPrograms/SeparateZerosToEndinArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/InterviewPrograms/SwapTwoNums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/InterviewPrograms/SwapTwoNums.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/java/InterviewPrograms/TwoArrayUnCommonNumberPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/InterviewPrograms/TwoArrayUnCommonNumberPrinting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/String/PalindromeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/String/PalindromeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/String/ReversingSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/String/ReversingSentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/String/factorialUsingRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/String/factorialUsingRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/copies/DeepCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/copies/DeepCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/String/ReverseStringrecursively.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/String/ReverseStringrecursively.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/Threads/PrintNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/Threads/PrintNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/thread/executor/AtomicIntegerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/thread/executor/AtomicIntegerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/thread/executor/FixedThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/thread/executor/FixedThreadPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/thread/executor/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/thread/executor/TaskOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/upperBound/LargestOfThreeObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/upperBound/LargestOfThreeObject.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,36 +60,50 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/JavaBasics$NonRepeatingNum.ic" NAME="NonRepeatingNum Coverage Results" MODIFIED="1561999367773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.java.InterviewPrograms.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="63833124">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.3" value="3" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="11" />
+          <entry key="project.open.time.3" value="6" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="112" />
+          <entry key="classpath" value="1" />
+          <entry key="java" value="402" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="112" />
+          <entry key="Eclipse" value="1" />
+          <entry key="JAVA" value="402" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2886" />
+          <entry key="dummy" value="6" />
+          <entry key="java" value="8966" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2886" />
+          <entry key="JAVA" value="8966" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -72,25 +111,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/Fibonacci.java">
+        <entry file="file://$PROJECT_DIR$/src/Practice/PracticePrograms.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="-416">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/PalindromeNum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/String/PrintEveryLastCharacterInString.java">
+        <entry file="file://$PROJECT_DIR$/src/PrintSecondLargest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -98,60 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/String/AgramDemo.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.classpath">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/String/RemoveWhiteSpace.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding>
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/String/RemoveCharactersFromFirstString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/String/RemoveNonAlphabets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-              <folding>
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/ReverseEachWordinString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="132">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -159,17 +140,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/SeparateZerosToEndinArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="88">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/java/String/ReverseWithoutAffectTheSpecial.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/SwapTwoNums.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+            <state relative-caret-position="264">
+              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/TwoArrayUnCommonNumberPrinting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-164">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SwitchDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InvalidAgeException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HashMapDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DefaultConstructorDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -183,39 +209,22 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hashCode</find>
+      <find>Executor</find>
+      <find>executor</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/java/Comparator/ComparatorImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/java/ComparableDemo/Country.java" />
-        <option value="$PROJECT_DIR$/src/com/java/HashCodeAndEquals/EqualsDemo.java" />
-        <option value="$PROJECT_DIR$/src/HashMapCloneDemo.java" />
-        <option value="$PROJECT_DIR$/src/copies/DeepCopy.java" />
-        <option value="$PROJECT_DIR$/src/com/java/String/ReversingSentence.java" />
-        <option value="$PROJECT_DIR$/src/com/java/String/AgramDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/java/String/NormalPalindromeNumber.java" />
-        <option value="$PROJECT_DIR$/src/com/java/String/PalindromeString.java" />
-        <option value="$PROJECT_DIR$/src/com/java/String/factorialUsingRecursion.java" />
-        <option value="$PROJECT_DIR$/src/com/java/String/StringMatch.java" />
-        <option value="$PROJECT_DIR$/src/ArrayListImpl/MyList.java" />
-        <option value="$PROJECT_DIR$/src/com/java/callbyValueAndReference/CallByValue.java" />
-        <option value="$PROJECT_DIR$/src/com/java/Collection/ComparatorDemo/MyArrayListSort.java" />
-        <option value="$PROJECT_DIR$/src/com/java/Collection/ComparatorDemo/EmployeeComparator.java" />
-        <option value="$PROJECT_DIR$/src/com/java/CollectionExamples/AddAllDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/java/CollectionExamples/ArrayListCopyDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/java/HashshMapDemo/HashMapSortUsingValue.java" />
-        <option value="$PROJECT_DIR$/src/com/java/InterviewPrograms/Anagram.java" />
-        <option value="$PROJECT_DIR$/src/com/java/InterviewPrograms/FindRepaeatedCharacterInString.java" />
-        <option value="$PROJECT_DIR$/src/com/java/InterviewPrograms/ReverseFromGivenIndex.java" />
-        <option value="$PROJECT_DIR$/src/com/java/InterviewPrograms/SeparateZerosToEndinArray.java" />
-        <option value="$PROJECT_DIR$/src/com/java/InterviewPrograms/SumOfDigits.java" />
-        <option value="$PROJECT_DIR$/src/com/java/InterviewPrograms/SwapTwoNums.java" />
-        <option value="$PROJECT_DIR$/src/com/java/InterviewPrograms/TwoArrayUnCommonNumberPrinting.java" />
-        <option value="$PROJECT_DIR$/src/PrintEveryLastCharacterInString.java" />
-        <option value="$PROJECT_DIR$/src/com/java/String/PrintEveryLastCharacterInString.java" />
         <option value="$PROJECT_DIR$/src/com/java/String/RemoveWhiteSpace.java" />
         <option value="$PROJECT_DIR$/src/com/java/String/RemoveCharactersFromFirstString.java" />
         <option value="$PROJECT_DIR$/src/com/java/String/RemoveNonAlphaberts.java" />
@@ -223,6 +232,50 @@
         <option value="$PROJECT_DIR$/src/com/java/InterviewPrograms/PalindromeNum.java" />
         <option value="$PROJECT_DIR$/src/com/java/InterviewPrograms/ReverseEachWordinString.java" />
         <option value="$PROJECT_DIR$/src/com/java/String/ReverseWithoutAffectTheSpecial.java" />
+        <option value="$PROJECT_DIR$/src/PrinttToLargest.java" />
+        <option value="$PROJECT_DIR$/src/com/java/arrays/SumOfGivenNoPairing.java" />
+        <option value="$PROJECT_DIR$/src/com/java/arrays/MissingNumberInArray.java" />
+        <option value="$PROJECT_DIR$/src/com/java/thread/executor/AtomicIntegerDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/java/InterviewPrograms/SeparateZerosToEndinArray.java" />
+        <option value="$PROJECT_DIR$/src/com/java/Comparator/ComparatorImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/java/InterviewPrograms/TwoArrayUnCommonNumberPrinting.java" />
+        <option value="$PROJECT_DIR$/src/PrintSecondLargest.java" />
+        <option value="$PROJECT_DIR$/src/com/java/String/ReverseStringrecursively.java" />
+        <option value="$PROJECT_DIR$/src/com/java/CollectionExamples/ContainsAllMethodDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/java/CollectionExamples/HashMapDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/java/InterviewPrograms/RemoveDuplicateFromArrayListWithoutUsingCollection.java" />
+        <option value="$PROJECT_DIR$/src/com/java/InterviewPrograms/ReverseFromGivenIndex.java" />
+        <option value="$PROJECT_DIR$/src/com/java/upperBound/LargestOfThreeObject.java" />
+        <option value="$PROJECT_DIR$/src/com/java/InterviewPrograms/DupeStringFindAndOccurance.java" />
+        <option value="$PROJECT_DIR$/src/com/java/arrays/ReverseArrayWithoutTempArray.java" />
+        <option value="$PROJECT_DIR$/src/com/java/CollectionExamples/ArrayListCopyDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/java/HashshMapDemo/HashMapSortUsingValue.java" />
+        <option value="$PROJECT_DIR$/src/com/java/InterviewPrograms/BubbleSortDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/java/InterviewPrograms/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/com/java/thread/executor/FixedThreadPoolDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/java/thread/executor/TaskOne.java" />
+        <option value="$PROJECT_DIR$/src/com/java/HashshMapDemo/EntrySetDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/java/Threads/PrintNumbers.java" />
+        <option value="$PROJECT_DIR$/src/PracticePrograms.java" />
+        <option value="$PROJECT_DIR$/src/com/java/HashshMapDemo/IterateUsingIterator.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/User1.java" />
+        <option value="$PROJECT_DIR$/src/UserComparator.java" />
+        <option value="$PROJECT_DIR$/src/com/java/InterviewPrograms/FindRepaeatedCharacterInString.java" />
+        <option value="$PROJECT_DIR$/src/com/java/InterviewPrograms/LongestSubString.java" />
+        <option value="$PROJECT_DIR$/src/Practice/B.java" />
+        <option value="$PROJECT_DIR$/src/Practice/A.java" />
+        <option value="$PROJECT_DIR$/src/Practice/InterfaceOne.java" />
+        <option value="$PROJECT_DIR$/src/Practice/EqualsDemo.java" />
+        <option value="$PROJECT_DIR$/src/Practice/PracticePrograms.java" />
+        <option value="$PROJECT_DIR$/src/com/java/datastructure/Node.java" />
+        <option value="$PROJECT_DIR$/src/com/java/datastructure/SingleLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/java/arrays/SubArrayWithGivenSum.java" />
+        <option value="$PROJECT_DIR$/src/com/java/Collection/ComparatorDemo/MyArrayListSort.java" />
+        <option value="$PROJECT_DIR$/src/com/java/CollectionExamples/ArrayListToArray.java" />
+        <option value="$PROJECT_DIR$/src/com/java/CollectionExamples/DuplicateEliminationInList.java" />
+        <option value="$PROJECT_DIR$/src/com/java/CollectionExamples/TreeMapSortingDescendingOrder.java" />
+        <option value="$PROJECT_DIR$/src/com/java/InterviewPrograms/NonRepeatingNum.java" />
       </list>
     </option>
   </component>
@@ -236,6 +289,9 @@
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1119" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -251,251 +307,6 @@
               <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaBasics" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="InterviewPrograms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="String" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="regex" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="Object" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="HashMap" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="regex" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="regex" type="462c0819:PsiDirectoryNode" />
-              <item name="Matcher" type="1a9f42e2:ClassTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -504,10 +315,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Reverse&#9;FILE&#9;file:///Users/darshan/Desktop/Personal/whyMe/projects/JavaBasics/JavaBasics/src/com/java/InterviewPrograms/ReverseEachWordinString.java&#10;*Palindr&#9;FILE&#9;file:///Users/darshan/Desktop/Personal/whyMe/projects/JavaBasics/JavaBasics/src/com/java/InterviewPrograms/PalindromeNum.java" />
+    <property name="SearchEverywhereHistoryKey" value="P&#9;PSI&#9;JAVA://Practice.PracticePrograms&#10;Sub&#9;PSI&#9;JAVA://com.java.arrays.SubArrayWithGivenSum&#10;SubA&#9;PSI&#9;JAVA://com.java.arrays.SubArrayWithGivenSum&#10;Array&#9;FILE&#9;file:///Users/darshan/Desktop/Personal/whyMe/projects/JavaBasics/JavaBasics/src/com/java/InterviewPrograms/RearrangeTheArray.java&#10;Compa&#9;PSI&#9;JAVA://com.java.Comparator.ComparatorImpl&#10;Spe&#9;FILE&#9;file:///Users/darshan/Desktop/Personal/whyMe/projects/JavaBasics/JavaBasics/src/com/java/String/ReverseWithoutAffectTheSpecial.java&#10;Zer&#9;FILE&#9;file:///Users/darshan/Desktop/Personal/whyMe/projects/JavaBasics/JavaBasics/src/com/java/InterviewPrograms/SeparateZerosToEndinArray.java&#10;HashMap&#9;FILE&#9;file:///Users/darshan/Desktop/Personal/whyMe/projects/JavaBasics/JavaBasics/src/com/java/HashshMapDemo/HashMapSortUsingValue.java&#10;Eve&#9;FILE&#9;file:///Users/darshan/Desktop/Personal/whyMe/projects/JavaBasics/JavaBasics/src/com/java/InterviewPrograms/EvenOrAddWithoutModulous.java&#10;Sort&#9;FILE&#9;file:///Users/darshan/Desktop/Personal/whyMe/projects/JavaBasics/JavaBasics/src/com/java/HashshMapDemo/HashMapSortUsingValue.java&#10;Student&#9;PSI&#9;JAVA://equals.hashcode.Student&#10;*Clone&#9;PSI&#9;JAVA://copies.CloneDemo&#10;Reverse&#9;FILE&#9;file:///Users/darshan/Desktop/Personal/whyMe/projects/JavaBasics/JavaBasics/src/com/java/InterviewPrograms/ReverseEachWordinString.java&#10;*Palindr&#9;FILE&#9;file:///Users/darshan/Desktop/Personal/whyMe/projects/JavaBasics/JavaBasics/src/com/java/InterviewPrograms/PalindromeNum.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561477245844" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563551388783" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
@@ -524,20 +335,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseWithoutAffectTheSpecial">
-    <configuration name="PrintEveryLastCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.String.PrintEveryLastCharacterInString" />
-      <module name="JavaBasics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveCharactersFromFirstString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.String.RemoveCharactersFromFirstString" />
+  <component name="RunManager" selected="Application.StarProgram">
+    <configuration name="ContainsAllMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.CollectionExamples.ContainsAllMethodDemo" />
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.String.*" />
+          <option name="PATTERN" value="com.java.CollectionExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -545,12 +349,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveNonAlphabets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.String.RemoveNonAlphabets" />
+    <configuration name="DuplicateEliminationInList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.CollectionExamples.DuplicateEliminationInList" />
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.String.*" />
+          <option name="PATTERN" value="com.java.CollectionExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -558,12 +362,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveWhiteSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.String.RemoveWhiteSpace" />
+    <configuration name="NonRepeatingNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.InterviewPrograms.NonRepeatingNum" />
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.String.*" />
+          <option name="PATTERN" value="com.java.InterviewPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -571,12 +375,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWithoutAffectTheSpecial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.String.ReverseWithoutAffectTheSpecial" />
+    <configuration name="StarProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.InterviewPrograms.StarProgram" />
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.String.*" />
+          <option name="PATTERN" value="com.java.InterviewPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeMapSortingDescendingOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.CollectionExamples.TreeMapSortingDescendingOrder" />
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.CollectionExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -585,19 +402,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PrintEveryLastCharacterInString" />
-      <item itemvalue="Application.RemoveWhiteSpace" />
-      <item itemvalue="Application.RemoveCharactersFromFirstString" />
-      <item itemvalue="Application.RemoveNonAlphabets" />
-      <item itemvalue="Application.ReverseWithoutAffectTheSpecial" />
+      <item itemvalue="Application.ContainsAllMethodDemo" />
+      <item itemvalue="Application.DuplicateEliminationInList" />
+      <item itemvalue="Application.TreeMapSortingDescendingOrder" />
+      <item itemvalue="Application.NonRepeatingNum" />
+      <item itemvalue="Application.StarProgram" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseWithoutAffectTheSpecial" />
-        <item itemvalue="Application.RemoveNonAlphabets" />
-        <item itemvalue="Application.RemoveCharactersFromFirstString" />
-        <item itemvalue="Application.RemoveWhiteSpace" />
-        <item itemvalue="Application.PrintEveryLastCharacterInString" />
+        <item itemvalue="Application.StarProgram" />
+        <item itemvalue="Application.NonRepeatingNum" />
+        <item itemvalue="Application.TreeMapSortingDescendingOrder" />
+        <item itemvalue="Application.DuplicateEliminationInList" />
+        <item itemvalue="Application.ContainsAllMethodDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -617,18 +434,35 @@
       <workItem from="1560388757924" duration="1604000" />
       <workItem from="1560475180746" duration="2252000" />
       <workItem from="1561371243960" duration="6978000" />
-      <workItem from="1561462527237" duration="9628000" />
+      <workItem from="1561462527237" duration="11049000" />
+      <workItem from="1561549471589" duration="6573000" />
+      <workItem from="1561636670462" duration="907000" />
+      <workItem from="1561649619111" duration="874000" />
+      <workItem from="1561804827795" duration="849000" />
+      <workItem from="1561862460985" duration="3611000" />
+      <workItem from="1561990821922" duration="8060000" />
+      <workItem from="1562164182416" duration="994000" />
+      <workItem from="1562304525161" duration="1332000" />
+      <workItem from="1562335564874" duration="4207000" />
+      <workItem from="1562564861182" duration="450000" />
+      <workItem from="1562898986750" duration="688000" />
+      <workItem from="1562926592010" duration="3794000" />
+      <workItem from="1562945873814" duration="2232000" />
+      <workItem from="1563240475994" duration="3652000" />
+      <workItem from="1563291766830" duration="1599000" />
+      <workItem from="1563376830081" duration="2105000" />
+      <workItem from="1563538061416" duration="10414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24786000" />
+    <option name="totallyTimeSpent" value="78548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1119" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657082" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21778488" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -636,9 +470,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32968128" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39940238" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32968128" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33864543" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.374502" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -656,6 +490,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32960597" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -687,7 +522,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/java/HashshMapDemo/HashMapSortUsingValue.java</url>
-          <line>67</line>
+          <line>66</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
@@ -709,11 +544,110 @@
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/InterviewPrograms/SwapTwoNums.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/InterviewPrograms/Fibonacci.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/InterviewPrograms/ReverseStringUsingRecursive.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/Threads/PrintNumbers.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/HashshMapDemo/IterateUsingIterator.java</url>
+          <line>5</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/InterviewPrograms/LongestSubString.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/InterviewPrograms/LongestSubString.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/CollectionExamples/DuplicateEliminationInList.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/java/InterviewPrograms/ReverseFromGivenIndex.java</url>
+          <line>22</line>
+          <properties class="com.java.InterviewPrograms.ReverseFromGivenIndex" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/java/InterviewPrograms/TwoArrayUnCommonNumberPrinting.java</url>
+          <line>10</line>
+          <properties class="com.java.InterviewPrograms.TwoArrayUnCommonNumberPrinting" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>a.equals(b)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;Ramamama&quot;.indexOf(&quot;ama&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;Ramamama&quot;.indexOf(&quot;mama&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>res ^ ar[i]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>word.substring(1)+word.charAt(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>word.substring(1))+word.charAt(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>word.substring(1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>charArray1.toString()</expression-string>
         <language-id>JAVA</language-id>
@@ -724,91 +658,119 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>calculatefactorial(num-1)*num;</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>output</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>n.remove(null)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Collection/List/SinglyLinkedListDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/java/Generics/GenericMethodDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1061">
+        <state relative-caret-position="110">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/Generics/WildCardDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/datastructure/CircularQueueImplementation.java">
+    <entry file="file://$PROJECT_DIR$/src/com/java/Generics/WithoutGenerics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/datastructure/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayListImpl/MyList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/java/datastructure/SingleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1848">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/arrays/MissingNumberInArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/arrays/ReverseArrayWithoutTempArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/arrays/SubArrayWithGivenSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/arrays/SumOfGivenNoPairing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/Collection/ComparatorDemo/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/Collection/ComparatorDemo/EmployeeComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/Collection/ComparatorDemo/MyArrayListSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/CollectionExamples/AddAllDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/CollectionExamples/ArrayListBasicOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/CollectionExamples/ArrayListCopyDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="54" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="54" />
+        <state relative-caret-position="374">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/CollectionExamples/ArrayListToArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="330">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -828,57 +790,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/CollectionExamples/ContainsAllMethodDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="352">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/CollectionExamples/DuplicateEliminationInList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/CollectionExamples/EnumerationDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/CollectionExamples/HashCodeAndEqualsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/CollectionExamples/HashMapDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/CollectionExamples/IteratorDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="286">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/CollectionExamples/ReverseAnArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="440">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/CollectionExamples/TreeMapSortingDescendingOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="105" column="15" lean-forward="true" selection-start-line="105" selection-start-column="15" selection-end-line="105" selection-end-column="15" />
+        <state relative-caret-position="259">
+          <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+          <folding>
+            <element signature="e#2279#2280#0" expanded="true" />
+            <element signature="e#2303#2304#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -889,244 +827,212 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/ComparableDemo/Country.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-219">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/HashCodeAndEquals/EqualsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/HashshMapDemo/EntrySetDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/HashshMapDemo/HashMapSortUsingValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="53" column="72" selection-start-line="53" selection-start-column="72" selection-end-line="53" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/Anagram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="161">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/ArrayEqualityCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="44" />
+        <state relative-caret-position="10">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/CountWordsInString.java">
+    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/BubbleSortDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="64">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/DeadLockBetweenTwoThreads.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="164">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/DupeStringFindAndOccurance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        <state relative-caret-position="330">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/EvenOrAddWithoutModulous.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/FindRepaeatedCharacterInString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/RemoveDuplicateFromArrayListWithoutUsingCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/LongestSubString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/ReverseNegativeNumWithOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-740">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/RearrangeTheArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/ReverseFromGivenIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/StarProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/SumOfDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/SwapTwoNums.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/TwoArrayUnCommonNumberPrinting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="264">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="220">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/String/PrintEveryLastCharacterInString.java">
+    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/FindRepaeatedCharacterInString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="570">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/String/AgramDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/LongestSubString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/String/RemoveWhiteSpace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="350">
+          <caret line="66" column="34" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="34" />
           <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#531#551#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/String/RemoveCharactersFromFirstString.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="592">
+          <caret line="355" column="12" selection-start-line="355" selection-start-column="12" selection-end-line="355" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/NonRepeatingNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="57" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/String/RemoveNonAlphabets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/PalindromeNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/RearrangeTheArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/ReverseEachWordinString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="-14">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/ReverseNegativeNumWithOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-794">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/ReverseStringUsingRecursive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/StarProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/SumOfDigits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/ReverseFromGivenIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/SeparateZerosToEndinArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="88">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/String/ReverseWithoutAffectTheSpecial.java">
+    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/SwapTwoNums.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        <state relative-caret-position="264">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/InterviewPrograms/TwoArrayUnCommonNumberPrinting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwitchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InvalidAgeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashMapDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DefaultConstructorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practice/PracticePrograms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrintSecondLargest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

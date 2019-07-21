@@ -1,6 +1,7 @@
 package com.java.Comparator;
 
 import java.util.Comparator;
+import java.util.HashMap;
 
 public class ComparatorImpl implements Comparator<Country> {
 
@@ -22,6 +23,7 @@ public class ComparatorImpl implements Comparator<Country> {
 		return 0;
 	}*/
 
-		return o2.getName().compareTo(o1.getName());
+
+		return o1.getName().compareTo(o2.getName());
 	}
 }

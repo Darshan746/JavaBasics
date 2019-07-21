@@ -23,13 +23,14 @@ public class Fibonacci
         int n1 = 0, n2 = 1, n3;
 
         //Using Normal 
-        for (int i = 1; i <= 10; i++)
+    /*    for (int i = 1; i <= 10; i++)
         {
             n3 = n1 + n2;
             System.out.println(n3);
             n1 = n2;
             n2 = n3;
-
-        }
+        }*/
+        printFibonacci(5);
     }
+
 }

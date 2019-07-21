@@ -6,10 +6,10 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 public class TwoArrayUnCommonNumberPrinting {
-	
-	
+
+
 	public static void main(String args[]) {
-		
+
 		Integer a[] = {1,2,3,4,5};
 		Integer b[] = {3,2,1,0,6};
 		Map<Integer, Integer> mapA = new HashMap<>();

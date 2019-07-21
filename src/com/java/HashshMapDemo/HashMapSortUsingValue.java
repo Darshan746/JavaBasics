@@ -54,14 +54,13 @@ public class HashMapSortUsingValue {
 		Collections.sort(list,new Comparator<Map.Entry<String, Integer>>() {
 
 			@Override
-			public int compare(Entry<String, Integer> o1, Entry<String, Integer> o2) {
+			public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
 				return  o1.getValue()-o2.getValue() ;
-
 			}
 		});
 
 		
-		for(Entry<String, Integer> entry :list){
+		for(Map.Entry<String, Integer> entry :list){
 			
 			System.out.println(entry.getKey()+" "+entry.getValue());
 		}

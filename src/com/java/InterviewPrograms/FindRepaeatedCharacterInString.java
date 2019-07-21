@@ -37,7 +37,9 @@ public class FindRepaeatedCharacterInString
     }
 
     public static void main(String args[])
+
     {
+
         FindRepaeatedCharacterInString.findRepeatedCharacter("darshandarshan");
     }
 }

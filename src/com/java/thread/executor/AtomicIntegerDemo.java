@@ -1,5 +1,6 @@
 package com.java.thread.executor;
 
+import java.util.LinkedList;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class AtomicIntegerDemo
@@ -13,7 +14,9 @@ public class AtomicIntegerDemo
         counter++;
         //counter.incrementAndGet();
     }
-    
+
+
+
     public int getCounter() {
         return counter;// counter.get();
     }

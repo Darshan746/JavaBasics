@@ -15,7 +15,7 @@ public class ArrayListCopyDemo {
 		System.out.println(list);
 		System.out.println("");
 		
-		ArrayList<String> copiedList = (ArrayList<String>)list.clone();
+		ArrayList<String> copiedList = (ArrayList<String>)list;//.clone();
 		copiedList.add("dw");
 		System.out.println("After copying into anotherlist");
 		System.out.println(copiedList);

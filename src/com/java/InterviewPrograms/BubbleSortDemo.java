@@ -8,7 +8,7 @@ public class BubbleSortDemo {
 		
 		int i,j,temp=0;
 		for( i=0;i<numberList.length-1;i++){
-			for(j=0;j<numberList.length-1-i;j++){
+			for(j=0;j<numberList.length-i-1;j++){
 				if(numberList[j]>numberList[j+1])
 				{
 					temp = numberList[j];

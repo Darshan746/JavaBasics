@@ -37,21 +37,24 @@ public class LongestSubString
 
             else
             {
-                i = charPosMap.get(ch);
+                //i = charPosMap.get(ch);
 
                 charPosMap.clear();
             }
 
             // Updating longestSubstring and longestSubstringLength
 
-            if (charPosMap.size() > longestSubstringLength)
-            {
-                longestSubstringLength = charPosMap.size();
+         //   if (charPosMap.size() > longestSubstringLength)
+            //{
+                //longestSubstringLength = charPosMap.size();
 
-                longestSubstring = charPosMap.keySet().toString();
-            }
+               // longestSubstring = charPosMap.keySet().toString();
+            //}
         }
 
+        longestSubstringLength = charPosMap.size();
+
+        longestSubstring = charPosMap.keySet().toString();
         System.out.println("Input String : " + inputString);
 
         System.out.println("The longest substring : " + longestSubstring);
@@ -61,7 +64,7 @@ public class LongestSubString
 
     public static void main(String[] args)
     {
-        longestSubstring("javaconceptoftheday");
+        longestSubstring("ramajahk");
 
         System.out.println("==========================");
 

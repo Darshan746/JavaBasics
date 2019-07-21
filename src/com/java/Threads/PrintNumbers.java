@@ -19,8 +19,12 @@ public class PrintNumbers extends Thread
         PrintNumbers even = new PrintNumbers(obj);
         odd.setName("Odd");
         even.setName("Even");
+
+
         even.start();
         odd.start();
+
+
 
     }
 
@@ -33,34 +37,14 @@ public class PrintNumbers extends Thread
             synchronized (lock)
             {
 
-                if (Thread.currentThread().getName().equals("Even"))
-                {
 
-                    if (i % 2 == 0)
-                    {
-                        System.out.println(Thread.currentThread().getName() + " - " + i);
-                        try
-                        {
-                            lock.wait();
-                            System.out.println("hi");
-                        }
-                        catch (InterruptedException e)
-                        {
-                            e.printStackTrace();
-                        }
-                    }
-                    else if (i % 2 != 0)
-                    {
-                        lock.notify();
-                    }
-                }
 
                 if (Thread.currentThread().getName().equals("Odd"))
                 {
 
                     if (i % 2 == 1)
                     {
-                        System.out.println(Thread.currentThread().getName() + " - " + i);
+                        System.out.println( i);
                         try
                         {
                             lock.wait();
@@ -71,6 +55,27 @@ public class PrintNumbers extends Thread
                         }
                     }
                     else if (i % 2 != 1)
+                    {
+                        lock.notify();
+                    }
+                }
+
+                if (Thread.currentThread().getName().equals("Even"))
+                {
+
+                    if (i % 2 == 0)
+                    {
+                        System.out.println( i);
+                        try
+                        {
+                            lock.wait();
+                        }
+                        catch (InterruptedException e)
+                        {
+                            e.printStackTrace();
+                        }
+                    }
+                    else if (i % 2 ==1)
                     {
                         lock.notify();
                     }

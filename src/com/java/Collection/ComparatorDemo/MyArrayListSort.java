@@ -2,6 +2,7 @@ package com.java.Collection.ComparatorDemo;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class MyArrayListSort {
@@ -15,7 +16,13 @@ public class MyArrayListSort {
 		for(Employee e : list) {
 			System.out.println(e.getSalary());
 		}
-		Collections.sort(list,new EmployeeComparator());
+		Collections.sort(list, new Comparator<Employee>() {
+			@Override
+			public int compare(Employee o1, Employee o2) {
+				return 0;
+			}
+		});
+
 		System.out.println("After Sorting");
 
 		for(Employee e : list) {
