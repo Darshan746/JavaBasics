@@ -42,11 +42,11 @@ public class MyList<E>
         return (E) elements[i];
     }
 
-    private void remove(int i)
+    private void remove(int index)
     {
-         Object obj = elements[i];
+         Object obj = elements[index];
 
-        for (int j = 0; j <= arraySize; j++)
+        for (int j = 0; j < arraySize; j++)
         {
             elements[j] = elements[j + 1];
         }
@@ -64,7 +64,7 @@ public class MyList<E>
         System.out.println(a.get(2));
         a.remove(1);
        // System.out.println(a.get(2));
-        // System.out.println(a);
+
     }
 
 }

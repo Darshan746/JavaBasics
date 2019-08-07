@@ -1,8 +1,6 @@
 package com.java.InterviewPrograms;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
 import java.util.Map.Entry;
 
 public class TwoArrayUnCommonNumberPrinting {
@@ -12,6 +10,14 @@ public class TwoArrayUnCommonNumberPrinting {
 
 		Integer a[] = {1,2,3,4,5};
 		Integer b[] = {3,2,1,0,6};
+
+
+		List<Integer> int1 = new ArrayList(Arrays.asList(a));
+		List<Integer> int2 = new ArrayList(Arrays.asList(b));
+
+		System.out.println(int1.retainAll(int2));
+		System.out.println(int1);
+
 		Map<Integer, Integer> mapA = new HashMap<>();
 		Map<Integer, Integer> mapB = new HashMap<>();
 		Map<Integer, Integer> mapUnique = new HashMap<>();
@@ -39,6 +45,16 @@ public class TwoArrayUnCommonNumberPrinting {
 		for(Map.Entry e : mapUnique.entrySet()) {
 			System.out.println(e.getKey());
 		}
+
+		List<Integer> j = new ArrayList<>(Arrays.asList(a));
+		List<Integer> k = new ArrayList<>(Arrays.asList(b));
+
+		j.removeAll(k);
+
+		System.out.println(j);
+
 	}
+
+
 
 }

@@ -37,12 +37,10 @@ public class PrintNumbers extends Thread
             synchronized (lock)
             {
 
-
-
                 if (Thread.currentThread().getName().equals("Odd"))
                 {
 
-                    if (i % 2 == 1)
+                    if (i % 2 != 0)
                     {
                         System.out.println( i);
                         try

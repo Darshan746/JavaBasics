@@ -1,7 +1,9 @@
 package com.java.arrays;
 
-public class SubArrayWithGivenSum {
+import java.util.HashMap;
+import java.util.Map;
 
+public class SubArrayWithGivenSum {
 
   private static void printSubArray(int[] array, int givenSum) {
 
@@ -23,6 +25,7 @@ public class SubArrayWithGivenSum {
   }
 
   public static void printArray(int[] array, int startRange, int endRange){
+
     for(int i=startRange;i<=endRange;i++){
       System.out.print(array[i]+" "+" ");
     }

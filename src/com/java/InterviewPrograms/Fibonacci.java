@@ -30,7 +30,7 @@ public class Fibonacci
             n1 = n2;
             n2 = n3;
         }*/
-        printFibonacci(5);
+        printFibonacci(6);
     }
 
 }

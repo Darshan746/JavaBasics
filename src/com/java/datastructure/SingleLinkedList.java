@@ -85,24 +85,59 @@ public class SingleLinkedList {
     return false;
   }
 
+
+  public void removeDuplicate() {
+    //Node current will point to head
+    Node current = head, index = null, temp = null;
+
+    if(head == null) {
+      return;
+    }
+    else {
+      while(current != null){
+        //Node temp will point to previous node to index.
+        temp = current;
+        //Index will point to node next to current
+        index = current.next;
+
+        while(index != null) {
+          //If current node's data is equal to index node's data
+          if(current.data == index.data) {
+            //Here, index node is pointing to the node which is duplicate of current node
+            //Skips the duplicate node by pointing to next node
+            temp.next = index.next;
+          }
+          else {
+            //Temp will point to previous node of index.
+            temp = index;
+          }
+          index = index.next;
+        }
+        current = current.next;
+      }
+    }
+  }
+
   public static void main(String[] args) {
     SingleLinkedList list = new SingleLinkedList();
 
     list.insertFirst(123);
     list.insertAtLast(1234);
     list.insertAtLast(4321);
+    list.insertAtLast(4321);
+    list.insertAtLast(4321);
 
     list.printLinkedList();
-
-    //list.deleteAfter(1234);
-
-
-     list.reverse(list.head);
     System.out.println(" ");
+    list.removeDuplicate();
+    list.printLinkedList();
+
+    // list.reverse(list.head);
+   /* System.out.println(" ");
     list.printLinkedList();
     System.out.println(" ");
     System.out.println("");
-
+*/
   }
 
 }

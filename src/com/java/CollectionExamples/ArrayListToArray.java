@@ -19,9 +19,9 @@ public class ArrayListToArray {
 		
 		
 		System.out.println("");
-		System.out.println("Converting Arralist To Array");
-		String[] nameArray =new String[names.size()];
-		names.toArray(nameArray);
+		System.out.println("Converting ArrayList To Array");
+		String[] nameArray =(String[])names.toArray();
+
 		for(String name : nameArray) {
 			System.out.println(name);
 		}

@@ -2,7 +2,7 @@ package com.java.datastructure;
 
 public class StackImplementation
 {
-    private int stackArray[];
+    private int[] stackArray;
     private int stackSize;
     private int top = -1;
 

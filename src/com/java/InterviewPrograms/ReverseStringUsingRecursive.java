@@ -16,7 +16,7 @@ public class ReverseStringUsingRecursive {
 	public static void main(String args[]) {
 		
 		ReverseStringUsingRecursive a = new ReverseStringUsingRecursive();
-		System.out.println(a.reverseString("Dar"));
+		System.out.println(a.reverseString("Dars"));
 	}
 
 }
