@@ -52,7 +52,7 @@ public class SingleLinkedList {
     }
   }
 
-
+//ncpc for memorizing
   public void reverse(Node head) {
       Node prev = null;
       Node current = head;
@@ -88,7 +88,9 @@ public class SingleLinkedList {
 
   public void removeDuplicate() {
     //Node current will point to head
-    Node current = head, index = null, temp = null;
+    Node current = head,
+          index = null,
+          temp = null;
 
     if(head == null) {
       return;

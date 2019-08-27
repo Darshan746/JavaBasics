@@ -23,6 +23,8 @@ public class MyArrayListSort {
 			}
 		});
 
+		Collections.sort(list, Comparator.comparing(Employee::getName).thenComparing(Employee::getSalary));
+
 		System.out.println("After Sorting");
 
 		for(Employee e : list) {

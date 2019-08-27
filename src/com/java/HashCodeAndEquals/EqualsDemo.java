@@ -20,8 +20,6 @@ public class EqualsDemo {
 
 	@Override
 	public int hashCode(){
-
-
 		return this.name.length()*1098;
 	}
 
@@ -33,7 +31,5 @@ public class EqualsDemo {
 		
 		System.out.println(d.hashCode());
 		System.out.println(e.hashCode());
-		
-		
 	}
 }

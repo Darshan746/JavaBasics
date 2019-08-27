@@ -5,7 +5,7 @@ public class DeadLockBetweenTwoThreads {
 	
 		
 		String s1 = "Java";
-		String s2 ="C#";
+		String 	s2 ="C#";
 		
 		Thread t1 = new Thread("Thread 1") {
 			public void run() {

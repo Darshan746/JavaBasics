@@ -48,6 +48,7 @@ public class HashCodeAndEqualsDemo {
 		System.out.println(d.equals(e));
 		System.out.println(e.equals(f));
 		System.out.println(d.country.hashCode());
+		System.out.println(e.country.hashCode());
 	}
 
 }

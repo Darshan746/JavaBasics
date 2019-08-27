@@ -11,6 +11,7 @@ public class Int12  implements Int1,Int2 {
 
   public static void main(String[] args) {
 
+    Int1 i = new Int12("",2);
     List<String> str = new ArrayList<>();
     str.add("one");
     str.add("two");
@@ -24,10 +25,16 @@ public class Int12  implements Int1,Int2 {
 
   }
 
+    }
+
+
+
+  public String add(String a ){
+    return "";
+}
+
+  public String add(int a ){
+    return "";
   }
 
-  @Override
-  public  String add() {
-    return  "";
-  }
 }

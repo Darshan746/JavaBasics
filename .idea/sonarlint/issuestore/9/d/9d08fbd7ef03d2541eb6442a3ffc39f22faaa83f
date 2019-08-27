@@ -1,0 +1,14 @@
+
+Xsquid:S1854"5Remove this useless assignment to local variable "i".(Áõ‚§şÿÿÿÿ8Ñ¹‹ÏË-
+Nsquid:S1854"7Remove this useless assignment to local variable "one".(åÑ”‡
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(É„†ú
+\squid:S3400%"9Remove this method and declare a constant for this value.(Ö§”Óşÿÿÿÿ8˜ÔŒÏË-
+\squid:S3400!"9Remove this method and declare a constant for this value.(Ö§”Óşÿÿÿÿ8»±ŒÏË-
+Nsquid:S1854"7Remove this useless assignment to local variable "two".(ÓÏ±¢
+Fsquid:S1172 "(Remove this unused method parameter "a".(Í•8»±ŒÏË-
+?squid:S1481"(Remove this unused "one" local variable.(åÑ”‡
+1squid:S1220""Move this file to a named package.
+Fsquid:S1172$"(Remove this unused method parameter "a".(Š±É™8˜ÔŒÏË-
+?squid:S1481"(Remove this unused "two" local variable.(ÓÏ±¢
+Isquid:S1481"&Remove this unused "i" local variable.(Áõ‚§şÿÿÿÿ8Ò¹‹ÏË-

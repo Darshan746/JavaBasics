@@ -1,0 +1,14 @@
+
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ç€ÕÅ
+Ysquid:UselessImportCheck"0Remove this unused import 'java.util.Map.Entry'.(±şê¾úÿÿÿÿ
+Tsquid:S1197	"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+Osquid:S1197"8Move the array designator from the variable to the type.(ÿìúâ
+Tsquid:S1197"8Move the array designator from the variable to the type.(áÁÍöüÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ÿ’û§
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¥´ïöøÿÿÿÿ
+T
+squid:S106."9Replace this use of System.out or System.err by a logger.(‚¤ñ¾üÿÿÿÿ
+T
+squid:S1066"9Replace this use of System.out or System.err by a logger.(Ã”…ªûÿÿÿÿ

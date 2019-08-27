@@ -1,0 +1,15 @@
+
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äüÀœüÿÿÿÿ
+Ssquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
+Wsquid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(šª¬
+T
+squid:S106 "9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ
+T
+squid:S106%"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ
+Tsquid:S1197+"8Move the array designator from the variable to the type.(ŞáàÃüÿÿÿÿ
+T
+squid:S1060"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ
+O
+squid:S1068"9Replace this use of System.out or System.err by a logger.(²ßŞ£

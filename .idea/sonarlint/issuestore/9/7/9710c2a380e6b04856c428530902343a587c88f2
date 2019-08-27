@@ -1,0 +1,16 @@
+
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù«ÑÊ
+psquid:S1210"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(‰¯…õ
+Tsquid:S1197+"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+O
+squid:S1067"9Replace this use of System.out or System.err by a logger.(·ÕãÕ
+O
+squid:S1069"9Replace this use of System.out or System.err by a logger.(´İ
+T
+squid:S106>"9Replace this use of System.out or System.err by a logger.(‰éŞ¾ûÿÿÿÿ
+O
+squid:S106@"9Replace this use of System.out or System.err by a logger.(´İ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(´·ºÈıÿÿÿÿ
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(øöìª
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ö È™ÿÿÿÿÿ
+gsquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(´¹ëªıÿÿÿÿ

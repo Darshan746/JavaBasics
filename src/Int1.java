@@ -1,3 +1,3 @@
 public interface Int1 {
-  public String add();
+  public String add(int a );
 }

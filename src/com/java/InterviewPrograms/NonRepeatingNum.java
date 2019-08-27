@@ -10,8 +10,9 @@ public class NonRepeatingNum {
     {
       // Do XOR of all elements and return
       int res = ar[0];
-      for (int i = 1; i < ar_size; i++)
+      for (int i = 1; i < ar_size; i++) {
         res = res ^ ar[i];
+      }
 
       return res;
     }
