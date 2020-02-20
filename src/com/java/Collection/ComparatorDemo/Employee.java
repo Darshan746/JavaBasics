@@ -1,5 +1,7 @@
 package com.java.Collection.ComparatorDemo;
 
+import java.util.Objects;
+
 public class Employee {
 	
 	public String name;
@@ -25,4 +27,16 @@ public class Employee {
 		this.name = name;
 		this.salary = salary;
 	}
+
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name);
+    }
+
+    @Override
+	public boolean equals(Object w){
+	    Employee e = (Employee)w;
+	    return this.name.equals(((Employee) w).name);
+    }
 }

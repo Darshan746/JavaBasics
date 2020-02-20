@@ -33,8 +33,8 @@ public class SubArrayWithGivenSum {
 
 
     String s = "hello";
-    s= s.substring(2);
-    System.out.println(s);
+   // s= s.substring(2);
+    //System.out.println(s);
 
 
   }
@@ -45,7 +45,7 @@ public class SubArrayWithGivenSum {
   printSubArray(array, sum);
 
   int[] a = {1,2,3,4};
-  System.out.println(a);
+ // System.out.println(a);
 int index=1;
 
   for(int i =index;i<=a.length-2;i++){
@@ -53,7 +53,7 @@ int index=1;
   }
 
     for(int i =0;i<=a.length-2;i++){
-      System.out.print(a.length);
+      //System.out.print(a.length);
     }
 
 
