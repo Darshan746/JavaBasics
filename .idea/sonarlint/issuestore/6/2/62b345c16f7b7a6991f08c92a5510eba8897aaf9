@@ -1,15 +1,13 @@
 
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹ÁºŞùÿÿÿÿ
-Vsquid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
-Tsquid:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÊşŠ½üÿÿÿÿ
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(«‹Îõ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(›–åşÿÿÿÿ
-Jsquid:S3020".Pass "new String[0]" as argument to "toArray".(ÈÏòòşÿÿÿÿ
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(«‹Îõ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹ÁºŞùÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+S
+java:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÊşŠ½üÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(«‹Îõ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(›–åşÿÿÿÿ
+I
+java:S3020".Pass "new String[0]" as argument to "toArray".(ÈÏòòşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(«‹Îõ

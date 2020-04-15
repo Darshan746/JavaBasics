@@ -12,7 +12,6 @@ public class ReverseNumberUsingRecursive {
 		}
 	}
 
-	
 	public static void main(String args[]) {
 		reverseNumber(321);
 	}

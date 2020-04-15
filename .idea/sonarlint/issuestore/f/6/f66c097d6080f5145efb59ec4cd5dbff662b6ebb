@@ -1,14 +1,13 @@
 
-rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯ñ¿ï
-Usquid:UselessImportCheck"1Remove this unused import 'ArrayListImpl.MyList'.(›„ÈŽ
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(ûƒù©
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(ñÈû„
-Tsquid:S1197<"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ
-O
-squid:S106L"9Replace this use of System.out or System.err by a logger.(ã€”©
-gsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(ˆ¾…øÿÿÿÿ
-bsquid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(¼ËÂ„
-gsquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(ó…ñÿÿÿÿÿ
-gsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(•õ±ˆýÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯ñ¿ï
+G
+java:S1128"1Remove this unused import 'ArrayListImpl.MyList'.(›„ÈŽ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ûƒù©
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ñÈû„
+S
+java:S1197<"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ
+N	java:S106L"9Replace this use of System.out or System.err by a logger.(ã€”©
+V	java:S125!"<This block of commented-out lines of code should be removed.(ˆ¾…øÿÿÿÿ
+Q	java:S125#"<This block of commented-out lines of code should be removed.(¼ËÂ„
+V	java:S125'"<This block of commented-out lines of code should be removed.(ó…ñÿÿÿÿÿ
+V	java:S1258"<This block of commented-out lines of code should be removed.(•õ±ˆýÿÿÿÿ

@@ -1,16 +1,19 @@
 
-{"squid:ClassVariableVisibilityCheck"MMake i a static final constant or non-public and provide accessors if needed.(À…ã¿
-Zsquid:UselessImportCheck"1Remove this unused import 'java.io.Serializable'.(èãîÂÿÿÿÿÿ
-Tsquid:S1197"8Move the array designator from the variable to the type.(ÄÂíùÿÿÿÿ
-{"squid:ClassVariableVisibilityCheck"MMake j a static final constant or non-public and provide accessors if needed.(À…ã¿
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(å©ÚÖ
-osquid:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(ŒÉ¯æşÿÿÿÿ
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(£ƒÂ
-6squid:S1659"Declare "j" on a separate line.(À…ã¿
-msquid:S1192"VDefine a constant instead of duplicating this literal "Value of the d Object" 3 times.(å©ÚÖ
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(å©ÚÖ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(éå³·ıÿÿÿÿ
+l
+java:S1192"VDefine a constant instead of duplicating this literal "Value of the d Object" 3 times.(å©ÚÖ
+c
+java:S1104"MMake i a static final constant or non-public and provide accessors if needed.(À…ã¿
+c
+java:S1104"MMake j a static final constant or non-public and provide accessors if needed.(À…ã¿
+L
+java:S1128"1Remove this unused import 'java.io.Serializable'.(èãîÂÿÿÿÿÿ
+5
+java:S1659"Declare "j" on a separate line.(À…ã¿
+n
+java:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(ŒÉ¯æşÿÿÿÿ
+S
+java:S1197"8Move the array designator from the variable to the type.(ÄÂíùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(å©ÚÖ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(éå³·ıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(£ƒÂ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(å©ÚÖ

@@ -1,15 +1,16 @@
 
-2squid:S3626`"Remove this redundant jump.(ûÁİ…
-gsquid:CommentedOutCodeLineC"<This block of commented-out lines of code should be removed.( ÇŠúÿÿÿÿ
-:squid:S1659K"$Declare "fast_p" on a separate line.(í˜àd
-T
-squid:S106Q"9Replace this use of System.out or System.err by a logger.(¿Éùµüÿÿÿÿ
-9squid:S1659]""Declare "temp" on a separate line.(œ¯¥³
-U
-squid:S106…"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
-O
-squid:S1061"9Replace this use of System.out or System.err by a logger.(¬õ…
-hsquid:S00117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í˜àd
-:squid:S1659\"#Declare "index" on a separate line.(üœ¤Ü
-nsquid:S00117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áñ¥àúÿÿÿÿ
-csquid:CommentedOutCodeLine‰"<This block of commented-out lines of code should be removed.(ù¡åå
+V	java:S125C"<This block of commented-out lines of code should be removed.( ÇŠúÿÿÿÿ
+e	java:S117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í˜àd
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(¬õ…
+R	java:S125‰"<This block of commented-out lines of code should be removed.(ù¡åå
+k	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áñ¥àúÿÿÿÿ
+8
+java:S1659]""Declare "temp" on a separate line.(œ¯¥³
+9
+java:S1659K"$Declare "fast_p" on a separate line.(í˜àd
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(¿Éùµüÿÿÿÿ
+1
+java:S3626`"Remove this redundant jump.(ûÁİ…
+9
+java:S1659\"#Declare "index" on a separate line.(üœ¤Ü
+T	java:S106…"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ

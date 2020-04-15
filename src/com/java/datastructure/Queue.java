@@ -3,7 +3,7 @@ package com.java.datastructure;
 public class Queue
 {
 
-    private int queue[];
+    private int[] queue;
 
     private int rear = 0, front = 0, queueSize;
 
@@ -11,7 +11,6 @@ public class Queue
     {
         queue = new int[size];
         queueSize = size;
-
     }
 
     public void enQueue(int item)
@@ -22,8 +21,8 @@ public class Queue
         }
         else
         {
-            queue[rear] = item;
-            rear++;
+            queue[rear++] = item;
+
         }
     }
 
@@ -48,7 +47,7 @@ public class Queue
         {
             for (int i = front; i < rear; i++)
             {
-                System.out.println(queue[i]);
+                System.out.print(queue[i] +" ");
             }
         }
         else

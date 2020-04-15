@@ -1,14 +1,13 @@
 
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(‹Š€
-Dsquid:S1604"(Make this anonymous inner class a lambda(Æ¦²Çøÿÿÿÿ
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(èë×äıÿÿÿÿ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(‰éŞ¾ûÿÿÿÿ
-rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õÁ„Ä
-Tsquid:S1197
+N	java:S106"9Replace this use of System.out or System.err by a logger.(·ÕãÕ
+C
+java:S1604"(Make this anonymous inner class a lambda(Æ¦²Çøÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õÁ„Ä
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‰éŞ¾ûÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(èë×äıÿÿÿÿ
+S
+java:S1197
 "8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(·ÕãÕ
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(‹Š€
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‹Š€
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‹Š€

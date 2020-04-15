@@ -42,7 +42,7 @@ public class CircularQueueImplementation
         // check queue is empty
         if (front == -1 && rear == -1)
         {
-            System.out.println("Circular queue is empty ...!");
+               System.out.println("Circular queue is empty ...!");
         }
 
         // This condition is Only one element left in the circular queue

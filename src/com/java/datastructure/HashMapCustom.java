@@ -2,7 +2,7 @@ package com.java.datastructure;
 
 class HashMapCustom<K, V> {
 
-  private Entry<K,V>[] table;   //Array of Entry.
+  private Entry<K,V> table[];   //Array of Entry.
   private int capacity= 4;  //Initial capacity of HashMap
 
   static class Entry<K, V> {

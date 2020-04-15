@@ -28,7 +28,7 @@ public class ReverseWithoutAffectTheSpecial {
   }
 
   public static void main(String[] args) {
-    String str = "h#jk(";
+    String str = "h#yjk(";
     char[] charArray = str.toCharArray();
     reverseString(charArray);
   }

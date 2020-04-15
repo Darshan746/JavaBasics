@@ -1,20 +1,22 @@
 package com.java.InterviewPrograms;
 
-public class PalindromeNum
-{
+public class PalindromeNum {
 
-    public static void main(String[] args)
-    {
-        int num = 232;
-        int temp = num;
-        StringBuilder b = new StringBuilder();
-        while (temp != 0)
-        {
-            b.append(temp % 10);
-            temp = temp / 10;
+    public static void main(String[] args) {
+        int r, sum = 0, temp;
+        int n = 454;//It is the number variable to be checked for palindrome
+
+
+
+        temp = n;
+        while (n > 0) {
+            r = n % 10;  //getting remainder
+            sum = (sum * 10) + r;
+            n = n / 10;
         }
-        // System.out.println("hi");
-        int a = Integer.valueOf(b.toString());
-        System.out.println(a == num);
+        if (temp == sum)
+            System.out.println("palindrome number ");
+        else
+            System.out.println("not palindrome");
     }
 }

@@ -1,0 +1,21 @@
+
+N	java:S106K"9Replace this use of System.out or System.err by a logger.(§†‚„
+S	java:S106g"9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ
+Q
+java:S2696""6Make the enclosing method "static" or remove this set.(€ç±ëùÿÿÿÿ
+S
+java:S1197X"8Move the array designator from the variable to the type.(º ìıÿÿÿÿ
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(€ç±ëùÿÿÿÿ
+=
+java:S1659""Declare "rear" on a separate line.(ğ¶¾ìûÿÿÿÿ
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(ÔÁ‹»
+N	java:S106Q"9Replace this use of System.out or System.err by a logger.(§†‚„
+N	java:S106_"9Replace this use of System.out or System.err by a logger.( Ãø
+N	java:S106S"9Replace this use of System.out or System.err by a logger.(§†‚„
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ä¬“¤
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(®½ì¸úÿÿÿÿ
+>
+java:S3010"#Remove this assignment of "cqueue".(Œî“£ùÿÿÿÿ
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(¤©²šüÿÿÿÿ
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(˜–´ıÿÿÿÿ

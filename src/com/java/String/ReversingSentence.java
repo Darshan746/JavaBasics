@@ -41,6 +41,6 @@ public class ReversingSentence {
 	}
 
 	public static void main(String[] args) {
-		System.out.print(reverseWord("hello"));
+		System.out.print(reverseWord("hello Darshan"));
 	}
 }

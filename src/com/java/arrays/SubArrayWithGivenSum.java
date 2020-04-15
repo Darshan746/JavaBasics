@@ -15,7 +15,7 @@ public class SubArrayWithGivenSum {
 
         sum_so_far+=array[j];
         if(sum_so_far == givenSum) {
-          printArray(array,i,j);
+          printArray(array, i, j);
         }
         if(sum_so_far>givenSum){
           break;

@@ -70,7 +70,18 @@ public class StackImplementation
     {
         StackImplementation stack = new StackImplementation(10);
         stack.createStack();
-        System.out.println(stack.peek());
+        stack.pop();
+        stack.pop();
+        stack.displayStack();
+        //System.out.println(stack.peek());
+    }
+
+    public void displayStack() {
+        if(top!=-1){
+            for(int i=0;i<=top;i++){
+                System.out.println(stackArray[i]);
+            }
+        }
     }
 
 }

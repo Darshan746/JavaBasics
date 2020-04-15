@@ -22,7 +22,7 @@ public class MissingNumberInArray {
   public static void main(String[] args) {
     int n = 8;
 
-    int[] a = {1, 4, 5, 3, 2, 8, 6};
+    int[] a = {1,4, 5, 3, 2, 8, 6};
 
     int sumOfNnumbers = sumOfEleTillGivenNum(n);
 

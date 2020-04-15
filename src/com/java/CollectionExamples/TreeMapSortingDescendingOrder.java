@@ -101,6 +101,16 @@ public class TreeMapSortingDescendingOrder {
 		unsortedMap.put(1, "Darshan");
 		unsortedMap.put(36, "Rudresh");
 		unsortedMap.put(23, "Ramesh");
+
+		Map<Integer, String> sortedMap = new TreeMap<>(new Comparator<Integer>() {
+
+			@Override
+			public int compare(Integer o1, Integer o2) {
+
+				return o1.compareTo(o2);
+			}
+
+		});
 		/*Map<Integer, String> sortedMap = new TreeMap<>(new Comparator<Integer>() {
 
 			@Override
@@ -110,8 +120,8 @@ public class TreeMapSortingDescendingOrder {
 		});
 */
 
-		Map<Integer, String> sortedMap = new TreeMap<>(unsortedMap);
-		//sortedMap.putAll(unsortedMap);
+	//	Map<Integer, String> sortedMap = new TreeMap<>(unsortedMap);
+		sortedMap.putAll(unsortedMap);
 		System.out.println(sortedMap);
 	}
 	

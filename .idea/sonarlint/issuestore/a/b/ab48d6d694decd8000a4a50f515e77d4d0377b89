@@ -1,11 +1,15 @@
 
-Tsquid:S1197c"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹ÁºÞùÿÿÿÿ
-Tsquid:UselessImportCheck"1Remove this unused import 'java.util.LinkedList'.(»Äð1
-gsquid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(œš€‰úÿÿÿÿ
-bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(øë¥»
-Tsquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
-nsquid:CommentedOutCodeLineh"<This block of commented-out lines of code should be removed.(Âüþ¯ùÿÿÿÿ8ÑÍÏêË-
-T
-squid:S106s"9Replace this use of System.out or System.err by a logger.(Ù¡ï‚þÿÿÿÿ
-isquid:CommentedOutCodeLiner"<This block of commented-out lines of code should be removed.(˜Å»ä8×ÇÒêË-
+Q	java:S125"<This block of commented-out lines of code should be removed.(øë¥»
+S	java:S106}"9Replace this use of System.out or System.err by a logger.(Ù¡ï‚þÿÿÿÿ
+V	java:S125r"<This block of commented-out lines of code should be removed.(Âüþ¯ùÿÿÿÿ
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+S
+java:S1197c"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ
+F
+java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äð1
+V	java:S1254"<This block of commented-out lines of code should be removed.(œš€‰úÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹ÁºÞùÿÿÿÿ
+]	java:S125{"<This block of commented-out lines of code should be removed.(ÌÓž–øÿÿÿÿ8ö÷‰Ì•.
+E
+java:S1604i"(Make this anonymous inner class a lambda(ÅõþÄ8é…‡Ì•.

@@ -1,3 +1,5 @@
 
-"squid:ClassVariableVisibilityCheck"SMake message a static final constant or non-public and provide accessors if needed.(ÕÃØ·
-7squid:S1165" Make this "message" field final.(ÕÃØ·
+i
+java:S1104"SMake message a static final constant or non-public and provide accessors if needed.(ÕÃØ·
+6
+java:S1165" Make this "message" field final.(ÕÃØ·

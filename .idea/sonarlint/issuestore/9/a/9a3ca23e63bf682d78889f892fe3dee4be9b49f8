@@ -1,0 +1,11 @@
+
+S
+java:S1197E"8Move the array designator from the variable to the type.(íä¸üÿÿÿÿ
+W
+java:S1126/"AReplace this if-then-else statement by a single return statement.(¾‘‚
+V
+java:S11269"AReplace this if-then-else statement by a single return statement.(üë4
+Z	java:S106R"9Replace this use of System.out or System.err by a logger.(¾ƒ»ïúÿÿÿÿ8¶á“–.
+X	java:S125L"<This block of commented-out lines of code should be removed.(ÑÌ±ë8•®––.
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÇŒşÂÿÿÿÿÿ
+Z	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(”ı¢

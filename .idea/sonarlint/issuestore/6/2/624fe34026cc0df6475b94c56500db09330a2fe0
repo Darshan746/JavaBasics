@@ -1,3 +1,14 @@
 
-¤%squid:RedundantThrowsDeclarationCheck"tRemove the declaration of thrown exception 'com.java.exception.CustomRuntimeException' which is a runtime exception.(Æ­‚5
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(óàÚåüÿÿÿÿ
+‹
+java:S1130"iRemove the declaration of thrown exception 'java.lang.NullPointerException' which is a runtime exception.(¥Â»Îÿÿÿÿÿ8Œ¥›Ì•.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ù¿éûÿÿÿÿ8ªžÌ•.
+V	java:S125"<This block of commented-out lines of code should be removed.(óàÚåüÿÿÿÿ
+t
+java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8çè¢Ì•.
+_
+java:S3518"CMake sure this expression can't be zero before doing this division.(ûºú8çè¢Ì•.
+B
+java:S1481"&Remove this unused "a" local variable.(ûºú8çè¢Ì•.
+Q
+java:S1854"5Remove this useless assignment to local variable "a".(ûºú8çè¢Ì•.
+X	java:S125"<This block of commented-out lines of code should be removed.(º•»¾8çè¢Ì•.

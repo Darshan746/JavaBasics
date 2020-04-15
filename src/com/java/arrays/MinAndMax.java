@@ -21,7 +21,7 @@ public class MinAndMax {
     }
 
     public static void main(String[] args) {
-        int a[] = {-1,2,3,4,5};
+        int a[] = {1,30,2,3,4,5,20};
         findMinAndMaxOfArray(a);
     }
 }
