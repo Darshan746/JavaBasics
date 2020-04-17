@@ -1,9 +1,9 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯ñ¿ï
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(Ğğ¸ã
 M
 java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ
 S
 java:S1197"8Move the array designator from the variable to the type.(º ìıÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯ñ¿ï
 S	java:S106"9Replace this use of System.out or System.err by a logger.(şÊı®şÿÿÿÿ
-N	java:S106 "9Replace this use of System.out or System.err by a logger.(Ğğ¸ã
 M	java:S106""9Replace this use of System.out or System.err by a logger.(øõÃt

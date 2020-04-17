@@ -1,13 +1,14 @@
 
-S	java:S1067"9Replace this use of System.out or System.err by a logger.(ƒñ£øÿÿÿÿ
-S
-java:S1197;"8Move the array designator from the variable to the type.(º ìıÿÿÿÿ
-B
-java:S1659"'Declare "queueSize" on a separate line.(ÏšÒŠøÿÿÿÿ
-N	java:S1062"9Replace this use of System.out or System.err by a logger.(Òª©ı
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Í¿ÌŞ
+M	java:S106!"9Replace this use of System.out or System.err by a logger.(ª©ô
+
 /
 java:S1700"Rename field "queue"(¿¡üøÿÿÿÿÿ
+S
+java:S1197;"8Move the array designator from the variable to the type.(º ìıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Í¿ÌŞ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(Òª©ı
+B
+java:S1659"'Declare "queueSize" on a separate line.(ÏšÒŠøÿÿÿÿ
 >
 java:S1659"#Declare "front" on a separate line.(ÏšÒŠøÿÿÿÿ
-M	java:S106!"9Replace this use of System.out or System.err by a logger.(ª©ô
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(ƒñ£øÿÿÿÿ

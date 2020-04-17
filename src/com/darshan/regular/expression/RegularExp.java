@@ -29,26 +29,26 @@ public class RegularExp {
 
         //Gmail Id regular Expression
 
-        // darshan.mn746@gmail.com
+//        // darshan.mn746@gmail.com
+//
+//        String mob = "98863236011";
+//
+//        Pattern pattern = Pattern.compile("[7-9][0-9]{9}");
+//        Matcher m = pattern.matcher(mob);
+//       while(m.find() && match.group().equals(mob)){
+//           System.out.println(m.group());
+//       }
+       Pattern pattern1 = Pattern.compile("[<a-z>]");
 
-        String mob = "98863236011";
-
-        Pattern pattern = Pattern.compile("[7-9][0-9]{9}");
-        Matcher m = pattern.matcher(mob);
-       while(m.find() && match.group().equals(mob)){
-           System.out.println(m.group());
-       }
 
         String name = "Dec 31 03:44:00.151211 (2526173242360594433) <02777> <calqeauto> [debug] {mktCustomerContext} initializing local cache 'request'";
 
+        Matcher matcher = pattern1.matcher(name);
 
+     while (matcher.find()){
+         System.out.print(matcher.group());
+     }
 
-       Pattern p1 = Pattern.compile("\\d{8,}");
-       String n = "898988";
-        Matcher m2= p1.matcher(n);
-        if(m2.find() && m2.group().equals(n)){
-            System.out.println(m2.group());
-        }
 
     }
 }

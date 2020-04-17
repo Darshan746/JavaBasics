@@ -1,11 +1,11 @@
 
-Q	java:S125("<This block of commented-out lines of code should be removed.(Ôù†ã
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÁÄ’≈
 V	java:S125/"<This block of commented-out lines of code should be removed.(˝ÚÜÊ˙ˇˇˇˇ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÁÄ’≈
 S	java:S106E"9Replace this use of System.out or System.err by a logger.(≈·óï˛ˇˇˇˇ
+M	java:S106<"9Replace this use of System.out or System.err by a logger.(—ÇïI
 o
 java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ü£êˆ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(òﬁÓ’
 Q	java:S1253"<This block of commented-out lines of code should be removed.(Í©…â
 S	java:S106:"9Replace this use of System.out or System.err by a logger.(…À√™˛ˇˇˇˇ
-M	java:S106<"9Replace this use of System.out or System.err by a logger.(—ÇïI
-N	java:S106>"9Replace this use of System.out or System.err by a logger.(òﬁÓ’
+Q	java:S125("<This block of commented-out lines of code should be removed.(Ôù†ã

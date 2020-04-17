@@ -1,27 +1,22 @@
 
-P
-java:S1191"5Use classes from the Java API instead of Sun classes.(‹¸Œôøÿÿÿÿ
+O
+java:S1128"9Remove this unused import 'java.util.function.Predicate'.(ïÍ–¶
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ã¾Ñ»
+G
+java:S1128"1Remove this unused import 'java.math.BigInteger'.(»Çâ€
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
 D
 java:S1128	".Remove this unused import 'java.util.Objects'.(¼¸õ›
+]	java:S125""<This block of commented-out lines of code should be removed.(¯Ýáøÿÿÿÿ8µÔèê—.
+]	java:S125$"<This block of commented-out lines of code should be removed.(ÃþÌüÿÿÿÿ8µÔèê—.
+P
+java:S1191"5Use classes from the Java API instead of Sun classes.(‹¸Œôøÿÿÿÿ
 S
 java:S1128
 "8Remove this unused import 'java.util.function.Consumer'.(Ì†ƒÔùÿÿÿÿ
-c
-java:S1128"HRemove this unused import 'com.java.Collection.ComparatorDemo.Employee'.(ü”«Ïÿÿÿÿÿ
-F
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
-O
-java:S1128"9Remove this unused import 'java.util.function.Predicate'.(ïÍ–¶
-G
-java:S1128"1Remove this unused import 'java.math.BigInteger'.(»Çâ€
-q
-java:S1128"VRemove this unused import 'com.sun.org.apache.xerces.internal.impl.xpath.regex.Match'.(‹¸Œôøÿÿÿÿ
 F
 java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
-S
-java:S1854*"8Remove this useless assignment to local variable "name".(ôÅÀúüÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ã¾Ñ»
-S	java:S106'"9Replace this use of System.out or System.err by a logger.(ûŸ¢«úÿÿÿÿ
-N	java:S1062"9Replace this use of System.out or System.err by a logger.(—Èƒù
-D
-java:S1481*")Remove this unused "name" local variable.(ôÅÀúüÿÿÿÿ
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(•øêàÿÿÿÿÿ8Ïµæê—.
+c
+java:S1128"HRemove this unused import 'com.java.Collection.ComparatorDemo.Employee'.(ü”«Ïÿÿÿÿÿ
