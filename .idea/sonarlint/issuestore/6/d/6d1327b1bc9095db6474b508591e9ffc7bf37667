@@ -1,17 +1,0 @@
-
-Z	java:S106&"9Replace this use of System.out or System.err by a logger.(Ã¹æàúÿÿÿÿ8€•à¸˜.
-C
-java:S3010
-"!Remove this assignment of "head".(Â¿âÿÿÿÿÿ8èîä¹˜.
-c
-java:S1126"AReplace this if-then-else statement by a single return statement.(Êîé÷ûÿÿÿÿ8Œ¸Ô¹˜.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ã¹æàúÿÿÿÿ8‚ôİ¸˜.
-Z	java:S106)"9Replace this use of System.out or System.err by a logger.(Âû¯Ğüÿÿÿÿ8„¡ã¸˜.
-W
-java:S2209
-"5Change this instance-reference to a static reference.(Â¿âÿÿÿÿÿ8èîä¹˜.
-Z	java:S106 "9Replace this use of System.out or System.err by a logger.(Âû¯Ğüÿÿÿÿ8Åöß¸˜.
-R
-java:S2209"5Change this instance-reference to a static reference.(øêŒÕ8èîä¹˜.
->
-java:S3010"!Remove this assignment of "tail".(øêŒÕ8èîä¹˜.

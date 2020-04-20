@@ -1,9 +1,0 @@
-
-‚
-java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(Å—Ù’
-N	java:S106"9Replace this use of System.out or System.err by a logger.(‚¨Ö§
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ç€ÕÅ
-7
-java:S1659"!Declare "sum" on a separate line.(‡·—Ö
-N
-java:S1197"8Move the array designator from the variable to the type.(ãž¸Ï

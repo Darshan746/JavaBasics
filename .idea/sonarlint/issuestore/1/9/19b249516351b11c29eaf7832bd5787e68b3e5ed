@@ -1,9 +1,0 @@
-
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(β½«ÿÿÿÿÿ
-N	java:S106
-"9Replace this use of System.out or System.err by a logger.(κ“η
-
-java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(¨Ύψ―
-N
-java:S1197"8Move the array designator from the variable to the type.(¨Ύψ―
-N	java:S106"9Replace this use of System.out or System.err by a logger.(™χν¥

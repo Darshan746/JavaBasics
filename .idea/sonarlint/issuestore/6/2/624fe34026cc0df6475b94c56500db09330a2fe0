@@ -1,14 +1,0 @@
-
-‹
-java:S1130"iRemove the declaration of thrown exception 'java.lang.NullPointerException' which is a runtime exception.(¥Β»Ξÿÿÿÿÿ8¥›Μ•.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ΩΏιϋÿÿÿÿ8ªΜ•.
-V	java:S125"<This block of commented-out lines of code should be removed.(σΰΪεόÿÿÿÿ
-t
-java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(φ™ϋ8ηθΆΜ•.
-_
-java:S3518"CMake sure this expression can't be zero before doing this division.(ϋΊϊ8ηθΆΜ•.
-B
-java:S1481"&Remove this unused "a" local variable.(ϋΊϊ8ηθΆΜ•.
-Q
-java:S1854"5Remove this useless assignment to local variable "a".(ϋΊϊ8ηθΆΜ•.
-X	java:S125"<This block of commented-out lines of code should be removed.(Ί•»Ύ8ηθΆΜ•.

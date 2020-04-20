@@ -1,5 +1,7 @@
 package com.java.datastructure;
 
+import java.util.HashSet;
+
 public class SingleLinkedList {
 
   private Node head;
@@ -85,41 +87,20 @@ public class SingleLinkedList {
     return false;
   }
 
-
   public void removeDuplicate() {
-    //Node current will point to head
-    Node current = head,
-          index = null,
-          temp = null;
-
-    if(head == null) {
-      return;
-    }
-    else {
-      while(current != null){
-        //Node temp will point to previous node to index.
-        temp = current;
-        //Index will point to node next to current
-        index = current.next;
-
-        while(index != null) {
-          //If current node's data is equal to index node's data
-          if(current.data == index.data) {
-            //Here, index node is pointing to the node which is duplicate of current node
-            //Skips the duplicate node by pointing to next node
-            temp.next = index.next;
-          }
-          else {
-            //Temp will point to previous node of index.
-            temp = index;
-          }
-          index = index.next;
-        }
+    Node current = head;
+    HashSet<Integer> set = new HashSet<Integer>();
+    set.add(current.data);
+    while (current.next != null) {
+      if (set.contains(current.next.data)) {
+        current.next = current.next.next;
+      } else {
+        set.add(current.next.data);
         current = current.next;
+
       }
     }
   }
-
   public static void main(String[] args) {
     SingleLinkedList list = new SingleLinkedList();
 
@@ -128,10 +109,13 @@ public class SingleLinkedList {
     list.insertAtLast(4321);
     list.insertAtLast(4321);
     list.insertAtLast(4321);
+    list.insertAtLast(123);
+    list.insertAtLast(898);
 
     list.printLinkedList();
     System.out.println(" ");
     list.removeDuplicate();
+ //   list.removeDuplicate();
     list.printLinkedList();
 
     // list.reverse(list.head);

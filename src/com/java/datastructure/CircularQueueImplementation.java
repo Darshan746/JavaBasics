@@ -27,16 +27,15 @@ public class CircularQueueImplementation
         else {
             rear = (rear+1)%size;
         }
+
         cqueue[rear] = element;
     }
 
     // Circular Queue Delete Operation
     public void dequeue()
     {
-
         // check queue is empty
-        if (front == -1 & rear == -1)
-        {
+        if (front == -1 & rear == -1) {
                System.out.println("Circular queue is empty ...!");
                return;
         }
@@ -64,7 +63,6 @@ public class CircularQueueImplementation
 
 
     void display() {
-
         for(int i=front+1 ; i!=(rear+1) ; i=(i+1)%cqueue.length)
         {
             System.out.print(" "+cqueue[i]);

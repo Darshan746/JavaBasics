@@ -16,13 +16,13 @@ public class RegularExp {
 
     public static void main(String[] args) {
 
-
-        Pattern mailPattern  = Pattern.compile("[a-zA-Z][\\w._]*@[a-zA-z]*[.][a-zA-z]*");
-        Matcher match = mailPattern.matcher("darshan.mn746@gmail.com");
-
-        if(match.find()){
-            System.out.println(match.group());
-        }
+//
+//        Pattern mailPattern  = Pattern.compile("[a-zA-Z][\\w._]*@[a-zA-z]*[.][a-zA-z]*");
+//        Matcher match = mailPattern.matcher("darshan.mn746@gmail.com");
+//
+//        if(match.find()){
+//            System.out.println(match.group());
+//        }
 
 
 
@@ -38,15 +38,15 @@ public class RegularExp {
 //       while(m.find() && match.group().equals(mob)){
 //           System.out.println(m.group());
 //       }
-       Pattern pattern1 = Pattern.compile("[<a-z>]");
+       Pattern pattern1 = Pattern.compile("('\\w+')|(<\\d*>) | (<\\w*>)");
 
 
-        String name = "Dec 31 03:44:00.151211 (2526173242360594433) <02777> <calqeauto> [debug] {mktCustomerContext} initializing local cache 'request'";
+        String name = "Dec 31 03:44:00.151211 (2526173242360594433) <02777> <calqeauto> [debug] {mktCustomerContext} initializing local cache 'request' 'darshan'";
 
         Matcher matcher = pattern1.matcher(name);
 
      while (matcher.find()){
-         System.out.print(matcher.group());
+         System.out.print(matcher.group()+ " ");
      }
 
 

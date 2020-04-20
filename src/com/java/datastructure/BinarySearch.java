@@ -2,6 +2,7 @@ package com.java.datastructure;
 
 public class BinarySearch {
 
+    //For binary search , input array should be Sorted
     public static int binarySearch(int[] array, int start, int end, int target) {
         int mid = (start + end) / 2;
         if (target == array[mid]) {

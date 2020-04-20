@@ -1,9 +1,0 @@
-
-5
-java:S1659"Declare "f" on a separate line.(‹Ã§Ë
-S
-java:S1197"8Move the array designator from the variable to the type.(º ìıÿÿÿÿ
-D
-java:S1905".Remove this unnecessary cast to "ShallowCopy".(Œúù¹
-S	java:S106"9Replace this use of System.out or System.err by a logger.(í‰¸µøÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(æï¥ù

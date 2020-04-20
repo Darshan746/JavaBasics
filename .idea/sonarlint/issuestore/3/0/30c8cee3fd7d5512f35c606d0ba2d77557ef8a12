@@ -1,10 +1,0 @@
-
-\
-java:S2259G"FA "NullPointerException" could be thrown; "previous" is nullable here.(…ùØŸ
-T
-java:S1197"8Move the array designator from the variable to the type.(õ8âÙÉ –.
-T	java:S106"9Replace this use of System.out or System.err by a logger.(¹«¬ªüÿÿÿÿ
-o
-java:S2293."YReplace the type specification in this constructor call with the diamond operator ("<>").(è•êÀ
-;
-java:S2676œ"Use the original value instead.(áˆˆèüÿÿÿÿ

@@ -6,7 +6,9 @@ public class ReverseStringUsingRecursive {
     
     public String reverseString(String str){
          
-       
+       if(str.length()==0){
+       	return str;
+	   }
             reverse += str.charAt(str.length()-1)+reverseString(str.substring(0,str.length()-1));
             return reverse;
         }
