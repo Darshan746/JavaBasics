@@ -87,6 +87,17 @@ public class SingleLinkedList {
     return false;
   }
 
+  public  int findMidElemInLinkedList() {
+    Node fastPtr = head;
+    Node slowPtr = head;
+
+    while (fastPtr!=null && fastPtr.next!=null) {
+      slowPtr = slowPtr.next;
+      fastPtr = fastPtr.next.next;
+    }
+    return slowPtr.data;
+  }
+
   public void removeDuplicate() {
     Node current = head;
     HashSet<Integer> set = new HashSet<Integer>();
@@ -107,17 +118,18 @@ public class SingleLinkedList {
     list.insertFirst(123);
     list.insertAtLast(1234);
     list.insertAtLast(4321);
-    list.insertAtLast(4321);
+    list.insertAtLast(76);
     list.insertAtLast(4321);
     list.insertAtLast(123);
-    list.insertAtLast(898);
+    //list.insertAtLast(898);
+
 
     list.printLinkedList();
     System.out.println(" ");
-    list.removeDuplicate();
  //   list.removeDuplicate();
-    list.printLinkedList();
-
+ //   list.removeDuplicate();
+  //  list.printLinkedList();
+    System.out.println(list.findMidElemInLinkedList());
     // list.reverse(list.head);
    /* System.out.println(" ");
     list.printLinkedList();
