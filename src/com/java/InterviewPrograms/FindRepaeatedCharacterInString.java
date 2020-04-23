@@ -27,8 +27,7 @@ public class FindRepaeatedCharacterInString
 
         Set<Map.Entry<Character, Integer>> set = map.entrySet();
         System.out.println("Repeated characters");
-        for (Map.Entry<Character, Integer> entrySet : set)
-        {
+        for (Entry<Character, Integer> entrySet : set) {
             if (entrySet.getValue() > 1)
             {
                 System.out.printf("%s%n", entrySet.getKey() + "-------> " + entrySet.getValue());
@@ -40,6 +39,6 @@ public class FindRepaeatedCharacterInString
 
     {
 
-        FindRepaeatedCharacterInString.findRepeatedCharacter("darshandarshan");
+        FindRepaeatedCharacterInString.findRepeatedCharacter("darshanwr");
     }
 }

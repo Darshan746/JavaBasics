@@ -60,12 +60,12 @@ class HashMapCustom<K, V> {
             return;
           }
           else{
-            newEntry.next=current.next;
-            previous.next=newEntry;
+            newEntry.next = current.next;
+            previous.next = newEntry;
             return;
           }
         }
-        previous=current;
+        previous = current;
         current = current.next;
       }
       previous.next = newEntry;

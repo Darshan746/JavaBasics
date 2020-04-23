@@ -64,7 +64,7 @@ public class LongestSubString
 
     public static void main(String[] args)
     {
-        longestSubstring("ddArbindaodee");
+        longestSubstring("Arbindaode");
 
         System.out.println("==========================");
 

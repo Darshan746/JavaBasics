@@ -1,0 +1,27 @@
+
+M	java:S106#"9Replace this use of System.out or System.err by a logger.(ÖüÁx
+V	java:S125""<This block of commented-out lines of code should be removed.(¡‰Ôþúÿÿÿÿ
+=
+java:S1481"'Remove this unused "ch" local variable.(È‘Ã¦
+Q	java:S125
+"<This block of commented-out lines of code should be removed.(áä»ý
+V	java:S125"<This block of commented-out lines of code should be removed.(•¡´¥ÿÿÿÿÿ
+P
+java:S1854"5Remove this useless assignment to local variable "m".(—«Ñçûÿÿÿÿ
+K
+java:S1854"5Remove this useless assignment to local variable "d".(¦™©¤
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“œåá
+L
+java:S1854"6Remove this useless assignment to local variable "ch".(È‘Ã¦
+V	java:S125"<This block of commented-out lines of code should be removed.(šÔ×îúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(“¬“
+>	java:S108%")Either remove or fill this block of code.(½ªÎ­
+S	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ
+<
+java:S1481"&Remove this unused "d" local variable.(¦™©¤
+<
+java:S1481"&Remove this unused "x" local variable.(ãÓ·Ž
+K
+java:S1854"5Remove this useless assignment to local variable "x".(ãÓ·Ž
+A
+java:S1481"&Remove this unused "m" local variable.(—«Ñçûÿÿÿÿ
