@@ -1,6 +1,6 @@
 package com.java.datastructure.com.java.datastructure.tree;
 
-public class BinaryNode {
+public class Node {
 
   public int getData() {
     return data;
@@ -18,25 +18,25 @@ public class BinaryNode {
     this.data = data;
   }
 
-  public BinaryNode getLeft() {
+  public Node getLeft() {
     return left;
   }
 
-  public void setLeft(BinaryNode left) {
+  public void setLeft(Node left) {
     this.left = left;
   }
 
-  public BinaryNode getRight() {
+  public Node getRight() {
     return right;
   }
 
-  public void setRight(BinaryNode right) {
+  public void setRight(Node right) {
     this.right = right;
   }
 
   public int data;
-  public BinaryNode left;
-  public BinaryNode right;
+  public Node left;
+  public Node right;
 
 
 }
