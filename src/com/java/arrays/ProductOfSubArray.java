@@ -1,35 +1,47 @@
 package com.java.arrays;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ProductOfSubArray {
 
+    static List<Integer> integerList = new ArrayList<>();
+    static void printSubArrays(int []arr, int start, int end) {
+        // Stop if we have reached the end of the array
+        if (end == arr.length) {
+            int product =1 ;
 
-    // Function to find product of all subarrays
-    static void product_subarrays(int arr[], int n)
-    {
-        // Variable to store the product
-        int product = 1;
-
-        // Compute the product while
-        // traversing for subarrays
-        for (int i = 0; i < n; i++) {
-            for (int j = i; j < n; j++) {
-                product *= arr[j];
+            for (Integer intVal : integerList) {
+                product*=intVal;
             }
+            System.out.println("Product Is");
+            System.out.println(product);
+            return;
         }
 
-        // Printing product of all subarray
-        System.out.println(product+"\n");
+
+            // Increment the end point and start from 0
+        else if (start > end)
+            printSubArrays(arr, 0, end + 1);
+
+            // Print the subarray and increment the starting point
+        else
+        {
+            System.out.print("[");
+            for (int i = start; i < end; i++){
+                integerList.add(arr[i]);
+                System.out.print(arr[i]+", ");
+            }
+            System.out.println(arr[end]+"]");
+            integerList.add(arr[end]);
+            printSubArrays(arr, start + 1, end);
+        }
+
+        return;
     }
 
-    // Driver code
-    public static void main(String args[])
-    {
-        int arr[] = { 2, 8, 4 };
-
-        int n = arr.length;
-
-        // Function call
-        product_subarrays(arr, n);
-
+    public static void main(String[] args) {
+        int[] array = {1,2,3};
+        printSubArrays(array, 0, 0);
     }
 }

@@ -1,0 +1,12 @@
+
+\
+java:S1126#"AReplace this if-then-else statement by a single return statement.(Ÿ½ùèıÿÿÿÿ
+S
+java:S1197*"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+7
+java:S1643 "Use a StringBuilder instead.(Ä®Èäúÿÿÿÿ
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(Ôªùÿÿÿÿ
+~
+java:S1157#"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(Ÿ½ùèıÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Óø½È
+V	java:S125"<This block of commented-out lines of code should be removed.(—©ùÿÿÿÿ

@@ -9,6 +9,7 @@ public class RemoveWhiteSpace {
   }
 
   public static void main(String[] args) {
-    System.out.print(removeWiteSpace(" Hello darshan  how are you"));
+    System.out.print(removeWiteSpace(" Hello darshan  how are you    ki"));
+
   }
 }

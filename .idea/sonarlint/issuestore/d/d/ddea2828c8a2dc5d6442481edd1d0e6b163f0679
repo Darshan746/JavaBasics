@@ -1,9 +1,9 @@
 
 Z
-java:S1197"8Move the array designator from the variable to the type.(ÿ’Øşúÿÿÿÿ8ùÉ®å™.
-Z
 java:S1197"8Move the array designator from the variable to the type.(º ìıÿÿÿÿ8ùÉ®å™.
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ’Øşúÿÿÿÿ8ùÉ®å™.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ş³¦Ğúÿÿÿÿ8ùÉ®å™.
 U
 java:S1197"8Move the array designator from the variable to the type.(®¨öÎ8ùÉ®å™.
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ’Øşúÿÿÿÿ8ùÉ®å™.
+Z
+java:S1197"8Move the array designator from the variable to the type.(ÿ’Øşúÿÿÿÿ8ùÉ®å™.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ş³¦Ğúÿÿÿÿ8ùÉ®å™.

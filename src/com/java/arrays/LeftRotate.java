@@ -5,8 +5,7 @@ import java.util.Arrays;
 public class LeftRotate {
 
     public void leftRotate(int[] array, int digit, int length) {
-
-            for(int i=0;i<digit ; i++) {
+            for(int i=0; i<digit; i++) {
                 leftRotateByOne(array, length);
             }
     }

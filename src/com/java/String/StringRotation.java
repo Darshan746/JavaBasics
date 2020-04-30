@@ -16,6 +16,6 @@ public class StringRotation {
     }
 
     public static void main(String[] args) {
-        System.out.println(isStringRotation("Darshan", "arshDan"));
+        System.out.println(isStringRotation("Darshan", "anDarsh"));
     }
 }

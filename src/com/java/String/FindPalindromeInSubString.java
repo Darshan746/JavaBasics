@@ -27,6 +27,17 @@ public class FindPalindromeInSubString {
     }
 
     public static void main(String[] args) {
-        System.out.println(getPalindromeString("abcbcg"));
+        List<String> palindromicSubStrings  = getPalindromeString("abcbcg");
+        String longestSubString = "";
+        int max = 0;
+      for(String str: palindromicSubStrings) {
+          if(str.length() > max) {
+              longestSubString = str;
+              max = str.length();
+          }
+      }
+        System.out.println(longestSubString);
+
+
     }
 }

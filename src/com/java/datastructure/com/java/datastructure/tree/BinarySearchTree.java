@@ -22,6 +22,23 @@ public class BinarySearchTree {
       return node;
   }
 
+  //check inoder and preorder are same.
+  public void inOrderTraversal(Node node) {
+
+      if(node == null) {
+          return;
+      }
+      // LPR
+      if(node.left!=null) {
+          inOrderTraversal(node);
+          System.out.println(node.data+ " ");
+      }
+      if(node.right != null) {
+          inOrderTraversal(node);
+          System.out.println(node.data);
+      }
+  }
+
   public static void main(String[] args) {
     BinarySearchTree b = new BinarySearchTree();
     Node root = null;
@@ -29,7 +46,7 @@ public class BinarySearchTree {
     root = b.insert(root, 8);
     root = b.insert(root, 3);
     root = b.insert(root, 10);
-    
+
     System.out.println(b);
 
   }

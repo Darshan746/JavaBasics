@@ -12,8 +12,7 @@ public class MyList<E>
         elements = new Object[10];
     }
 
-    public void add(E e)
-    {
+    public void add(E e) {
         if (arraySize >= elements.length) {
             ensureCapacity();
         }
