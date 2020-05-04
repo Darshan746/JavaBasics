@@ -1,17 +1,0 @@
-
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äüÀœüÿÿÿÿ
-E
-java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
-I
-java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
-J
-java:S1854#"5Remove this useless assignment to local variable "s".(Şƒ¸w
-N	java:S106"9Replace this use of System.out or System.err by a logger.(šª¬
-S	java:S106 "9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ
-S
-java:S1197+"8Move the array designator from the variable to the type.(ŞáàÃüÿÿÿÿ
-;
-java:S1481#"&Remove this unused "s" local variable.(Şƒ¸w
-Q	java:S125$"<This block of commented-out lines of code should be removed.(«–ş»
-V	java:S1250"<This block of commented-out lines of code should be removed.(—æÎĞúÿÿÿÿ
-Q	java:S1258"<This block of commented-out lines of code should be removed.(ÆìÒÜ

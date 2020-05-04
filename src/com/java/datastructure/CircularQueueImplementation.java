@@ -6,15 +6,13 @@ public class CircularQueueImplementation
     private int size;
     private static int[] cqueue;
 
-    public CircularQueueImplementation(int size)
-    {
+    public CircularQueueImplementation(int size) {
         cqueue = new int[size];
         this.size = size;
     }
 
     // Circular queue Add Operation
-    public void enqueue(int element)
-    {
+    public void enqueue(int element) {
         if(front == (rear+1) % size){
             System.out.println("Queue is full");
             return;
@@ -41,14 +39,12 @@ public class CircularQueueImplementation
         }
 
         // This condition is Only one element left in the circular queue
-        else if (front == rear)
-        {
+        else if (front == rear) {
             System.out.println("Deleted element is " + cqueue[front]);
             front = -1;
             rear = -1;
         }
-        else if (front == size - 1)
-        {
+        else if (front == size - 1) {
             int ele = cqueue[front];
             System.out.println("Delete ele " + ele);
             front = 0;
@@ -63,8 +59,7 @@ public class CircularQueueImplementation
 
 
     void display() {
-        for(int i=front+1 ; i!=(rear+1) ; i=(i+1)%cqueue.length)
-        {
+        for(int i=front+1 ; i!=(rear+1) ; i=(i+1)%cqueue.length) {
             System.out.print(" "+cqueue[i]);
         }
     }

@@ -26,14 +26,14 @@ public class MyList<E>
         elements = Arrays.copyOf(elements, newSize);
     }
 
-    private E get(int i) {
+    public E get(int i) {
         if (i >= arraySize) {
             throw new ArrayIndexOutOfBoundsException();
         }
         return (E) elements[i];
     }
 
-    private void remove(int index) {
+    public void remove(int index) {
         if (index > arraySize) {
             throw new ArrayIndexOutOfBoundsException();
         } else {
@@ -77,6 +77,7 @@ public class MyList<E>
         a.displayList();
         System.out.println(" ");
         a.removeObject(5);
+        a.removeObject(4);
 a.displayList();
     }
 

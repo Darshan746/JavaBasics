@@ -8,7 +8,7 @@ public class BinarySearch {
         if (target == array[mid]) {
             return mid;
         }
-        if (target < array[mid]) {
+        if(target < array[mid]) {
             end = mid ;
             while (start < end) {
                 if (array[start] == target) {
@@ -17,7 +17,7 @@ public class BinarySearch {
                 start++;
             }
         }
-        if ( target > array[mid]) {
+        if(target > array[mid]) {
             start = mid + 1;
             while (start < end) {
                 if (array[start] == target) {

@@ -3,7 +3,8 @@ package com.java.datastructure;
 import java.util.Arrays;
 
 public class Mergesort {
-    public static void mergesort(int[] input) {
+    public static void mergesort(int[] input)
+    {
         mergeSort(input, 0, input.length - 1);
     }
 
@@ -21,9 +22,6 @@ public class Mergesort {
 
 
     }
-
-
-
     private static void mergeSort(int[] input, int start, int end) {
     // break problem into smaller structurally identical problems
         int mid = (start + end) / 2;
@@ -37,8 +35,6 @@ public class Mergesort {
         int last = mid + 1;
         int[] tmp = new int[end - start + 1];
 
-
-
         while (first <= mid && last <= end) {
             tmp[i++] = input[first] < input[last] ? input[first++] : input[last++];
         }
@@ -48,11 +44,9 @@ public class Mergesort {
         while (last <= end) {
             tmp[i++] = input[last++];
         }
-
         i = 0;
         while (start <= end){
             input[start++] = tmp[i++];
         }
     }
 }
-

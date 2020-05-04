@@ -34,10 +34,11 @@ public class Queue
         }
         else
         {
-            for (int i = 0; i < rear; i++)
+            for (int i = 0; i < rear-1; i++)
             {
                 queue[i] = queue[i + 1];
             }
+            rear--;
         }
     }
 
@@ -64,6 +65,13 @@ public class Queue
             q.enQueue(i);
         }
         q.displayQueue();
+        q.deQueue();
+        System.out.println();
+        q.displayQueue();
+        q.deQueue();
+        System.out.println();
+        q.displayQueue();
+
     }
 
 }
