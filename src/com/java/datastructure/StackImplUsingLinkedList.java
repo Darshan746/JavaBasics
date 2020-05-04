@@ -2,7 +2,7 @@ package com.java.datastructure;
 
 public class StackImplUsingLinkedList {
     Node top;
-    
+
     // Constructor
     StackImplUsingLinkedList()
     {
