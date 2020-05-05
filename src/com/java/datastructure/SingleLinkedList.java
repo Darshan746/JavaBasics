@@ -112,6 +112,27 @@ public class SingleLinkedList {
       }
     }
   }
+
+  /**
+   * Check the linked list size is even or odd without counting nodes
+   *
+   * increment node by 2 node odd next  will point to null even will point to null
+   * @param head
+   */
+  public void evenOrOdd(Node head) {
+    Node node = head;
+      while (true) {
+        if(node==null) {
+          System.out.println("EVEN");
+          return;}
+        if(node.next==null) {
+          System.out.println("ODD");
+          return;
+        }
+        node = node.next.next;
+      }
+    }
+
   public static void main(String[] args) {
     SingleLinkedList list = new SingleLinkedList();
 
@@ -121,21 +142,13 @@ public class SingleLinkedList {
     list.insertAtLast(76);
     list.insertAtLast(4321);
     list.insertAtLast(123);
-    //list.insertAtLast(898);
+    list.insertAtLast(123);
 
+    list.evenOrOdd(list.head);
 
     list.printLinkedList();
     System.out.println(" ");
- //   list.removeDuplicate();
- //   list.removeDuplicate();
-  //  list.printLinkedList();
     System.out.println(list.findMidElemInLinkedList());
-    // list.reverse(list.head);
-   /* System.out.println(" ");
-    list.printLinkedList();
-    System.out.println(" ");
-    System.out.println("");
-*/
   }
 
 }
