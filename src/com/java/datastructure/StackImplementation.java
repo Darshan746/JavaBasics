@@ -84,4 +84,9 @@ public class StackImplementation
         }
     }
 
+   public boolean isEmpty()
+    {
+        return (top == -1) ? true : false;
+    }
+
 }
