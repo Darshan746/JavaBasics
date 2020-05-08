@@ -34,7 +34,7 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        int[] array = {2,1,60,23,98,5};
+        int[] array = {51,4,2,8,1};
 
         System.out.println("Before sorting elements");
         Arrays.stream(array).forEach(p->{
