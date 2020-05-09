@@ -1,0 +1,17 @@
+
+K
+java:S2209"5Change this instance-reference to a static reference.(øêŒÕ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(Âû¯Ğüÿÿÿÿ
+P
+java:S2209
+"5Change this instance-reference to a static reference.(Â¿âÿÿÿÿÿ
+\
+java:S1126"AReplace this if-then-else statement by a single return statement.(Êîé÷ûÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(Âû¯Ğüÿÿÿÿ
+7
+java:S3010"!Remove this assignment of "tail".(øêŒÕ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ã¹æàúÿÿÿÿ
+<
+java:S3010
+"!Remove this assignment of "head".(Â¿âÿÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(Ã¹æàúÿÿÿÿ

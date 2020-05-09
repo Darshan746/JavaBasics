@@ -6,10 +6,10 @@ import java.util.regex.Pattern;
 public class ExtractNumberFromString {
 
     public static  void extractNo(String str) {
-        Pattern pattern = Pattern.compile("(\\d*)");
+        Pattern pattern = Pattern.compile("[\\d*]");
         Matcher matcher = pattern.matcher(str);
         while (matcher.find()){
-            System.out.println(matcher.group());
+            System.out.print(matcher.group()+" ");
 
         }
     }

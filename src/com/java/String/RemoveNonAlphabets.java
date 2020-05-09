@@ -23,7 +23,7 @@ public class RemoveNonAlphabets {
 
   public static void main(String[] args) {
   //  removeNonAlphabetic("12gg^");
-    Pattern pattern = Pattern.compile("[\\w\\d\\s]");
+    Pattern pattern = Pattern.compile("(\\w*)");
     Matcher matcher = pattern.matcher("4gg92^$!@");
     while(matcher.find()){
       System.out.print(matcher.group());

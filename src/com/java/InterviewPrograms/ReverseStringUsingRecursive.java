@@ -6,11 +6,11 @@ public class ReverseStringUsingRecursive {
     
     public String reverseString(String str){
          
-       if(str.length()==0){
+       if(str.length()<=1){
        	return str;
 	   }
-            reverse += str.charAt(str.length()-1)+reverseString(str.substring(0,str.length()-1));
-            return reverse;
+           // reverse += str.charAt(str.length()-1)+reverseString(str.substring(0,str.length()-1));
+            return reverseString(str.substring(1))+str.charAt(0);
         }
     
 
@@ -18,7 +18,7 @@ public class ReverseStringUsingRecursive {
 	public static void main(String args[]) {
 		
 		ReverseStringUsingRecursive a = new ReverseStringUsingRecursive();
-		System.out.println(a.reverseString("Dars"));
+		System.out.println(a.reverseString("Darsh"));
 	}
 
 }
