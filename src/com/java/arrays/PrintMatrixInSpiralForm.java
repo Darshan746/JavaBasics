@@ -16,10 +16,10 @@ public class PrintMatrixInSpiralForm {
         while (k <= last_row && l <= last_col) {
 
             //printing the row
-            for(i=l; i<=last_col; l++) {
+            for(i=l; i<=last_col; i++) {
                 //row is constant
                 printMatrix(k, i, mat);
-            }//first row is done . increment k
+            }//first row is doe . increment k
             k++;
 
             //printing last row

@@ -1,14 +1,14 @@
 
 Z
 java:S1197="8Move the array designator from the variable to the type.(Ó¢¸Ïüÿÿÿÿ8ê›ƒ.
-U	java:S1068"9Replace this use of System.out or System.err by a logger.(ŞÚç°8ê›ƒ.
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(àóíûøÿÿÿÿ8ê›ƒ.
+K
+java:S11254")Remove the literal "false" boolean value.(Ø‚ÙÏüÿÿÿÿ8ê›ƒ.
+D
+java:S1125!"(Remove the literal "true" boolean value.(˜Ÿ¡8Ä·—Ÿ.
 ?
 java:S1659
 ""Declare "next" on a separate line.(ÎÕéÚ8Û‘­ƒ.
-Z	java:S106 "9Replace this use of System.out or System.err by a logger.(àóíûøÿÿÿÿ8ê›ƒ.
 U
 java:S1197"8Move the array designator from the variable to the type.(ø­‰¬8ê›ƒ.
-D
-java:S1125!"(Remove the literal "true" boolean value.(˜Ÿ¡8ê›ƒ.
-K
-java:S11254")Remove the literal "false" boolean value.(Ø‚ÙÏüÿÿÿÿ8ê›ƒ.
+U	java:S1068"9Replace this use of System.out or System.err by a logger.(ŞÚç°8ê›ƒ.

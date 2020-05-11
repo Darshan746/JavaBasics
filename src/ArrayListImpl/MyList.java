@@ -39,7 +39,7 @@ public class MyList<E>
         } else {
             Object obj = elements[index];
 
-            for (int j = 0; j < arraySize; j++) {
+            for (int j = index; j < arraySize; j++) {
                 elements[j] = elements[j + 1];
             }
             arraySize--;
@@ -59,6 +59,7 @@ public class MyList<E>
                         elements[j] = elements[j + 1];
                     }
                     arraySize = arraySize - 1;
+                    return;
                 }
             }
         }
@@ -71,14 +72,20 @@ public class MyList<E>
         a.add(4);
         a.add(5);
         a.add(6);
-        a.add(48);
+        a.add(4);
 
-        System.out.println(a.get(2));
+       // System.out.println(a.get(2));
         a.displayList();
-        System.out.println(" ");
-        a.removeObject(5);
         a.removeObject(4);
-a.displayList();
+        System.out.println();
+        a.displayList();
+        a.remove(2);
+        System.out.println();
+        a.displayList();
+      //  System.out.println(" ");
+      //  a.removeObject(5);
+      //  a.removeObject(4);
+//a.displayList();
     }
 
 }

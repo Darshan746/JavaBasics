@@ -1,22 +1,22 @@
 
+S
+java:S1197C"8Move the array designator from the variable to the type.(º ìıÿÿÿÿ
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(€ç±ëùÿÿÿÿ
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(ÔÁ‹»
+N	java:S106J"9Replace this use of System.out or System.err by a logger.( Ãø
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(•ÑÚÇÿÿÿÿÿ
 =
 java:S1659""Declare "rear" on a separate line.(´ù‚øúÿÿÿÿ
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(ôÄƒ”
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(˜–´ıÿÿÿÿ
 >
 java:S3010
 "#Remove this assignment of "cqueue".(Œî“£ùÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ş…ËÎ
-Q
-java:S2696"6Make the enclosing method "static" or remove this set.(€ç±ëùÿÿÿÿ
 1
 java:S3626&"Remove this redundant jump.(ûÁİ…
+S	java:S106R"9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ş…ËÎ
 /
 java:S2178$"Correct this "&" to "&&".(¯€óï
 S	java:S106%"9Replace this use of System.out or System.err by a logger.(¤©²šüÿÿÿÿ
-N	java:S106+"9Replace this use of System.out or System.err by a logger.(ôÄƒ”
-N	java:S1061"9Replace this use of System.out or System.err by a logger.(ÔÁ‹»
-S	java:S1066"9Replace this use of System.out or System.err by a logger.(˜–´ıÿÿÿÿ
-S	java:S106?"9Replace this use of System.out or System.err by a logger.(•ÑÚÇÿÿÿÿÿ
-S
-java:S1197C"8Move the array designator from the variable to the type.(º ìıÿÿÿÿ
-N	java:S106J"9Replace this use of System.out or System.err by a logger.( Ãø
-S	java:S106R"9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ
