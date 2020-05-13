@@ -1,3 +1,6 @@
 
-]
-java:S2094"BRemove this empty class, write its code or make it an "interface".(³ÜŠ“ıÿÿÿÿ
+m
+java:S1149
+"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ßî¶Û8òá÷µ .
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ƒìîüıÿÿÿÿ8‰º¶ .
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(çšÕøÿÿÿÿ8–õ‚¶ .

@@ -18,7 +18,6 @@ public class PrimeWithGivenRange {
         if(count == 2){
             System.out.print(i+" ");
         }
-
     }
     }
 

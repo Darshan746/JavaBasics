@@ -22,7 +22,7 @@ public class PrintMatrixInSpiralForm {
             }//first row is doe . increment k
             k++;
 
-            //printing last row
+            //printing last column
             for(i=k; i<=last_row; i++) {
                 printMatrix(i, last_col, mat);
             } //printed last column

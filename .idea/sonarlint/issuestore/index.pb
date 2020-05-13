@@ -129,3 +129,5 @@ b
 0src/com/java/datastructure/SingleLinkedList.java,c/c/cc781156ddbfa6faf955f787e7042432b6107ce8
 h
 8src/com/java/datastructure/StackImplUsingLinkedList.java,a/8/a86d02fdc0e12a0787202fa875af08c991d2645e
+e
+5src/com/java/arrays/SegregateNegativeAndPositive.java,d/1/d1a15a966a981d58407f30bf2117480190b80f04
