@@ -1,0 +1,14 @@
+
+X
+java:S3518"CMake sure this expression can't be zero before doing this division.(ûºú
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ù¿éûÿÿÿÿ
+J
+java:S1854"5Remove this useless assignment to local variable "a".(ûºú
+„
+java:S1130"iRemove the declaration of thrown exception 'java.lang.NullPointerException' which is a runtime exception.(¥Â»Îÿÿÿÿÿ
+m
+java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û
+;
+java:S1481"&Remove this unused "a" local variable.(ûºú
+Q	java:S125"<This block of commented-out lines of code should be removed.(º•»¾
+V	java:S125"<This block of commented-out lines of code should be removed.(óàÚåüÿÿÿÿ

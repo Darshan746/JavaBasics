@@ -1,7 +1,7 @@
 
 S	java:S106	"9Replace this use of System.out or System.err by a logger.(ì‘»ðûÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Óø½È
 O
 java:S1854"9Remove this useless assignment to local variable "array".(£Á¸±
 @
 java:S1481"*Remove this unused "array" local variable.(£Á¸±
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Óø½È

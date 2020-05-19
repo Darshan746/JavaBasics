@@ -182,17 +182,25 @@ public class SingleLinkedList {
   public static void main(String[] args) {
     SingleLinkedList list = new SingleLinkedList();
 
-    list.insertFirst(123);
+  /*  list.insertFirst(123);
     list.insertAtLast(1234);
     list.insertAtLast(4321);
     list.insertAtLast(76);
     list.insertAtLast(4321);
     list.insertAtLast(123);
     list.insertAtLast(123);
+*/
+
+
+    list.insertFirst(1);
+    list.insertAtLast(2);
+    list.insertAtLast(1);
+
+    System.out.println(LinkedListIsPalindrome.isLinkedListPalindrome(list.head));
 
     // list.evenOrOdd(list.head);
-    list.swapNodes(123, 76);
-    list.printLinkedList();
+ //   list.swapNodes(123, 76);
+  //  list.printLinkedList();
     System.out.println(" ");
    // System.out.println(list.findMidElemInLinkedList());
   }

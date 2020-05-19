@@ -1,0 +1,21 @@
+
+Z
+java:S1197Z"8Move the array designator from the variable to the type.(ãíÔ¿üÿÿÿÿ8ìĞ´ğ .
+U	java:S106@"9Replace this use of System.out or System.err by a logger.(·”„×8ìĞ´ğ .
+A
+java:S1659"Declare "k" on a separate line.(–üÒóøÿÿÿÿ8ìĞ´ğ .
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(£Ìš8ìĞ´ğ .
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(ş¹ßùÿÿÿÿ8ìĞ´ğ .
+i
+java:S3008"LRename this field "R" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Ú°ƒ8ìĞ´ğ .
+t
+java:S3776
+"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.( ›‘²şÿÿÿÿ8ìĞ´ğ .
+u	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(•ü–8ìĞ´ğ .
+A
+java:S1659"Declare "l" on a separate line.(–üÒóøÿÿÿÿ8ìĞ´ğ .
+Z
+java:S1197"8Move the array designator from the variable to the type.(Éäº©øÿÿÿÿ8ìĞ´ğ .
+Z	java:S106O"9Replace this use of System.out or System.err by a logger.(×å€ëıÿÿÿÿ8ìĞ´ğ .
+n
+java:S3008"LRename this field "C" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Œ’šÿÿÿÿÿ8ìĞ´ğ .

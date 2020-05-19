@@ -61,7 +61,7 @@ public class StackImplUsingLinkedList {
         }
 
         // update the top pointer to point to the next node
-        top = (top).next;
+        top = top.next;
     }
 
     public void display()

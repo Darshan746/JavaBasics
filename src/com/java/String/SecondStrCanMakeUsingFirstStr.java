@@ -30,7 +30,7 @@ public class SecondStrCanMakeUsingFirstStr {
     static public void main(String []args)
     {
         String str1 = "geekforgeeks";
-        String str2 = "forr";
+        String str2 = "for";
         if (canMakeStr2(str1, str2))
             System.out.println("Yes");
         else

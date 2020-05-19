@@ -1,5 +1,6 @@
 package com.java.String;
 
+import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -22,12 +23,12 @@ public class RemoveNonAlphabets {
   }
 
   public static void main(String[] args) {
-  //  removeNonAlphabetic("12gg^");
-    Pattern pattern = Pattern.compile("(\\w*)");
-    Matcher matcher = pattern.matcher("4gg92^$!@");
-    while(matcher.find()){
-      System.out.print(matcher.group());
+    removeNonAlphabetic("12gg^");
+   // Pattern pattern = Pattern.compile("(\\w*)");
+//    Matcher matcher = pattern.matcher("4gg92^$!@");
+//    while(matcher.find()){
+//      System.out.print(matcher.group());
 
     }
-  }
+
 }

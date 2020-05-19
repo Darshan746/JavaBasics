@@ -21,11 +21,11 @@ public class ReverseNegativeNumWithOrder
                     temp[j++] = arr[i];
             }
      
-            // If array contains all positive or all 
+           /* // If array contains all positive or all
             // negative.
-            if (j == n || j == 0) 
-                return;
-     
+            if (j == n || j == 0)
+                return;*/
+
             // Store -ve element in temp array
             for (int i = 0; i < n; i++) {
                 if (arr[i] < 0)
