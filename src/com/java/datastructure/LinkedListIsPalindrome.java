@@ -12,22 +12,16 @@ public class LinkedListIsPalindrome {
             stack.push(node.data);
             node = node.next;
         }
-
         Node headNode = head;
         while (headNode!=null) {
             if(headNode.data == (Integer) stack.pop()) {
                 isPalindrome = true;
                 headNode = headNode.next;
-            }else {
+            } else {
                 isPalindrome = false;
                 break;
             }
         }
         return isPalindrome;
     }
-
-    public static void main(String[] args) {
-
-    }
-
 }
