@@ -1,20 +1,20 @@
 
-n
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ôõÜ8¦ÜËÇŸ.
-Z	java:S1065"9Replace this use of System.out or System.err by a logger.(˜âØ™øÿÿÿÿ8öÃ¨ÇŸ.
-A
-java:S1659"Declare "l" on a separate line.(–üÒóøÿÿÿÿ8Ì‰™ÇŸ.
-[
-java:S2251+"9"i" is incremented and will never reach "stop condition".(¼å¨êüÿÿÿÿ8¦ÜËÇŸ.
-D
-java:S2189#""Correct this loop's end condition.(İ”øùÿÿÿÿ8ÛïÊ‹ .
-D
-java:S2189+""Correct this loop's end condition.(¼å¨êüÿÿÿÿ8ÛïÊ‹ .
-A
-java:S1659"Declare "k" on a separate line.(–üÒóøÿÿÿÿ8Ì‰™ÇŸ.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ¿áÅúÿÿÿÿ8š‘›ÇŸ.
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×–À8š‘›ÇŸ.
 T
 java:S1197"8Move the array designator from the variable to the type.(ôõÜ8ï†–ÇŸ.
 [
+java:S2251+"9"i" is incremented and will never reach "stop condition".(¼å¨êüÿÿÿÿ8¦ÜËÇŸ.
+D
+java:S2189+""Correct this loop's end condition.(¼å¨êüÿÿÿÿ8ÛïÊ‹ .
+[
 java:S2251#"9"i" is decremented and will never reach "stop condition".(İ”øùÿÿÿÿ8½ÔÄÇŸ.
+D
+java:S2189#""Correct this loop's end condition.(İ”øùÿÿÿÿ8ÛïÊ‹ .
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ¿áÅúÿÿÿÿ8š‘›ÇŸ.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×–À8š‘›ÇŸ.
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(˜âØ™øÿÿÿÿ8öÃ¨ÇŸ.
+A
+java:S1659"Declare "k" on a separate line.(–üÒóøÿÿÿÿ8Ì‰™ÇŸ.
+n
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ôõÜ8¦ÜËÇŸ.
+A
+java:S1659"Declare "l" on a separate line.(–üÒóøÿÿÿÿ8Ì‰™ÇŸ.

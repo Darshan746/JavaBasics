@@ -1,6 +1,6 @@
 
-M
-java:S3972"7Move this "if" to a new line or add the missing "else".(ê«ÞÁ
 N
 java:S1197"8Move the array designator from the variable to the type.(ÔÌžñ
+M
+java:S3972"7Move this "if" to a new line or add the missing "else".(ê«ÞÁ
 S	java:S106"9Replace this use of System.out or System.err by a logger.(èÄ±Øùÿÿÿÿ

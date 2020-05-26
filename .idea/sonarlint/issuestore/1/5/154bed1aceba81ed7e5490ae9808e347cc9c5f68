@@ -1,10 +1,10 @@
 
+c
+java:S1192
+"HDefine a constant instead of duplicating this literal "darshan" 3 times.(–³Åùÿÿÿÿ
 S	java:S106
 "9Replace this use of System.out or System.err by a logger.(–³Åùÿÿÿÿ
 „
 java:S1488"iImmediately return this expression instead of assigning it to the temporary variable "leftRotatedString".(‹€Óøÿÿÿÿ
-c
-java:S1192
-"HDefine a constant instead of duplicating this literal "darshan" 3 times.(–³Åùÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Óø½È
 N	java:S106"9Replace this use of System.out or System.err by a logger.(ß˜¬Õ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Óø½È

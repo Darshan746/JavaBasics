@@ -9,7 +9,7 @@ public class MergeTwoSortedArray
         int i=0;
         int j = 0;
         int k =0;
-        int[] resultantArray = new int[arrayOne.length+arrayTwo.length];
+        int[] resultantArray = new int[arrayOne.length + arrayTwo.length];
 
         while(i<arrayOne.length && j < arrayTwo.length) {
             if(arrayOne[i] < arrayTwo[j]){
@@ -22,13 +22,13 @@ public class MergeTwoSortedArray
             }
 
         }
-        while (i<arrayOne.length) {
-            resultantArray[k++] = arrayOne[i];
-            i++;
+        while (i < arrayOne.length) {
+            resultantArray[k++] = arrayOne[i++];
+            //i++;
         }
         while(j<arrayTwo.length){
-            resultantArray[k++] = arrayTwo[j];
-            j++;
+            resultantArray[k++] = arrayTwo[j++];
+          //  j++;
         }
         System.out.println("Printing Array 1"+ " "+ Arrays.toString(arrayOne));
         System.out.println("Printing the Array 2"+ " "+ Arrays.toString(arrayTwo));

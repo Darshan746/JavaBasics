@@ -1,12 +1,12 @@
 
-F
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
 P
 java:S1854*"5Remove this useless assignment to local variable "m".(—èÿûÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(‘Ä¸Éùÿÿÿÿ
 A
 java:S1481*"&Remove this unused "m" local variable.(—èÿûÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ç€ÕÅ
-S	java:S106!"9Replace this use of System.out or System.err by a logger.(‘Ä¸Éùÿÿÿÿ
 S	java:S106"9Replace this use of System.out or System.err by a logger.(ÿÓƒÿÿÿÿÿ
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ç€ÕÅ
 F
 java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
