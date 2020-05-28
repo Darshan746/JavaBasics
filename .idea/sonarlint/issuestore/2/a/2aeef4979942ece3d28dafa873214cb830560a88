@@ -1,18 +1,18 @@
 
-?
-java:S1659	""Declare "temp" on a separate line.(©Ü¡×8ñ¡þûž.
-<
-java:S1659	"Declare "j" on a separate line.(©Ü¡×8ñ¡þûž.
-U	java:S106)"9Replace this use of System.out or System.err by a logger.(ÊÚŸë8Çò„üž.
-Z	java:S106,"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8°†üž.
-Z	java:S106-"9Replace this use of System.out or System.err by a logger.(ùÇù±ÿÿÿÿÿ8˜Ö…üž.
-U	java:S106/"9Replace this use of System.out or System.err by a logger.(ÊÚŸë8²…üž.
-@
-java:S1659	"#Declare "pivot" on a separate line.(©Ü¡×8ñ¡þûž.
-N
-java:S1602(",Remove useless curly braces around statement(Ëˆäýÿÿÿÿ8Çò„üž.
 N
 java:S1602.",Remove useless curly braces around statement(Ëˆäýÿÿÿÿ8²…üž.
-Z	java:S106'"9Replace this use of System.out or System.err by a logger.(œôÞ‚ÿÿÿÿÿ8³´ƒüž.
+<
+java:S1659	"Declare "j" on a separate line.(©Ü¡×8ñ¡þûž.
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(ùÇù±ÿÿÿÿÿ8˜Ö…üž.
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8°†üž.
+?
+java:S1659	""Declare "temp" on a separate line.(©Ü¡×8ñ¡þûž.
+U	java:S106/"9Replace this use of System.out or System.err by a logger.(ÊÚŸë8²…üž.
 U
 java:S1197"8Move the array designator from the variable to the type.(ºÙýô8ñ¡þûž.
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(ÊÚŸë8Çò„üž.
+N
+java:S1602(",Remove useless curly braces around statement(Ëˆäýÿÿÿÿ8Çò„üž.
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(œôÞ‚ÿÿÿÿÿ8³´ƒüž.
+@
+java:S1659	"#Declare "pivot" on a separate line.(©Ü¡×8ñ¡þûž.

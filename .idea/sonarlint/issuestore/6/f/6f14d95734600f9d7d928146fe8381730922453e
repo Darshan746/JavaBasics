@@ -1,18 +1,18 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ç€ÕÅ
 6
 java:S1659" Declare "n2" on a separate line.(‰ˆÔş
 6
 java:S1659" Declare "n3" on a separate line.(‰ˆÔş
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ç€ÕÅ
 N	java:S106"9Replace this use of System.out or System.err by a logger.(®¾‘İ
 6
-java:S1659" Declare "n2" on a separate line.(ÌˆÉÃ
-6
 java:S1659" Declare "n3" on a separate line.(ÌˆÉÃ
+6
+java:S1659" Declare "n2" on a separate line.(ÌˆÉÃ
 =
-java:S1481"'Remove this unused "n1" local variable.(ÌˆÉÃ
+java:S1481"'Remove this unused "n3" local variable.(ÌˆÉÃ
 =
 java:S1481"'Remove this unused "n2" local variable.(ÌˆÉÃ
 =
-java:S1481"'Remove this unused "n3" local variable.(ÌˆÉÃ
+java:S1481"'Remove this unused "n1" local variable.(ÌˆÉÃ
 Q	java:S125"<This block of commented-out lines of code should be removed.(ù„™í

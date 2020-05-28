@@ -1,23 +1,23 @@
 
-k	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áñ¥àúÿÿÿÿ
-Y	java:S125¹"<This block of commented-out lines of code should be removed.(õâžä8Ä¥öí¢.
-A
-java:S1659™"#Declare "currY" on a separate line.(¹ëé–8›µý¡Ÿ.
-A
-java:S1659"#Declare "currX" on a separate line.(‰ì‚¢8›µý¡Ÿ.
 [
 java:S2259b"EA "NullPointerException" could be thrown; "slowPtr" is nullable here.(¾ÌÆò
-T	java:S106Ì"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ
-^	java:S125É"<This block of commented-out lines of code should be removed.(Ýà“úÿÿÿÿ8ºË÷í¢.
-e	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í˜àd
-S	java:S106S"9Replace this use of System.out or System.err by a logger.(¿Éùµüÿÿÿÿ
-N	java:S1063"9Replace this use of System.out or System.err by a logger.(¬õ…
-9
-java:S1659M"$Declare "fast_p" on a separate line.(í˜àd
 Z	java:S106~"9Replace this use of System.out or System.err by a logger.(œ˜ëèúÿÿÿÿ8§ö¬ž.
+e	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í˜àd
+V	java:S125E"<This block of commented-out lines of code should be removed.( ÇŠúÿÿÿÿ
 ^	java:S125Í"<This block of commented-out lines of code should be removed.(™ƒêÓüÿÿÿÿ8›µý¡Ÿ.
-[	java:S106"9Replace this use of System.out or System.err by a logger.(ƒô¢ôùÿÿÿÿ8µ‰ÿ«ž.
-V	java:S106Ç"9Replace this use of System.out or System.err by a logger.(•Ø®Õ8¼‚þí¢.
+k	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áñ¥àúÿÿÿÿ
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(¬õ…
+A
+java:S1659"#Declare "currX" on a separate line.(‰ì‚¢8›µý¡Ÿ.
+^	java:S125É"<This block of commented-out lines of code should be removed.(Ýà“úÿÿÿÿ8ºË÷í¢.
+S	java:S106S"9Replace this use of System.out or System.err by a logger.(¿Éùµüÿÿÿÿ
 t
 java:S2293g"YReplace the type specification in this constructor call with the diamond operator ("<>").(—Œ‰€ûÿÿÿÿ
-V	java:S125E"<This block of commented-out lines of code should be removed.( ÇŠúÿÿÿÿ
+[	java:S106"9Replace this use of System.out or System.err by a logger.(ƒô¢ôùÿÿÿÿ8µ‰ÿ«ž.
+V	java:S106Ç"9Replace this use of System.out or System.err by a logger.(•Ø®Õ8¼‚þí¢.
+9
+java:S1659M"$Declare "fast_p" on a separate line.(í˜àd
+A
+java:S1659™"#Declare "currY" on a separate line.(¹ëé–8›µý¡Ÿ.
+Y	java:S125¹"<This block of commented-out lines of code should be removed.(õâžä8Ä¥öí¢.
+T	java:S106Ì"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ
