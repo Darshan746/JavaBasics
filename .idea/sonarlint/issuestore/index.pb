@@ -161,3 +161,5 @@ V
 Lsrc/com/java/datastructure/com/java/datastructure/tree/BinarySearchTree.java,5/7/57e90a327dde5a2e2c69de3f91e45e6b76dc1a98
 p
 @src/com/java/datastructure/com/java/datastructure/tree/Node.java,2/8/288d96d386be5df9e9b15056fa3310954ccf6c07
+[
++src/com/java/arrays/Segregate0And1And2.java,8/9/89e2d76648f33f572f7e8b31f79e58df9f403d84

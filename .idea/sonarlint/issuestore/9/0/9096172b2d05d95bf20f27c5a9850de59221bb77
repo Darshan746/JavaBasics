@@ -1,11 +1,11 @@
 
-S
-java:S1197	"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ
-K
-java:S1128"0Remove this unused import 'java.util.Map.Entry'.(±þê¾úÿÿÿÿ
 o
 java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(€õ÷Î
-o
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(§Ã¹ä
+K
+java:S1128"0Remove this unused import 'java.util.Map.Entry'.(±þê¾úÿÿÿÿ
 N	java:S106"9Replace this use of System.out or System.err by a logger.(†™ñ‹
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ç€ÕÅ
+S
+java:S1197	"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(§Ã¹ä
