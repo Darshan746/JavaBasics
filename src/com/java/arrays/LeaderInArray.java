@@ -35,7 +35,7 @@ public class LeaderInArray {
 
 
     public static void main(String[] args) {
-        int[] array = {5,4,6,3,9,1,13};
+        int[] array = {5,4,6,3,9,1,8};
         // printLeader(array);
         printLeaderElem(array);
     }

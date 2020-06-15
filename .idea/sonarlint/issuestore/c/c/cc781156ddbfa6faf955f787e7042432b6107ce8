@@ -1,23 +1,23 @@
 
-[
-java:S2259b"EA "NullPointerException" could be thrown; "slowPtr" is nullable here.(¾ÌÆò
-Z	java:S106~"9Replace this use of System.out or System.err by a logger.(œ˜ëèúÿÿÿÿ8§ö¬.
-e	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í˜àd
-V	java:S125E"<This block of commented-out lines of code should be removed.( ÇŠúÿÿÿÿ
-^	java:S125Í"<This block of commented-out lines of code should be removed.(™ƒêÓüÿÿÿÿ8›µı¡Ÿ.
-k	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áñ¥àúÿÿÿÿ
-N	java:S1063"9Replace this use of System.out or System.err by a logger.(¬õ…
 A
 java:S1659"#Declare "currX" on a separate line.(‰ì‚¢8›µı¡Ÿ.
-^	java:S125É"<This block of commented-out lines of code should be removed.(İà“úÿÿÿÿ8ºË÷í¢.
-S	java:S106S"9Replace this use of System.out or System.err by a logger.(¿Éùµüÿÿÿÿ
+^	java:S125Í"<This block of commented-out lines of code should be removed.(™ƒêÓüÿÿÿÿ8›µı¡Ÿ.
+Y	java:S125¹"<This block of commented-out lines of code should be removed.(õâä8Ä¥öí¢.
 t
 java:S2293g"YReplace the type specification in this constructor call with the diamond operator ("<>").(—Œ‰€ûÿÿÿÿ
 [	java:S106"9Replace this use of System.out or System.err by a logger.(ƒô¢ôùÿÿÿÿ8µ‰ÿ«.
+^	java:S125É"<This block of commented-out lines of code should be removed.(İà“úÿÿÿÿ8ºË÷í¢.
+V	java:S125E"<This block of commented-out lines of code should be removed.( ÇŠúÿÿÿÿ
 V	java:S106Ç"9Replace this use of System.out or System.err by a logger.(•Ø®Õ8¼‚şí¢.
-9
-java:S1659M"$Declare "fast_p" on a separate line.(í˜àd
+e	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í˜àd
+Z	java:S106~"9Replace this use of System.out or System.err by a logger.(œ˜ëèúÿÿÿÿ8§ö¬.
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(¬õ…
 A
 java:S1659™"#Declare "currY" on a separate line.(¹ëé–8›µı¡Ÿ.
-Y	java:S125¹"<This block of commented-out lines of code should be removed.(õâä8Ä¥öí¢.
+[
+java:S2259b"EA "NullPointerException" could be thrown; "slowPtr" is nullable here.(¾ÌÆò
 T	java:S106Ì"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+S	java:S106S"9Replace this use of System.out or System.err by a logger.(¿Éùµüÿÿÿÿ
+k	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áñ¥àúÿÿÿÿ
+9
+java:S1659M"$Declare "fast_p" on a separate line.(í˜àd
