@@ -1,5 +1,9 @@
 package com.java.arrays;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 //Find the maximum and minimum value of an array
 public class MinAndMax {
 
@@ -20,8 +24,17 @@ public class MinAndMax {
 
     }
 
+    public static void findMinAndMax(Integer[] array) {
+        List<Integer> integers = Arrays.asList(array);
+        System.out.println("Max Ele"+Collections.max(integers));
+        System.out.println("Min Ele"+Collections.min(integers));
+
+    }
+
     public static void main(String[] args) {
         int a[] = {1,30,2,-1,3,4,5,20,90};
         findMinAndMaxOfArray(a);
+        Integer ar[] = {1,30,2,-1,3,4,5,20,90};
+        findMinAndMax(ar);
     }
 }

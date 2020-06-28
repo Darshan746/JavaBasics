@@ -13,8 +13,8 @@ public class MergeTwoSortedArray
 
         while(i<arrayOne.length && j < arrayTwo.length) {
             if(arrayOne[i] < arrayTwo[j]){
-                resultantArray[k++] = arrayOne[i];
-                i++;
+                resultantArray[k++] = arrayOne[i++];
+                //i++;
             }
             else {
                 resultantArray[k++] = arrayTwo[j];

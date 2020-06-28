@@ -12,7 +12,7 @@ public class SortArrayInWaveForm {
         for(int i=0; i<array.length-1; i++) {
 
             if(i%2 == 0) {
-                if(!(array[i]<array[i+1])) {
+                if(!(array[i]< array[i+1])) {
                     swap(array, i,i+1);
                 }
             }

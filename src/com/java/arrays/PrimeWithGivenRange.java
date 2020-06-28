@@ -11,7 +11,7 @@ public class PrimeWithGivenRange {
     for( i =1; i<=range; i++ ) {
         int count = 0;
         for(num = i; num>=1 ; num--) {
-            if(i%num==0){
+            if(i%num == 0){
                 count++;
             }
         }

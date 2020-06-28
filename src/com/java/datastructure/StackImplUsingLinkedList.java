@@ -18,7 +18,7 @@ public class StackImplUsingLinkedList {
         // check if stack (heap) is full. Then inserting an
         //  element would lead to stack overflow
         if (temp == null) {
-            System.out.print("\nHeap Overflow");
+            System.out.print("\nStack Overflow");
             return;
         }
 

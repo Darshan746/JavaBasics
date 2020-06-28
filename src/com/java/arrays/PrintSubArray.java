@@ -22,8 +22,6 @@ public class PrintSubArray {
             System.out.println(arr[end]+"]");
             printSubArrays(arr, start + 1, end);
         }
-
-        return;
     }
 
     public static void main(String[] args) {

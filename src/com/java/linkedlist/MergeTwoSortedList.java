@@ -15,7 +15,7 @@ public class MergeTwoSortedList {
                 p = sorted.next;
             }
             else {
-                sorted = q.next;
+                sorted = q;
                 q = sorted.next;
             }
         }
@@ -38,7 +38,6 @@ public class MergeTwoSortedList {
         if(q==null) {
             sorted.next = p;
         }
-
         return new_node;
     }
 
@@ -51,7 +50,7 @@ public class MergeTwoSortedList {
 
         n1.data = 1;
         n2.data = 2;
-        n3.data = 3;
+        n3.data = 5;
 
         n1.next = n2;
         n2.next = n3;
@@ -62,9 +61,9 @@ public class MergeTwoSortedList {
         Node n5 = new Node();
         Node n6 = new Node();
 
-        n4.data = 4;
-        n5.data = 5;
-        n6.data = 9;
+        n4.data = 1;
+        n5.data = 4;
+        n6.data = 6;
 
         n4.next = n5;
         n5.next = n6;

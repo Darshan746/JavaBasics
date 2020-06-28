@@ -124,7 +124,8 @@ public class SingleLinkedList {
       while (true) {
         if(node==null) {
           System.out.println("EVEN");
-          return;}
+          return;
+        }
         if(node.next==null) {
           System.out.println("ODD");
           return;

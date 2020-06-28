@@ -11,7 +11,7 @@ public class ReverseArrayWithoutTempArray {
     int l =0;
     int r = array.length-1;
 
-    while(l<=r){
+    while(l<r){
       int tmp = array[l];
       array[l] = array[r];
       array[r]=tmp;
@@ -20,14 +20,12 @@ public class ReverseArrayWithoutTempArray {
     }
 
     for(int a : array){
-      System.out.println(a);
+      System.out.print(a);
     }
   }
 
   public static void main(String[] args) {
     int[] a = {5,4,3,2,1};
     reverseArray(a);
-     String name=null;
-    System.out.println( Optional.ofNullable(name).orElseThrow(IllegalAccessError::new));
   }
 }

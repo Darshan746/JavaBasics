@@ -78,7 +78,7 @@ public class StackImplementation
 
     public void displayStack() {
         if(top!=-1){
-            for(int i=0;i<=top;i++){
+            for(int i=0;i<=top; i++){
                 System.out.println(stackArray[i]);
             }
         }

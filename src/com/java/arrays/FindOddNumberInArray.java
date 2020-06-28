@@ -5,8 +5,8 @@ public class FindOddNumberInArray {
 //find odd no in array which contain only single odd.
     public static int findOdd(int[] array) {
         int res =0;
-        for(int i=0; i<=array.length-1; i++) {
-            res = res^array[i];
+        for(int i=0; i<array.length; i++) {
+            res ^= array[i];
         }
         return res;
     }

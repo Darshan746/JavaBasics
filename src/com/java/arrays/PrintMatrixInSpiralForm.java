@@ -32,15 +32,15 @@ public class PrintMatrixInSpiralForm {
 
             if(k<=last_row){
 
-                for(i= last_col; i<=l; i--){
-                    printMatrix(last_row,i, mat);
+                for(i= last_col; i>=l; i--){
+                    printMatrix(last_row, i, mat);
                 }
                 last_row --;
             }
 
             //printing first column
             if(l<=last_col) {
-                for(i=last_row; i>=k ; i++) {
+                for(i=last_row; i>=k ; i--) {
                     printMatrix(i, l, mat);
                 }
                 l++;
