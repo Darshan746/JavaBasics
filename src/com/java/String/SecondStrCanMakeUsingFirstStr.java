@@ -29,8 +29,8 @@ public class SecondStrCanMakeUsingFirstStr {
     // Driver Code
     static public void main(String []args)
     {
-        String str1 = "geekforgeeks";
-        String str2 = "for";
+        String str1 = "geekforgeeks jij";
+        String str2 = "fojijk";
         if (canMakeStr2(str1, str2))
             System.out.println("Yes");
         else

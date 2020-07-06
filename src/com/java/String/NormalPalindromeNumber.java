@@ -4,7 +4,7 @@ public class NormalPalindromeNumber {
 	
 	public static void main(String args[]) {
 		
-		int number=323;
+		int number=393;
 		
 		int palindrome = number;
 		

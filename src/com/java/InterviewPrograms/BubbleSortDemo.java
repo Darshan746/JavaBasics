@@ -7,7 +7,7 @@ public class BubbleSortDemo {
 	public int[] sortAsscending(int[] numberList) {
 		
 		int i,j,temp=0;
-		for( i=0;i<numberList.length-1;i++){
+		for( i=0;i<numberList.length;i++){
 			for(j=0;j<numberList.length-i-1;j++){
 				if(numberList[j]>numberList[j+1])
 				{

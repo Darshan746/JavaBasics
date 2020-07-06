@@ -185,3 +185,5 @@ T
 $src/com/java/arrays/RotateArray.java,a/d/ad78b07e373b1228b185c2ca138f7c2874cd3bd3
 W
 'src/com/java/String/StringBalanced.java,c/4/c48a2afa59bcc4abe3cf4aad3c69e05a8582044e
+X
+(src/com/java/String/CountConsanants.java,4/c/4c906273bbb229b0d2a7f9815bf22b97074032dd

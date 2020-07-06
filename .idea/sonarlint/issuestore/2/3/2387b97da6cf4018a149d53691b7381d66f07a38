@@ -1,5 +1,11 @@
 
-M	java:S106'"9Replace this use of System.out or System.err by a logger.(¿ÛÄS
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Óø½È
-2
-java:S1643"Use a StringBuilder instead.(Œ½¸Æ
+L
+java:S1611 "/Remove the parentheses around the "t" parameter(»»Šó8—½°ñ°.
+9
+java:S1643"Use a StringBuilder instead.(Œ½¸Æ8ôï­ñ°.
+I
+java:S1612-",Replace this lambda with a method reference.(™ÆÞ†8Éé°ñ°.
+<
+java:S1659""Declare "j" on a separate line.(¦«¬×8—½°ñ°.
+M	java:S106;"9Replace this use of System.out or System.err by a logger.(¿ÛÄS

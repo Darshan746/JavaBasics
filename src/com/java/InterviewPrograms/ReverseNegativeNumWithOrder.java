@@ -49,8 +49,7 @@ public class ReverseNegativeNumWithOrder
             for (int i = 0; i < n; i++)
                 System.out.print(arr[i] + " ");
             
-            int i =0;
-            System.out.print(i++);
+
         }
         
        

@@ -3,6 +3,7 @@ package com.java.String;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Count substrings with same first and last characters
@@ -27,31 +28,25 @@ import java.util.List;
 public class CountSubStrWithSameFirstAndLastLetter {
 
 
-    public static int getSubStrCountWithSameFirstAndLast(String str)  {
+    public static int getSubStrCountWithSameFirstAndLast(String str) {
         List<String> strings = new ArrayList<>();
         List<String> filteredString = new ArrayList<>();
-        if(str.length()==0 || str.isEmpty()){
+        if (str.length() == 0 || str.isEmpty()) {
             throw new RuntimeException("Please give the proper input");
-        }
-        else {
+        } else {
             //finding the SubString
-            for(int i=0;i<=str.length()-1; i++) {
-                for(int j=i+1; j<=str.length();j++) {
+            for (int i = 0; i < str.length(); i++) {
+                for (int j = i + 1; j <= str.length(); j++) {
                     strings.add(str.substring(i, j));
                 }
+                filteredString = strings.stream().filter(str1 -> str1.charAt(0) == str1.charAt(str1.length() - 1)).collect(Collectors.toList());
             }
-            for(String filtered: strings) {
-                if(filtered.charAt(0)==filtered.charAt(filtered.length()-1)) {
-                    filteredString.add(filtered);
-                }
-            }
+            filteredString.forEach(s -> System.out.println(s));
+            return filteredString.size();
         }
-        System.out.println("length is "+strings.size());
-                return filteredString.size();
-                }
-
+    }
     public static void main(String[] args) {
-        System.out.println(getSubStrCountWithSameFirstAndLast("abc"));
+        System.out.println(getSubStrCountWithSameFirstAndLast("abcab"));
         }
 
 }
