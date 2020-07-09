@@ -1,5 +1,7 @@
 package com.java.arrays;
 
+import java.util.Arrays;
+
 public class DiagonalMatrix {
 
 

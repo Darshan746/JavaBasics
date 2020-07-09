@@ -24,37 +24,74 @@ public class SubArrayWithGivenSum {
     }
   }
 
-  public static void printArray(int[] array, int startRange, int endRange){
+  public static void printArray(int[] array, int startRange, int endRange) {
 
-    for(int i=startRange;i<=endRange;i++){
-      System.out.print(array[i]+" "+" ");
+    for (int i = startRange; i <= endRange; i++) {
+      System.out.print(array[i] + " " + " ");
     }
-    System.out.println("\n");
-
-
-    String s = "hello";
-   // s= s.substring(2);
-    //System.out.println(s);
-
-
+    System.out.println();
   }
+
+  public static void printSubArraySecondSol(int[] array, int givenSum) {
+//    int totalSum = 0;
+//    int end =0;
+//    Map<Integer, Integer> map = new HashMap<>();
+//
+//    while (end<array.length){
+//      totalSum +=array[end];
+//
+//      int sum  = totalSum-givenSum;
+//      if(map.containsKey(sum)){
+//        int start = map.get(sum);
+//        printArray(array, start+1, end);
+//      }else{
+//        map.put(totalSum, end++);
+//      }
+//    }
+    int currSum = array[0];
+    int start=0;
+     int end=0;
+    while (end < array.length)
+    {
+      if (currSum == givenSum)
+      {
+        printArray(array,start,end);
+      }
+
+      if (currSum <= givenSum)
+      {
+        end++;
+        if (end < array.length)
+          currSum += array[end];
+      }
+      else
+      {
+        currSum = currSum - array[start];
+        start++;
+      }
+    }
+  }
+
+
+
 
   public static void main(String[] args) {
-  int array[] = {3,4,-7,1,3,3,1,-4};
+  int array[] = {4,2,1,6,1,5,2};
   int sum =7;
-  printSubArray(array, sum);
+  //printSubArray(array, sum);
+    printSubArraySecondSol(array, 7);
 
-  int[] a = {1,2,3,4};
- // System.out.println(a);
-int index=1;
-
-  for(int i =index;i<=a.length-2;i++){
-    a[i]=a[i+1];
-  }
-
-    for(int i =0;i<=a.length-2;i++){
-      //System.out.print(a.length);
-    }
+//  int[] a = {1,2,3,4};
+// // System.out.println(a);
+//int index=1;
+//
+//  for(int i =index;i<=a.length-2;i++){
+//    a[i]=a[i+1];
+//  }
+//
+//    for(int i =0;i<=a.length-2;i++){
+//      //System.out.print(a.length);
+//    }
 
 
   }

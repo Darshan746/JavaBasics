@@ -1,17 +1,19 @@
 
-J
-java:S1854#"5Remove this useless assignment to local variable "s".(Þƒ¸w
+X	java:S125+"<This block of commented-out lines of code should be removed.(ÆêäÉ8¯ìƒÿ².
+]	java:S125$"<This block of commented-out lines of code should be removed.(â£êËøÿÿÿÿ8¯ìƒÿ².
+]	java:S125X"<This block of commented-out lines of code should be removed.(ðÊ‰©øÿÿÿÿ8¹§Ôþ².
 E
-java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ
-S	java:S106 "9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ
-V	java:S1250"<This block of commented-out lines of code should be removed.(—æÎÐúÿÿÿÿ
-Q	java:S125$"<This block of commented-out lines of code should be removed.(«–þ»
-Q	java:S1258"<This block of commented-out lines of code should be removed.(ÆìÒÜ
-I
-java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
-S
-java:S1197+"8Move the array designator from the variable to the type.(ÞáàÃüÿÿÿÿ
-;
-java:S1481#"&Remove this unused "s" local variable.(Þƒ¸w
+java:S1481P"(Remove this unused "sum" local variable.(¸šˆÂ8äÓþ².
 N	java:S106"9Replace this use of System.out or System.err by a logger.(šª¬
+N
+java:S1197O"8Move the array designator from the variable to the type.(¤óá†
+]	java:S125("<This block of commented-out lines of code should be removed.(Ã¢”ûüÿÿÿÿ8¯ìƒÿ².
+]	java:S125Q"<This block of commented-out lines of code should be removed.(šºëþÿÿÿÿ8äÓþ².
+W	java:S125\"<This block of commented-out lines of code should be removed.(ÕÄi8¹§Ôþ².
+O
+java:S1144"2Remove this unused private "printSubArray" method.(³©‰Ý8““æþ².
 k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äüÀœüÿÿÿÿ
+X	java:S125T"<This block of commented-out lines of code should be removed.(¦ŸîË8¹§Ôþ².
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8¦µ‹ÿ².
+T
+java:S1854P"7Remove this useless assignment to local variable "sum".(¸šˆÂ8äÓþ².
