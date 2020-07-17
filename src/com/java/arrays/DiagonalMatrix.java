@@ -11,14 +11,12 @@ public class DiagonalMatrix {
         for(int k=0; k<=m-1; k++) {
                 i = k;
                 j= 0;
-
                 //all diagonals ends at first row so i>=0
                 while (i>=0) {
                     //print the matrix
-
+                    //print(matrix[i][j])
                     i = i-1;
                     j = j+1;
-                    //print(matrix[i][j])
                 }
         }
 

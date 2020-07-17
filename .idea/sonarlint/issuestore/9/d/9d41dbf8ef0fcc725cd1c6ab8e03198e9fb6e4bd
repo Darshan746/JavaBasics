@@ -1,19 +1,19 @@
 
 X	java:S125+"<This block of commented-out lines of code should be removed.(ÆêäÉ8¯ìƒÿ².
-]	java:S125$"<This block of commented-out lines of code should be removed.(â£êËøÿÿÿÿ8¯ìƒÿ².
 ]	java:S125X"<This block of commented-out lines of code should be removed.(ğÊ‰©øÿÿÿÿ8¹§Ôş².
-E
-java:S1481P"(Remove this unused "sum" local variable.(¸šˆÂ8äÓş².
-N	java:S106"9Replace this use of System.out or System.err by a logger.(šª¬
+]	java:S125$"<This block of commented-out lines of code should be removed.(â£êËøÿÿÿÿ8¯ìƒÿ².
 N
 java:S1197O"8Move the array designator from the variable to the type.(¤óá†
-]	java:S125("<This block of commented-out lines of code should be removed.(Ã¢”ûüÿÿÿÿ8¯ìƒÿ².
-]	java:S125Q"<This block of commented-out lines of code should be removed.(šºëşÿÿÿÿ8äÓş².
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¦µ‹ÿ².
 W	java:S125\"<This block of commented-out lines of code should be removed.(ÕÄi8¹§Ôş².
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äüÀœüÿÿÿÿ
+]	java:S125Q"<This block of commented-out lines of code should be removed.(šºëşÿÿÿÿ8äÓş².
 O
 java:S1144"2Remove this unused private "printSubArray" method.(³©‰İ8““æş².
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äüÀœüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(šª¬
+]	java:S125("<This block of commented-out lines of code should be removed.(Ã¢”ûüÿÿÿÿ8¯ìƒÿ².
 X	java:S125T"<This block of commented-out lines of code should be removed.(¦ŸîË8¹§Ôş².
-Z	java:S106 "9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¦µ‹ÿ².
+E
+java:S1481P"(Remove this unused "sum" local variable.(¸šˆÂ8äÓş².
 T
 java:S1854P"7Remove this useless assignment to local variable "sum".(¸šˆÂ8äÓş².
