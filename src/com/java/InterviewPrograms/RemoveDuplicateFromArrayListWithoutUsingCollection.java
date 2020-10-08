@@ -2,6 +2,7 @@ package com.java.InterviewPrograms;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class RemoveDuplicateFromArrayListWithoutUsingCollection
 {
@@ -31,6 +32,7 @@ public class RemoveDuplicateFromArrayListWithoutUsingCollection
         list.add("java");
         list.add("php");
 
-        removeDupFromList(list);
+       // removeDupFromList(list);
+        System.out.println(list.stream().distinct().collect(Collectors.toList()));
     }
 }

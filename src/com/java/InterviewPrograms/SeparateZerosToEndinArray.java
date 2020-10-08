@@ -27,7 +27,7 @@ public class SeparateZerosToEndinArray
         count++;
 
     }
-        System.out.println(array[array.length-1]);
+        //System.out.println(array[array.length-1]);
         for (int i = 0; i < array.length; i++)
         {
             System.out.println(array[i]);
@@ -39,7 +39,7 @@ public class SeparateZerosToEndinArray
         int[] arr = { 2, 0, 6, 4, 0, 5, 7 };
         
         SeparateZerosToEndinArray.separateZerosFromArray(arr);
-        Map<String,String> m = new HashMap();
+       // Map<String,String> m = new HashMap();
     }
 
 

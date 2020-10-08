@@ -12,8 +12,9 @@ public class SumOfDigits
         while (digits != 0)
         {
             a = digits % 10;
-            digits = digits / 10;
             sum = sum + a;
+            digits = digits / 10;
+
         }
         System.out.println(sum);
 

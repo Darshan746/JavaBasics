@@ -23,7 +23,7 @@ public class RotateArray {
         int secondArrayEnd = array.length-1;
 
         //Reversing the first Array.
-        while(firstArrayStart<=firstArrayEnd) {
+        while(firstArrayStart<firstArrayEnd) {
             int temp = array[firstArrayStart];
             array[firstArrayStart] = array[firstArrayEnd];
             array[firstArrayEnd] = temp;
@@ -31,7 +31,7 @@ public class RotateArray {
             firstArrayEnd--;
         }
         //Reversing the Second Array.
-        while(secondArrayBeginning<=secondArrayEnd) {
+        while(secondArrayBeginning<secondArrayEnd) {
             int temp = array[secondArrayBeginning];
             array[secondArrayBeginning] = array[secondArrayEnd];
             array[secondArrayEnd] = temp;
@@ -41,7 +41,7 @@ public class RotateArray {
         int l=0; int r=array.length-1;
 
         //Reverse the Whole Array.
-        while (l<=r) {
+        while (l<r) {
             int temp = array[l];
             array[l]=array[r];
             array[r] = temp;

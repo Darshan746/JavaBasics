@@ -10,7 +10,7 @@ public class PrintNge {
         int element, next;
 
         /* push the first element to stack */
-        s.push(arr[0]);
+        s.push(arr[i]);
 
         // iterate for rest of the elements            2,6,3,7
         for (i = 1; i < n; i++)
@@ -30,7 +30,7 @@ public class PrintNge {
                    stack is not empty */
                 while (element < next) {
                     System.out.println(element + " --> " + next);
-                    if (s.isEmpty() == true)
+                    if (s.isEmpty())
                         break;
                     element = s.pop();
                 }
@@ -39,7 +39,7 @@ public class PrintNge {
                    push the element back */
                 if (element > next)
                     s.push(element);
-            }
+                }
 
             /* push next to stack so that we can find next
                greater for it */
@@ -49,7 +49,7 @@ public class PrintNge {
         /* After iterating over the loop, the remaining
            elements in stack do not have the next greater
            element, so print -1 for them */
-        while (s.isEmpty() == false)
+        while (!s.isEmpty())
         {
             element = s.pop();
             next = -1;

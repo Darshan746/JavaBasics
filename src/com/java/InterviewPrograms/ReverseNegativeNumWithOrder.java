@@ -41,7 +41,7 @@ public class ReverseNegativeNumWithOrder
         // Driver code
         public static void main(String arg[])
         {
-            int arr[] = { 1, -1, -3, -2, 7, 5, 11, 6 };
+            int arr[] = { 1, -1, -3, -2, 7, -8, -11, 6 };
             int n = arr.length;
      
             segregateElements(arr, n);
