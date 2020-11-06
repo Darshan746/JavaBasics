@@ -1,5 +1,9 @@
 package com.java.datastructure;
 
+//The time complexity of the binary search algorithm is O(log n).
+
+//The best-case time complexity would be O(1) when the central index would directly match the desired value.
+// The worst-case scenario could be the values at either extremity of the list or values not in the list.
 public class BinarySearch {
 
     //For binary search , input array should be Sorted

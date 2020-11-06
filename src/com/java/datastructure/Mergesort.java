@@ -2,6 +2,10 @@ package com.java.datastructure;
 
 import java.util.Arrays;
 
+/*
+    The complexity of merge sort algorithm in average and best case is O(nlogn)
+    and in O(n^2) in worst case.
+ */
 public class Mergesort {
     public static void mergesort(int[] input)
     {
@@ -11,7 +15,7 @@ public class Mergesort {
     public static void main(String[] args) {
         System.out.println("mergesort");
 
-        int[] input = {87, 57, 370, 110, 90, 610};
+        int[] input = {87, 57, 370, 110, 90, -610};
         System.out.println("array before sorting");
         System.out.println(Arrays.toString(input));
 

@@ -23,15 +23,15 @@ public class StringBalanced {
                 break;
 
             case ']':
-                if(st.isEmpty() || st.pop() != '[')
+                if( st.pop() != '[')
                     return false;
                 break;
             case ')':
-                if(st.isEmpty() || st.pop() != '(')
+                if( st.pop() != '(')
                     return false;
                 break;
             case '}':
-                if(st.isEmpty() || st.pop() != '{')
+                if( st.pop() != '{')
                     return false;
                 break;
         }
