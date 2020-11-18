@@ -1,6 +1,9 @@
 package com.java.InterviewPrograms;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedHashMap;
+import java.util.List;
 
 public class LongestSubString
 {
@@ -67,6 +70,39 @@ public class LongestSubString
         longestSubstring("Arbindaode");
 
         System.out.println("==========================");
+List<String> str = new ArrayList<>();
+str.add("code");
 
+
+        str.add("code");
+        str.add("doce");
+        str.add("ecod");
+        str.add("framer");
+        str.add("frame");
+
+        System.out.println(funWithAnagrams(str));
+    }
+
+
+
+    public static List<String> funWithAnagrams(List<String> text) {
+
+        List<String> strlist = text;
+        for(int i=0;i<text.size()-1;i++){
+            for(int j=i+1; j<text.size(); j++){
+                String firstStr = text.get(i);
+                String seconStr = text.get(j);
+                if(firstStr.length()==seconStr.length()){
+                    char[] firstChar = firstStr.toCharArray();
+                    char[] secondChar = seconStr.toCharArray();
+                    Arrays.sort(firstChar);
+                    Arrays.sort(secondChar);
+                    if(String.valueOf(firstChar).equals(String.valueOf(secondChar))){
+                        strlist.remove(seconStr);
+                    }
+                }
+            }
+        }
+        return strlist;
     }
 }

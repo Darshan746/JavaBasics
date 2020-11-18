@@ -8,8 +8,7 @@ import java.util.Arrays;
  */
 public class Mergesort {
     public static void mergesort(int[] input)
-    {
-        mergeSort(input, 0, input.length - 1);
+    { mergeSort(input, 0, input.length - 1);
     }
 
     public static void main(String[] args) {

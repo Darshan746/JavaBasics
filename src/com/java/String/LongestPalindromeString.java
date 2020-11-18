@@ -1,11 +1,17 @@
 package com.java.String;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class LongestPalindromeString {
-    public static void main(String[] args) {
+
+    public List<String> palindromeStrings = new ArrayList<>();
+     public static void main(String[] args) {
         LongestPalindromeString pd = new LongestPalindromeString();
 
-        String pal = pd.findLongestPalindrome("kjabanrttr");
+        String pal = pd.findLongestPalindrome("abbau");
         System.out.println("" + pal);
+
 
        // System.out.println("" + pal);
 
@@ -21,6 +27,7 @@ public class LongestPalindromeString {
             return null;
         }
         // Validations end
+
         // Start with one char (starting) as a longest palindrome
         String longest = s.substring(0, 1);
         for (int i = 0; i < s.length(); i++) {
@@ -38,6 +45,7 @@ public class LongestPalindromeString {
             }
         }
 
+
         return longest;
     }
 
@@ -54,6 +62,10 @@ public class LongestPalindromeString {
             begin--;
             end++;
         }
-        return s.substring(begin + 1, end);
+       return s.substring(begin + 1, end);
+
     }
+
+
+
 }

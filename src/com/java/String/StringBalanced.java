@@ -15,6 +15,8 @@ public class StringBalanced {
     Stack<Character> st = new Stack();
     for(char chr : str.toCharArray())
     {
+
+
         switch(chr) {
             case '{':
             case '(':
