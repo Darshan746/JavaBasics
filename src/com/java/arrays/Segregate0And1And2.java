@@ -33,7 +33,7 @@ public class Segregate0And1And2 {
     }
 
     public static void main(String[] args) {
-        int[] array = {0,2,1,1,0,2,1,0};
+        int[] array = {1,2,0,1,0,2};
         segregateArray(array);
     }
 }

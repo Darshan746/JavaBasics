@@ -3,7 +3,6 @@ package com.java.arrays;
 //The element should be greater than its right side elements then its a Leader in the array
 public class LeaderInArray {
 
-
     //this approach takes (n^2)
     public static void printLeader(int[] array) {
         int j;

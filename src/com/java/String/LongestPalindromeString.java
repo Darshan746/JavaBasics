@@ -9,7 +9,7 @@ public class LongestPalindromeString {
      public static void main(String[] args) {
         LongestPalindromeString pd = new LongestPalindromeString();
 
-        String pal = pd.findLongestPalindrome("abbau");
+        String pal = pd.findLongestPalindrome("akiau");
         System.out.println("" + pal);
 
 

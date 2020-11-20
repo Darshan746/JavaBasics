@@ -6,11 +6,7 @@ public class SortArrayInWaveForm {
 
 
     public static void sortArrayInWaveForm(int[] array) {
-
-
-
         for(int i=0; i<array.length-1; i++) {
-
             if(i%2 == 0) {
                 if(!(array[i]< array[i+1])) {
                     swap(array, i,i+1);
@@ -23,7 +19,6 @@ public class SortArrayInWaveForm {
                 }
             }
         }
-
         System.out.println("Printing the Wave form Array");
         System.out.print(Arrays.toString(array));
     }
@@ -36,7 +31,7 @@ public class SortArrayInWaveForm {
     }
 
     public static void main(String[] args) {
-        int[] array = {35,3,2,5,1,8,9};
+        int[] array = {35,3,0,5,1,8,9};
         sortArrayInWaveForm(array);
     }
 
