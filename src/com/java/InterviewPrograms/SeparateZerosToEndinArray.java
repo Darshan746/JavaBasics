@@ -16,15 +16,13 @@ public class SeparateZerosToEndinArray
         {
             if (array[i] != 0)
             {
-                array[count] = array[i];
-                count++;
+                array[count++] = array[i];
 
             }
         }
         while (count < array.length)
     {
-        array[count] = 0;
-        count++;
+        array[count++] = 0;
 
     }
         //System.out.println(array[array.length-1]);
@@ -36,7 +34,7 @@ public class SeparateZerosToEndinArray
 
     public static void main(String[] args)
     {
-        int[] arr = { 2, 0, 6, 4, 0, 5, 7 };
+        int[] arr = { 2, 4, 6, 4, 0, 5, 0,0,7 ,6};
         
         SeparateZerosToEndinArray.separateZerosFromArray(arr);
        // Map<String,String> m = new HashMap();

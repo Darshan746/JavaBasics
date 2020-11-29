@@ -42,7 +42,6 @@ public class LongestUniqueSubString {
 
             if (map.size() > longestSubstringLength) {
                 longestSubstringLength = map.size();
-
                 longestSubstring = map.keySet().toString();
             }
         }

@@ -1,9 +1,6 @@
 package com.java.InterviewPrograms;
 
 public class DeadLockBetweenTwoThreads {
-	
-	
-		
 		String s1 = "Java";
 		String 	s2 ="C#";
 		

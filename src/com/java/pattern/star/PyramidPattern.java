@@ -13,7 +13,7 @@ public class PyramidPattern {
 
         // inner loop to handle number spaces
         // values changing acc. to requirement
-        for (int j=n-i; j>1; j--)
+        for (int j=0; j<n-i; j++)
         {
           // printing spaces
           System.out.print(" ");
@@ -35,7 +35,7 @@ public class PyramidPattern {
     // Driver Function
     public static void main(String args[])
     {
-      int n = 3;
+      int n = 8;
       printTriagle(n);
     }
   }

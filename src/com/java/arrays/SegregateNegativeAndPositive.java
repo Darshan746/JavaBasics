@@ -27,7 +27,7 @@ public class SegregateNegativeAndPositive {
     }
 
     public static void main(String[] args) {
-        int[] array = {-2,3,-5,8,-9,3-2};
+        int[] array = {-2,3,-5,8,-9,-10,2};
         System.out.println("Before Sorting");
         System.out.println(Arrays.toString(array));
         sortPositiveAndNegative(array);

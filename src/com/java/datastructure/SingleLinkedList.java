@@ -108,7 +108,6 @@ public class SingleLinkedList {
       } else {
         set.add(current.next.data);
         current = current.next;
-
       }
     }
   }
@@ -133,6 +132,24 @@ public class SingleLinkedList {
         node = node.next.next;
       }
     }
+
+//Finding the nth node from the last
+  public  Node nth(int n){
+    if(head == null || n < 1) return null;
+
+    Node n1 = head;
+    Node n2 = head;
+    for(int i = 1; i < n; i++){
+      if(n1.next == null) return null;
+      n1 = n1.next;
+    }
+
+    while (n1.next != null){
+      n1 = n1.next;
+      n2 = n2.next;
+    }
+    return n2;
+  }
 
   /* Function to swap Nodes x and y in linked list by
     changing links */
@@ -195,7 +212,9 @@ public class SingleLinkedList {
 
     list.insertFirst(1);
     list.insertAtLast(2);
-    list.insertAtLast(1);
+    list.insertAtLast(3);
+    list.insertAtLast(4);
+    System.out.println("Printing "+ list.nth(3).data);
 
     System.out.println(LinkedListIsPalindrome.isLinkedListPalindrome(list.head));
 

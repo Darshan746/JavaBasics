@@ -6,11 +6,11 @@ public class Demo {
         address.setHouseName("115");
         address.setStreet("madanaghatta");
 
-        Employee e = new Employee();
-        e.setAddress(address);
-        e.setName("Hello");
-        System.out.println(e);
-        e=null;
-        System.out.println(address);
+//        Employee e = new Employee();
+//        e.setAddress(address);
+//        e.setName("Hello");
+//        System.out.println(e);
+//        e=null;
+//        System.out.println(address);
     }
 }
