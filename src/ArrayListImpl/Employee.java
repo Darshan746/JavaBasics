@@ -40,15 +40,13 @@ public class Employee {
 
     public static void main(String[] args) {
         Employee e1 = new Employee("name", new Address());
-        Employee e2 = new Employee("name", new Address());
-        Employee e3 = new Employee("name", new Address());
+        Employee e2 = new Employee("Ram", new Address());
+        Employee e3 = new Employee("Seetha", new Address());
         Set<Employee> employees = new HashSet<>();
         employees.add(e1);
         employees.add(e2);
         employees.add(e3);
         System.out.println(employees.size());
-
-
     }
 
     @Override

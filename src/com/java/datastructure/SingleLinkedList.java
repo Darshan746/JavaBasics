@@ -14,7 +14,7 @@ public class SingleLinkedList {
   public void insertFirst(int data){
     Node newNode = new Node();
     newNode.data = data;
-    newNode.next = null;
+    newNode.next = head;
     head  = newNode;
   }
 
@@ -211,11 +211,13 @@ public class SingleLinkedList {
 
 
     list.insertFirst(1);
-    list.insertAtLast(2);
-    list.insertAtLast(3);
-    list.insertAtLast(4);
+    list.insertFirst(2);
+    list.insertFirst(3);
+//    list.insertAtLast(2);
+//    list.insertAtLast(3);
+//    list.insertAtLast(4);
     System.out.println("Printing "+ list.nth(3).data);
-
+list.printLinkedList();
     System.out.println(LinkedListIsPalindrome.isLinkedListPalindrome(list.head));
 
     // list.evenOrOdd(list.head);
