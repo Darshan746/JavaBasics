@@ -1,7 +1,7 @@
 package com.java.arrays;
 
 //Maximum Sum SubArray (Kadane's algorithm) (Largest Sum Contigous SubArray)
-public class MaxSubArray {
+public class MaxSumSubArray {
     public static void findMaxSumSubArray(int[] array) {
         int max_so_far = array[0];
         int max_ending_here = 0;
