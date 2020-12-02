@@ -41,7 +41,7 @@ public class StringBalanced {
 
 
     public static void main(String[] args) {
-String str  = "{([a+b]+(a+C))}";
+        String str  = "{([a+b]+(a+C))}";
         System.out.println(isStringBalanced(str));
     }
 

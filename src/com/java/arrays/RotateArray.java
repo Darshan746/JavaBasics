@@ -11,8 +11,9 @@ import java.util.Arrays;
  * Reverse the First array and Second Array which we got in previous step
  *
  * Reverse the whole array then we will get the result
- *
+ * This is Right rotate
  */
+
 public class RotateArray {
 
     public static void rotateArray( int rotateDigit, int[] array) {
@@ -41,6 +42,7 @@ public class RotateArray {
         int l=0; int r=array.length-1;
 
         //Reverse the Whole Array.
+
         while (l<r) {
             int temp = array[l];
             array[l]=array[r];

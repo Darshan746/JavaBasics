@@ -12,13 +12,14 @@ public class GetMinElemFromStack {
     }
 
     public static void addElemToStack(Integer elem){
-        stack.push(elem);
+
         if(supportingStack.size()== 0){
             supportingStack.push(elem);
         }
-        if(stack.peek()<supportingStack.peek()){
+        if(elem<supportingStack.peek()){
             supportingStack.push(elem);
         }
+        stack.push(elem);
     }
 
     public static void deleteElemFromStack(){
@@ -40,7 +41,5 @@ public class GetMinElemFromStack {
         deleteElemFromStack();
         addElemToStack(1);
         System.out.println("Min element "+getMinElemFromStack());
-
-
     }
 }

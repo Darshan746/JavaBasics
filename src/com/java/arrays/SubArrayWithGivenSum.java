@@ -66,7 +66,7 @@ public class SubArrayWithGivenSum {
       }
       else
       {
-        currSum = currSum - array[start];
+        currSum  -= array[start];
         start++;
       }
     }

@@ -73,7 +73,7 @@ public class PrintNumbers extends Thread
                             e.printStackTrace();
                         }
                     }
-                    else if (i % 2 ==1)
+                    else if (i % 2 == 1)
                     {
                         lock.notify();
                     }
