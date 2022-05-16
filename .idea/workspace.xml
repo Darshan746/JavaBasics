@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d430622-f0f0-44b2-bd8f-d02033870130" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8d430622-f0f0-44b2-bd8f-d02033870130" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,13 +36,44 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dmn/Desktop/MyStuffs/java_stuffs/JavaBasics&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dmn/Desktop/MyStuffs/JavaBasics/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GetMinElemFromStack">
-    <configuration name="GetMinElemFromStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.InterviewPrograms.GetMinElemFromStack" />
+  <component name="RunManager" selected="Application.SubArrayWithGivenSum">
+    <configuration name="ArrayListImpl.ArraysToArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ArrayListImpl.ArraysToArrayList" />
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArrayListImpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindOddNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.arrays.FindOddNumberInArray" />
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinElemFromStackAdvanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.InterviewPrograms.MinElemFromStackAdvanced" />
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
@@ -57,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Interview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListImpl.Interview" />
+    <configuration name="SinglyLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.List.SinglyLinkedListDemo" />
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArrayListImpl.*" />
+          <option name="PATTERN" value="Collection.List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,39 +111,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfAbsoluteDiffOfTwoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.arrays.SumOfAbsoluteDiffOfTwoArray" />
-      <module name="JavaBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumOfGivenNoPairing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.arrays.SumOfGivenNoPairing" />
-      <module name="JavaBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.SubArrayWithGivenSum" />
+      <item itemvalue="Application.FindOddNumberInArray" />
+      <item itemvalue="Application.MinElemFromStackAdvanced" />
+      <item itemvalue="Application.SinglyLinkedListDemo" />
+      <item itemvalue="Application.ArrayListImpl.ArraysToArrayList" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GetMinElemFromStack" />
-        <item itemvalue="Application.Interview" />
         <item itemvalue="Application.SubArrayWithGivenSum" />
-        <item itemvalue="Application.SumOfGivenNoPairing" />
-        <item itemvalue="Application.SumOfAbsoluteDiffOfTwoArray" />
+        <item itemvalue="Application.MinElemFromStackAdvanced" />
+        <item itemvalue="Application.SinglyLinkedListDemo" />
+        <item itemvalue="Application.FindOddNumberInArray" />
+        <item itemvalue="Application.ArrayListImpl.ArraysToArrayList" />
       </list>
     </recent_temporary>
   </component>
