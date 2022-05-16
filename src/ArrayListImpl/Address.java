@@ -3,7 +3,6 @@ package ArrayListImpl;
 public class Address {
     String street;
     String houseName;
-
     public String getStreet() {
         return street;
     }
