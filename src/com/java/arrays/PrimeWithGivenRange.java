@@ -22,6 +22,6 @@ public class PrimeWithGivenRange {
     }
 
     public static void main(String[] args) {
-        withGivenRange(100);
+        withGivenRange(12);
     }
 }

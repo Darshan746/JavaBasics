@@ -22,7 +22,7 @@ public class SumOfDigits
 
     public static void main(String args[]) throws IOException
     {
-        sumOfDigits(321);
+        sumOfDigits(3212);
     }
 
 }

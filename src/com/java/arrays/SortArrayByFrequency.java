@@ -44,9 +44,9 @@ class SortedComparator implements Comparator<Integer>
     public int compare(Integer o1, Integer o2) {
         int frequencyCompare = frequencyMap.get(o2).compareTo(frequencyMap.get(o1));
         int valueCompare = o1.compareTo(o2);
-        if (frequencyCompare == 0){
-            return valueCompare;
-        }else
+        if (frequencyCompare != 0){
             return frequencyCompare;
+        }else
+            return valueCompare;
     }
 }

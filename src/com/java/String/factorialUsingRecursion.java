@@ -6,9 +6,7 @@ public class factorialUsingRecursion {
 		if(num == 1){
 			return 1;
 		}
-
-		output = calculatefactorial(num-1)*num;
-		return output;
+		return  calculatefactorial(num-1)*num;
 	}
 	
 	public static void main(String args[]) {

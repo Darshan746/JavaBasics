@@ -10,7 +10,7 @@ public class RemoveGivenCharacterWithoutLoop {
 
 
     public static void main(String[] args) {
-        System.out.println(removeRecursive("darshan", 'a'));
+        System.out.println(removeRecursive("abc", 'c'));
     }
 }
 

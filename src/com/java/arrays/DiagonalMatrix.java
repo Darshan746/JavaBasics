@@ -3,8 +3,6 @@ package com.java.arrays;
 import java.util.Arrays;
 
 public class DiagonalMatrix {
-
-
     public static void printInDiagonalWay(int[][]matrix, int m, int n ){
         int i , j;
         //printing all the first row  diagonal

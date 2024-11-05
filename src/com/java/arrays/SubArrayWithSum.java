@@ -3,6 +3,7 @@ package com.java.arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
 public class SubArrayWithGivenSum {
     public static void printArray(int[] array, int startRange, int endRange) {
 
@@ -56,3 +57,4 @@ public class SubArrayWithGivenSum {
 
 
 }
+*/

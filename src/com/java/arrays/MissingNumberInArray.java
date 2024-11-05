@@ -7,8 +7,7 @@ public class MissingNumberInArray {
 
   private static int sumOfEleTillGivenNum( int num){
 
-    int sum = (num*(num+1))/2;
-    return  sum;
+    return (num*(num+1))/2;
   }
 
   private static int addElementsFromArray(int[] arr){

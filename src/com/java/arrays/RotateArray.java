@@ -16,15 +16,15 @@ import java.util.Arrays;
 
 public class RotateArray {
 
-    public static void rotateArray( int rotateDigit, int[] array) {
+    public static void rotateArray(int rotateDigit, int[] array) {
 
         int firstArrayStart = 0;
-        int firstArrayEnd = (array.length-1)-rotateDigit;
-        int secondArrayBeginning = firstArrayEnd+1;
-        int secondArrayEnd = array.length-1;
+        int firstArrayEnd = (array.length - 1) - rotateDigit;
+        int secondArrayBeginning = firstArrayEnd + 1;
+        int secondArrayEnd = array.length - 1;
 
         //Reversing the first Array.
-        while(firstArrayStart<firstArrayEnd) {
+        while (firstArrayStart < firstArrayEnd) {
             int temp = array[firstArrayStart];
             array[firstArrayStart] = array[firstArrayEnd];
             array[firstArrayEnd] = temp;
@@ -32,20 +32,21 @@ public class RotateArray {
             firstArrayEnd--;
         }
         //Reversing the Second Array.
-        while(secondArrayBeginning<secondArrayEnd) {
+        while (secondArrayBeginning < secondArrayEnd) {
             int temp = array[secondArrayBeginning];
             array[secondArrayBeginning] = array[secondArrayEnd];
             array[secondArrayEnd] = temp;
             secondArrayBeginning++;
             secondArrayEnd--;
         }
-        int l=0; int r=array.length-1;
+        int l = 0;
+        int r = array.length - 1;
 
         //Reverse the Whole Array.
 
-        while (l<r) {
+        while (l < r) {
             int temp = array[l];
-            array[l]=array[r];
+            array[l] = array[r];
             array[r] = temp;
             l++;
             r--;
@@ -55,7 +56,7 @@ public class RotateArray {
     }
 
     public static void main(String[] args) {
-        int[] array = {1,2,3,4,5};
+        int[] array = {1, 2, 3, 4, 5};
         rotateArray(2, array);
     }
 }

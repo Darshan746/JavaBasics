@@ -5,7 +5,6 @@ public class MaxSumSubArray {
     public static void findMaxSumSubArray(int[] array) {
         int max_so_far = array[0];
         int max_ending_here = 0;
-
         int start=0, end=0, s=0;
 
         for(int i=0; i< array.length;i++){
@@ -25,8 +24,6 @@ public class MaxSumSubArray {
     }
 
     public static void main(String[] args) {
-
-
         int[] array = {4,2,-2};
         findMaxSumSubArray(array);
     }
