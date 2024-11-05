@@ -1,6 +1,5 @@
 package com.java.java8.predicate;
 
-import com.java.Collection.ComparatorDemo.Employee;
 
 import java.util.ArrayList;
 import java.util.List;

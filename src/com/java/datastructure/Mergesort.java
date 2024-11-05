@@ -2,54 +2,60 @@ package com.java.datastructure;
 
 import java.util.Arrays;
 
-/*
-    The complexity of merge sort algorithm in average and best case is O(nlogn)
-    and in O(n^2) in worst case.
+/**
+ *
+ *
  */
 public class Mergesort {
-    public static void mergesort(int[] input)
-    { mergeSort(input, 0, input.length - 1);
+
+    public static void mergeSort(int[] arr, int numberOfElements) {
+        if (numberOfElements < 2) {
+            return;
+        }
+
+        int mid = numberOfElements / 2;
+        int[] leftArray = new int[mid];
+        int[] rightArray = new int[numberOfElements - mid];
+
+        for (int i = 0; i < mid; i++) {
+            leftArray[i] = arr[i];
+        }
+
+        for (int i = mid; i < numberOfElements; i++) {
+            rightArray[i - mid] = arr[i];
+        }
+
+        mergeSort(leftArray, mid);
+        mergeSort(rightArray, numberOfElements - mid);
+        merge(arr, leftArray, rightArray, mid, numberOfElements - mid);
+    }
+
+    private static void merge(int[] arr, int[] leftArr, int[] rightArr, int left, int right) {
+        int i = 0, j = 0, k = 0;
+
+        // Merge the two subarrays into arr[]
+        while (i < left && j < right) {
+            if (leftArr[i] <= rightArr[j]) {
+                arr[k++] = leftArr[i++];
+            } else {
+                arr[k++] = rightArr[j++];
+            }
+        }
+
+        // Copy remaining elements of leftArr[]
+        while (i < left) {
+            arr[k++] = leftArr[i++];
+        }
+
+        // Copy remaining elements of rightArr[]
+        while (j < right) {
+            arr[k++] = rightArr[j++];
+        }
     }
 
     public static void main(String[] args) {
-        System.out.println("mergesort");
-
-        int[] input = {87, 57, 370, 110, 90, -610};
-        System.out.println("array before sorting");
-        System.out.println(Arrays.toString(input));
-
-        // sorting array using MergeSort algorithm
-        System.out.println("array after sorting using mergesort algorithm");
-        mergesort(input);
-        System.out.println(Arrays.toString(input));
-
-
-    }
-    private static void mergeSort(int[] input, int start, int end) {
-    // break problem into smaller structurally identical problems
-        int mid = (start + end) / 2;
-        if (start < end)
-        {
-            mergeSort(input, start, mid);
-            mergeSort(input, mid + 1, end);
-        }
-        int i = 0;
-        int first = start;
-        int last = mid + 1;
-        int[] tmp = new int[end - start + 1];
-
-        while (first <= mid && last <= end) {
-            tmp[i++] = input[first] < input[last] ? input[first++] : input[last++];
-        }
-        while (first <= mid) {
-            tmp[i++] = input[first++];
-        }
-        while (last <= end) {
-            tmp[i++] = input[last++];
-        }
-        i = 0;
-        while (start <= end){
-            input[start++] = tmp[i++];
-        }
+        int[] arr = {2, 1, 6, 4, 3, 0};
+        mergeSort(arr, arr.length);
+        System.out.println(Arrays.toString(arr)); // Use Arrays.toString() to print array contents
     }
 }

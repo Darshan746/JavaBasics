@@ -35,7 +35,7 @@ public class PyramidPattern {
     // Driver Function
     public static void main(String args[])
     {
-      int n = 8;
+      int n = 4;
       printTriagle(n);
     }
   }

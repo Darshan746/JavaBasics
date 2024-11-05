@@ -5,7 +5,8 @@ import java.util.Stack;
 public class GetMinElemFromStack {
 
     private final static Stack<Integer> stack = new Stack<>();
-    private static final  Stack<Integer> supportingStack = new Stack<>();
+    private static final  Stack<Integer>
+            supportingStack = new Stack<>();
 
     public static Integer getMinElemFromStack() {
         return supportingStack.peek();

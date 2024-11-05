@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d430622-f0f0-44b2-bd8f-d02033870130" name="Changes" comment="" />
+    <list default="true" id="8d430622-f0f0-44b2-bd8f-d02033870130" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/java/arrays/MovesRquiredToMakeArrayUnique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/arrays/FirstAndLastPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/arrays/FirstAndLastPosition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/datastructure/Mergesort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/datastructure/Mergesort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/arrays/FirstAndLastPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/arrays/FirstAndLastPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/datastructure/Mergesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/datastructure/Mergesort.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +27,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/java/String/AgramDemo.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/java/String/RemoveGivenCharacterWithoutLoop.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/java/String/ReverseStringUsingStack.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/java/String/ReverseStringrecursively.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/java/String/ReverseWithoutAffectTheSpecial.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/java/String/ReversingSentence.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/java/String/StringBalanced.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/java/String/StringCanBePalindrome.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/java/String/StringLeftRotation.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -31,27 +49,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dmn/Desktop/MyStuffs/JavaBasics/src&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/dmn/Desktop/JavaBasics",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Application.SubArrayWithGivenSum">
-    <configuration name="ArrayListImpl.ArraysToArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ArrayListImpl.ArraysToArrayList" />
+}]]></component>
+  <component name="RunManager" selected="Application.MovesRquiredToMakeArrayUnique">
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.tree.BinarySearchTree" />
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArrayListImpl.*" />
+          <option name="PATTERN" value="com.java.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindOddNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.arrays.FindOddNumberInArray" />
+    <configuration name="FirstAndLastPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.arrays.FirstAndLastPosition" />
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
@@ -72,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinElemFromStackAdvanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.InterviewPrograms.MinElemFromStackAdvanced" />
+    <configuration name="Mergesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.datastructure.Mergesort" />
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.InterviewPrograms.*" />
+          <option name="PATTERN" value="com.java.datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,25 +101,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.List.SinglyLinkedListDemo" />
-      <module name="JavaBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Collection.List.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubArrayWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.arrays.SubArrayWithGivenSum" />
+    <configuration name="MovesRquiredToMakeArrayUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.arrays.MovesRquiredToMakeArrayUnique" />
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchElemInRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.arrays.SearchElemInRotatedArray" />
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.String.StringRotation" />
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,19 +141,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SubArrayWithGivenSum" />
-      <item itemvalue="Application.FindOddNumberInArray" />
-      <item itemvalue="Application.MinElemFromStackAdvanced" />
-      <item itemvalue="Application.SinglyLinkedListDemo" />
-      <item itemvalue="Application.ArrayListImpl.ArraysToArrayList" />
+      <item itemvalue="Application.BinarySearchTree" />
+      <item itemvalue="Application.FirstAndLastPosition" />
+      <item itemvalue="Application.Mergesort" />
+      <item itemvalue="Application.MovesRquiredToMakeArrayUnique" />
+      <item itemvalue="Application.SearchElemInRotatedArray" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SubArrayWithGivenSum" />
-        <item itemvalue="Application.MinElemFromStackAdvanced" />
-        <item itemvalue="Application.SinglyLinkedListDemo" />
-        <item itemvalue="Application.FindOddNumberInArray" />
-        <item itemvalue="Application.ArrayListImpl.ArraysToArrayList" />
+        <item itemvalue="Application.MovesRquiredToMakeArrayUnique" />
+        <item itemvalue="Application.FirstAndLastPosition" />
+        <item itemvalue="Application.Mergesort" />
+        <item itemvalue="Application.BinarySearchTree" />
+        <item itemvalue="Application.SearchElemInRotatedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +178,22 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/String/PalindromicSubstrings.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/String/RemoveGivenCharacterWithoutLoop.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
