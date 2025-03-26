@@ -13,6 +13,7 @@ public class AnagramInterview {
             char[] originalChar = str.toCharArray();
             Arrays.sort(chars);
             if (map.containsKey(String.valueOf(chars))) {
+
                 List<String> strings = map.get(String.valueOf(chars));
                 strings.add(String.valueOf(originalChar));
                 map.put(String.valueOf(chars), strings);

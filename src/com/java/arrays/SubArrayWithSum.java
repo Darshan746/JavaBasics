@@ -1,60 +1,37 @@
 package com.java.arrays;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
-/*
-public class SubArrayWithGivenSum {
-    public static void printArray(int[] array, int startRange, int endRange) {
+public class SubArrayWithSum {
+    public static void findSubarray(int[] arr, int targetSum) {
+        int left = 0, currSum = 0;
 
-        for (int i = startRange; i <= endRange; i++) {
-            System.out.print(array[i] + " " + " ");
-        }
-        System.out.println();
-    }
+        for (int right = 0; right < arr.length; right++) {
+            // Expand window: Add current element to currSum
+            currSum += arr[right];
 
-    public static void printSubArraySecondSol(int[] array, int givenSum) {
-//    int totalSum = 0;
-//    int end =0;
-//    Map<Integer, Integer> map = new HashMap<>();
-//
-//    while (end<array.length){
-//      totalSum +=array[end];
-//
-//      int sum  = totalSum-givenSum;
-//      if(map.containsKey(sum)){
-//        int start = map.get(sum);
-//        printArray(array, start+1, end);
-//      }else{
-//        map.put(totalSum, end++);
-//      }
-//    }
-        int currSum = array[0];
-        int start = 0;
-        int end = 0;
-        while (end < array.length) {
-            if (currSum == givenSum) {
-                printArray(array, start, end);
+            // Shrink window from the left if sum exceeds target
+            while (currSum > targetSum && left <= right) {
+                currSum -= arr[left];
+                left++;
             }
 
-            if (currSum <= givenSum) {
-                end++;
-                if (end < array.length)
-                    currSum += array[end];
-            } else {
-                currSum -= array[start];
-                start++;
+            // Check if we found the subarray
+            if (currSum == targetSum) {
+                System.out.println("Subarray found from index " + left + " to " + right);
+                for (int i = left; i <= right; i++) {
+                    System.out.print(arr[i] + " ");
+                }
+                return;
             }
         }
-    }
 
+        System.out.println("No subarray found with sum " + targetSum);
+    }
 
     public static void main(String[] args) {
-        int array[] = {4, 2, 1, 6, 1, 5, 2};
-        int sum = 7;
-        printSubArraySecondSol(array, 7);
+        int[] arr = {1, 2, 3, 7, 5};
+        int targetSum = 12;
+        findSubarray(arr, targetSum);
     }
-
-
 }
-*/

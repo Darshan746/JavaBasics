@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8d430622-f0f0-44b2-bd8f-d02033870130" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/java/arrays/MovesRquiredToMakeArrayUnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tree/linkedlist/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tree/linkedlist/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/arrays/FirstAndLastPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/arrays/FirstAndLastPosition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/datastructure/Mergesort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/datastructure/Mergesort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/arrays/FirstAndLastPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/arrays/FirstAndLastPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/datastructure/Mergesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/datastructure/Mergesort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/InterviewPrograms/SumOfDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/InterviewPrograms/SumOfDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/String/AnagramInterview.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/String/AnagramInterview.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/String/FirstNonRepeatedCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/String/FirstNonRepeatedCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/arrays/NextGreaterElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/java/arrays/NextGreaterElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/datastructure/com/java/datastructure/tree/BinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/datastructure/com/java/datastructure/tree/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/tree/BinarySearchTree$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/tree/BinarySearchTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasics/com/java/tree/BinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/InterviewPrograms/SumOfDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/InterviewPrograms/SumOfDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/String/AnagramInterview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/String/AnagramInterview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/String/FirstNonRepeatedCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/String/FirstNonRepeatedCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/arrays/NextGreaterElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/arrays/nextGreaterElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/arrays/SubArrayWithSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/arrays/SubArrayWithSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/datastructure/com/java/datastructure/tree/BinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/datastructure/com/java/datastructure/tree/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/tree/BinarySearchTree.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +61,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="28virCHmZlzHP8BBF7sbDIs5lPa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,32 +71,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.SortArrayByFrequency.executor": "Run",
+    "Application.SubArrayWithGivenSum.executor": "Run",
+    "Application.SubArrayWithSum.executor": "Run",
+    "Application.com.java.tree.linkedlist.BinarySearchTree.executor": "Run",
+    "Application.nextGreaterElement.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/dmn/Desktop/JavaBasics",
+    "com.google.cloudcode.ide_session_index": "20250324_0001",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dmn/Desktop/interviews/eazy-byte",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MovesRquiredToMakeArrayUnique">
-    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.tree.BinarySearchTree" />
-      <module name="JavaBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstAndLastPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.arrays.FirstAndLastPosition" />
+  <component name="RunManager" selected="Application.SubArrayWithSum">
+    <configuration name="Segregate0And1And2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.arrays.Segregate0And1And2" />
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
@@ -88,21 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mergesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.datastructure.Mergesort" />
-      <module name="JavaBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.datastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MovesRquiredToMakeArrayUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.arrays.MovesRquiredToMakeArrayUnique" />
+    <configuration name="SortArrayByFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.arrays.SortArrayByFrequency" />
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchElemInRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.arrays.SearchElemInRotatedArray" />
+    <configuration name="SubArrayWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.arrays.SubArrayWithGivenSum" />
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
@@ -127,12 +129,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.String.StringRotation" />
+    <configuration name="SubArrayWithSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.arrays.SubArrayWithSum" />
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.String.*" />
+          <option name="PATTERN" value="com.java.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.arrays.nextGreaterElement" />
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,19 +156,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinarySearchTree" />
-      <item itemvalue="Application.FirstAndLastPosition" />
-      <item itemvalue="Application.Mergesort" />
-      <item itemvalue="Application.MovesRquiredToMakeArrayUnique" />
-      <item itemvalue="Application.SearchElemInRotatedArray" />
+      <item itemvalue="Application.SortArrayByFrequency" />
+      <item itemvalue="Application.SubArrayWithGivenSum" />
+      <item itemvalue="Application.SubArrayWithSum" />
+      <item itemvalue="Application.nextGreaterElement" />
+      <item itemvalue="Application.Segregate0And1And2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MovesRquiredToMakeArrayUnique" />
-        <item itemvalue="Application.FirstAndLastPosition" />
-        <item itemvalue="Application.Mergesort" />
-        <item itemvalue="Application.BinarySearchTree" />
-        <item itemvalue="Application.SearchElemInRotatedArray" />
+        <item itemvalue="Application.SubArrayWithSum" />
+        <item itemvalue="Application.SubArrayWithGivenSum" />
+        <item itemvalue="Application.SortArrayByFrequency" />
+        <item itemvalue="Application.nextGreaterElement" />
+        <item itemvalue="Application.Segregate0And1And2" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +206,25 @@
           <url>file://$PROJECT_DIR$/src/com/java/String/RemoveGivenCharacterWithoutLoop.java</url>
           <line>5</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/InterviewPrograms/LongestUniqueSubString.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/arrays/RotateArray.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/java/arrays/SortArrayByFrequency.java</url>
+          <line>13</line>
+          <properties class="com.java.arrays.SortArrayByFrequency" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

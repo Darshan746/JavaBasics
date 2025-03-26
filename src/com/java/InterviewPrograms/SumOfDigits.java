@@ -20,8 +20,7 @@ public class SumOfDigits
 
     }
 
-    public static void main(String args[]) throws IOException
-    {
+    public static void main(String args[]) throws IOException {
         sumOfDigits(3212);
     }
 

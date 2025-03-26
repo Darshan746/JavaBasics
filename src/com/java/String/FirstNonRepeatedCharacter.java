@@ -14,7 +14,7 @@ public class FirstNonRepeatedCharacter {
 
     public static int getFirstNonRepeatedChar(String str){
         getCharArrayCount(str);
-        for(int i=0; i<count.length;i++){
+        for(int i=0; i<str.length();i++){
             if(count[str.charAt(i)]==1){
                 index =i;
                 return index;

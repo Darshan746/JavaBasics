@@ -1,3 +1,38 @@
-Hi darshan How are you are you
+1] 	A1nagram Interview
+2] 	FactorialUsingRecursion
+3] 	Find All palindromic Substring   (ExpandAroundCenter)
+4] 	FindFirstNonRepeatedCHaracter   (char[] chars = new char[256])
+5] 	Find the longest palindrome string (get all palindromic SubString and get the max of it)
+6] 	Given Num is palindrome or Not
+7] 	ExtractNumberFromString
+8] 	Remove given character from String without loop
+9] 	ReverseString using Recursion
+10] Reverse String using Stack
+11] String Balanced using Stack
+12] Reverse STring Without Affect Special character
+13] String Left Rotation
+14] String Right rotation
+15] find repeated Character in String
+16] min Elem from Stack at O(1) times   --> push(2*x-minElem)   pop(2*minElem-x)
 
-Are you
+17] longest Unique SubString ---> i = map.get(ch); map.clear();
+19] Sum OF digit and reverse a Number
+20] MAx sum in the Sub Array and print the elems for that sum
+21] Merge Two Sorted Array
+22] Missing Number in the unsorted Array (it should be consecutive array with missing elem)
+23] Print SubArray
+24] Segregate 0s 1s and 2s
+25] left Rotate Integer Array by n times firstArray length start =0 end = arry.length-1-k secondArrayStart= firstArrayEnd+1 secondArrayEnd=array.len-1
+26] Right Rotate
+27] Leader In the Array
+28] NGE in the array using Stack
+29] Sort the Array By Frequency
+30] Sub ARry With Given SumJa
+31] Print matrix Diagonally
+32] Print Matrix in Spiral form 
+33] find pivot element
+34] find count of a diff between 2 elem is equal to the target elem   [binary search And Arrays.sort]
+35] Search elem in Sorted Rotated Array
+36] STaircase 
+37] First and Last Position of Target elem in Sorted ARRAy (Apply 2 times Binaary Search)
+18] triangle pattern
