@@ -14,23 +14,34 @@
 14] String Right rotation
 15] find repeated Character in String
 16] min Elem from Stack at O(1) times   --> push(2*x-minElem)   pop(2*minElem-x)
-
 17] longest Unique SubString ---> i = map.get(ch); map.clear();
-19] Sum OF digit and reverse a Number
-20] MAx sum in the Sub Array and print the elems for that sum
-21] Merge Two Sorted Array
-22] Missing Number in the unsorted Array (it should be consecutive array with missing elem)
-23] Print SubArray
-24] Segregate 0s 1s and 2s
-25] left Rotate Integer Array by n times firstArray length start =0 end = arry.length-1-k secondArrayStart= firstArrayEnd+1 secondArrayEnd=array.len-1
-26] Right Rotate
-27] Leader In the Array
-28] NGE in the array using Stack
-29] Sort the Array By Frequency
-30] Sub ARry With Given SumJa
+18] Sum OF digit and reverse a Number
+19] MAx sum in the Sub Array and print the elems for that sum
+20] Merge Two Sorted Array
+21] Missing Number in the unsorted Array (it should be consecutive array with missing elem)
+22] Print SubArray
+23] Segregate 0s 1s and 2s
+24] left Rotate Integer Array by n times firstArray length start =0 end = arry.length-1-k secondArrayStart= firstArrayEnd+1 secondArrayEnd=array.len-1
+25] Right Rotate
+26] Leader In the Array
+27] NGE in the array using Stack
+28] Sort the Array By Frequency
+29] Sub ARry With Given SumJa
+30] find pivot element
+31] Check whether the LinkedList is Palindrome or not using Stack
+32] implement Stack
+33] Implement Queue
+34] Implement Custom HashMap
+35] Implement stack using LinkedList
+36] LinkedList
+
+
+
+
+
+
 31] Print matrix Diagonally
-32] Print Matrix in Spiral form 
-33] find pivot element
+32] Print Matrix in Spiral form
 34] find count of a diff between 2 elem is equal to the target elem   [binary search And Arrays.sort]
 35] Search elem in Sorted Rotated Array
 36] STaircase 
