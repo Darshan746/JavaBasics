@@ -33,7 +33,9 @@
 33] Implement Queue
 34] Implement Custom HashMap
 35] Implement stack using LinkedList
-36] LinkedList
+36] binary Search
+37] Merge Sort
+38] LinkedList
 
 
 
